@@ -1,0 +1,24 @@
+[
+  {
+    "status": "staging; no gameplay replacement",
+    "license": "CC0-1.0",
+    "archiveEntries": 3626,
+    "sha256": "FA7974A0D342BFE63C38664BA9F8EC1A4AAB8EA25F099BDC56870E33588C4D9D",
+    "bundledLicense": [
+      "\t\r\n\r\n\tNature Kit (2.1)\r\n\r\n\tCreated/distributed by Kenney (www.kenney.nl)\r\n\tCreation date: 29-04-2020 01:02\r\n\r\n\t\t\t------------------------------\r\n\r\n\tLicense: (Creative Commons Zero, CC0)\r\n\thttp://creativecommons.org/publicdomain/zero/1.0/\r\n\r\n\tThis content is free to use in personal, educational and commercial projects.\r\r\n\tSupport us by crediting Kenney or www.kenney.nl (this is not mandatory)\r\n\r\n\t\t\t------------------------------\r\n\r\n\tDonate:   http://support.kenney.nl\r\n\tRequest:  http://request.kenney.nl\r\n\tPatreon:  http://patreon.com/kenney/\r\n\r\n\tFollow on Twitter for updates:\r\n\thttp://twitter.com/KenneyNL"
+    ],
+    "sourcePage": "https://kenney.nl/assets/nature-kit",
+    "name": "nature-kit"
+  },
+  {
+    "status": "staging; no gameplay replacement",
+    "license": "CC0-1.0",
+    "archiveEntries": 379,
+    "sha256": "667ED2CAF92954DDB98F7B7CEDE831FE99AB75063C26B25E23D32715BEE9C943",
+    "bundledLicense": [
+      "\t\r\n\r\n\tPirate Kit (2.1)\r\n\r\n\tCreated/distributed by Kenney (www.kenney.nl)\r\n\tCreation date: 17-02-2026 13:57\r\n\t\r\n\t\t\t------------------------------\r\n\r\n\tLicense: (Creative Commons Zero, CC0)\r\n\thttp://creativecommons.org/publicdomain/zero/1.0/\r\n\r\n\tYou can use this content for personal, educational, and commercial purposes.\r\n\r\n\tSupport by crediting 'Kenney' or 'www.kenney.nl' (this is not a requirement)\r\n\r\n\t\t\t------------------------------\r\n\r\n\t• Website : www.kenney.nl\r\n\t• Donate  : www.kenney.nl/donate\r\n\r\n\t• Patreon : patreon.com/kenney\r\n\t\r\n\tFollow on social media for updates:\r\n\r\n\t• Twitter:\t twitter.com/KenneyNL\r\n\t• BlueSky:\t kenney.bsky.social\r\n\t• Instagram: instagram.com/kenney_nl"
+    ],
+    "sourcePage": "https://kenney.nl/assets/pirate-kit",
+    "name": "pirate-kit"
+  }
+]

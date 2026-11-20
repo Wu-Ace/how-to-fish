@@ -1,0 +1,29 @@
+REBUILT Assets/MonoBehaviour/JP_BD_NotoSans.asset source=JP_NotoSans materials=1
+REBUILT Assets/MonoBehaviour/JP_NotoSans.asset source=JP_NotoSans materials=1
+REBUILT Assets/MonoBehaviour/KR_BD_NotoSans.asset source=NotoSansKR materials=1
+REBUILT Assets/MonoBehaviour/KR_NotoSans.asset source=NotoSansKR materials=1
+REBUILT Assets/MonoBehaviour/Latin_BD_Underdog.asset source=Underdog-Regular materials=1
+REBUILT Assets/MonoBehaviour/Latin_Underdog.asset source=Underdog-Regular materials=1
+REBUILT Assets/MonoBehaviour/SC_BD_NotoSans.asset source=NotoSansSC-VariableFont_wght materials=1
+REBUILT Assets/MonoBehaviour/SC_NotoSans.asset source=NotoSansSC-VariableFont_wght materials=1
+REBUILT Assets/MonoBehaviour/TC_BD_NotoSans.asset source=NotoSansTC materials=1
+REBUILT Assets/MonoBehaviour/TC_NotoSans.asset source=NotoSansTC materials=1
+REBUILT Assets/Other/Fonts/Japanese/JP_BD_NotoSans.asset source=JP_NotoSans materials=1
+REBUILT Assets/Other/Fonts/Japanese/JP_NotoSans.asset source=JP_NotoSans materials=1
+REBUILT Assets/Other/Fonts/Korean/KR_BD_NotoSans.asset source=NotoSansKR materials=1
+REBUILT Assets/Other/Fonts/Korean/KR_NotoSans.asset source=NotoSansKR materials=1
+REBUILT Assets/Other/Fonts/Latin/Latin_BD_Underdog.asset source=Underdog-Regular_0 materials=1
+REBUILT Assets/Other/Fonts/Latin/Latin_Underdog.asset source=Underdog-Regular_0 materials=1
+REBUILT Assets/Other/Fonts/SC/SC_BD_NotoSans.asset source=NotoSansSC-VariableFont_wght materials=1
+REBUILT Assets/Other/Fonts/SC/SC_NotoSans.asset source=NotoSansSC-VariableFont_wght materials=1
+REBUILT Assets/Other/Fonts/SC2/SC_BD_KuaiLe.asset source=ZCOOLKuaiLe-Regular materials=1
+REBUILT Assets/Other/Fonts/SC2/SC_KuaiLe.asset source=ZCOOLKuaiLe-Regular materials=1
+REBUILT Assets/Other/Fonts/TC/TC_BD_NotoSans.asset source=NotoSansTC materials=1
+REBUILT Assets/Other/Fonts/TC/TC_NotoSans.asset source=NotoSansTC materials=1
+NO SOURCE Assets/Resources/fonts & materials/BuyrText.asset
+NO SOURCE Assets/Resources/fonts & materials/FrontTextBackdrop.asset
+NO SOURCE Assets/Resources/fonts & materials/FrontTextClean.asset
+REBUILT Assets/Resources/fonts & materials/LiberationSans SDF - Fallback.asset source=LiberationSans materials=1
+NO SOURCE Assets/Resources/fonts & materials/LiberationSans SDF.asset
+NO SOURCE Assets/Resources/fonts & materials/TextBackdrop.asset
+NO SOURCE Assets/Resources/fonts & materials/TextClean.asset

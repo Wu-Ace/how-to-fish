@@ -1,0 +1,238 @@
+Mono path[0] = 'E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/How to Fish_Data/Managed'
+Mono config path = 'E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.4.4f1 (360f97ecca93)
+[Subsystems] Discovering subsystems at path E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/How to Fish_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 3060 Laptop GPU
+[D3D12 Device Filter] Driver Version: 32.0.16.1074
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 5994 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5994 MB
+    Driver:   32.0.16.1074
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.003 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Message:   BepInEx] BepInEx 5.4.23.5 - How to Fish (2026/11/18 0:25:28)
+[Info   :   BepInEx] Running under Unity v6000.4.4.3542935
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.23.5]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 1 plugin to load
+[Info   :   BepInEx] Loading [HypeMyStream How to Fish 0.2.3]
+[Info   :HypeMyStream How to Fish] Server started on http://127.0.0.1:6096/
+[Info   :HypeMyStream How to Fish] EmbeddedServer listening on http://127.0.0.1:6096/
+[Info   :HypeMyStream How to Fish] Reloading modules...
+[Info   :HypeMyStream How to Fish] How to Fish: registered 56 stream events.
+[Info   :HypeMyStream How to Fish] Loaded module: HowToFishEffects from EmbeddedServer.Mod.dll
+[Info   :HypeMyStream How to Fish] Reload complete. 1 module(s) loaded.
+[Info   :HypeMyStream How to Fish] HotReloader watching: E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\BepInEx\plugins\EmbeddedServer\mods
+[Info   :HypeMyStream How to Fish] HypeMyStream How to Fish v0.2.3 loaded!
+[Message:   BepInEx] Chainloader startup complete
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+UnloadTime: 0.771200 ms
+Setting breakpad minidump AppID = 4001890
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561198312832783 [API loaded no]
+Local User: 25小时高强度冲浪选手:10
+No AudioManager in scene
+Version: 1.1.3
+[Recovery] Loaded original scene Game
+[Recovery] Original source runtime; saves=E:\TT Gaming\How to fish\OriginalRecovery\LocalSaves
+[Info   :HypeMyStream How to Fish] GET /api/state
+Failed to load the Steam App List: State = ProtocolError, Error Message = HTTP/1.1 404 Not Found
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+useSteam: False, isPublic: False
+[2026.11.18 16:16:27] Local server is starting for UnityTransport. Listening on port 7777.
+[2026.11.18 16:16:27] Local server is started for UnityTransport.
+[2026.11.18 16:16:27] Local client is starting for UnityTransport. Server IP is localhost, port is 7777.
+[2026.11.18 16:16:27] Remote connection started for Id 0.
+[2026.11.18 16:16:27] Local client is started for UnityTransport.
+[Recovery] Loaded original scene Island1
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 51.1561 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 55.4696 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 60.3135 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 64.2034 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 67.9064 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 70.9584 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 74.5998 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 92.3325 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 95.7162 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 100.0212 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 104.2553 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 107.6573 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 110.7389 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 114.3444 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 118.1195 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 121.6683 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 124.8595 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 129.8174 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 134.6998 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 138.0841 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 141.7801 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 145.0482 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 149.7036 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 154.1472 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 157.9527 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 161.3323 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 166.131 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 169.6435 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 174.5834 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 178.2358 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 182.053 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 185.9239 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 190.3575 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 193.8653 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 196.7188 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 200.4907 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 204.2227 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 207.1989 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 210.4623 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 214.3892 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 217.0422 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 219.6692 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 223.2615 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 227.2972 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 230.7752 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 233.9426 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 239.4781 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 242.3776 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 245.7083 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 248.6184 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 252.3429 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 255.7546 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 259.0735 is greater than warning ms of 50 on frame 1067.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 261.9802 is greater than warning ms of 50 on frame 1067.
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] SMOKE_CAPTURE_COMPLETE
+System.Exception: SelectedLocale is null. Database could not get table.
+OperationException : SelectedLocale is null. Could not get table entry.
+System.Exception: SelectedLocale is null. Database could not get table.
+OperationException : SelectedLocale is null. Could not get table entry.
+System.Exception: SelectedLocale is null. Database could not get table.
+OperationException : SelectedLocale is null. Could not get table entry.
+System.Exception: SelectedLocale is null. Database could not get table.
+OperationException : SelectedLocale is null. Could not get table entry.
+System.Exception: SelectedLocale is null. Database could not get table.
+OperationException : SelectedLocale is null. Could not get table entry.
+System.Exception: SelectedLocale is null. Database could not get table.
+OperationException : SelectedLocale is null. Could not get table entry.
+System.Exception: SelectedLocale is null. Database could not get table.
+OperationException : SelectedLocale is null. Could not get table entry.
+System.Exception: SelectedLocale is null. Database could not get table.
+OperationException : SelectedLocale is null. Could not get table entry.
+System.Exception: SelectedLocale is null. Database could not get table.
+OperationException : SelectedLocale is null. Could not get table entry.
+[2026.11.18 16:16:48] Local client is stopping for UnityTransport.
+[2026.11.18 16:16:48] Local client is stopped for UnityTransport.
+[2026.11.18 16:16:48] NetworkObject cannot be despawned because it is null.
+[2026.11.18 16:16:48] Remote connection stopped for Id 0.
+[2026.11.18 16:16:48] Local server is stopping for UnityTransport.
+[2026.11.18 16:16:48] Local server is stopped for UnityTransport.
+[Info   :HypeMyStream How to Fish] How to Fish effects shut down and restored timed state.
+[Info   :HypeMyStream How to Fish] ListenLoop exited. running=False
+[Info   :HypeMyStream How to Fish] Server stopped.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 1032

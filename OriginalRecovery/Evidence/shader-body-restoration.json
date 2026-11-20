@@ -1,0 +1,16 @@
+{
+  "reconstructed": [
+    "Shader Graphs_BoatShader.shader",
+    "Shader Graphs_CharacterShader.shader",
+    "Shader Graphs_CookableGlassShader.shader",
+    "Shader Graphs_DefaultMoving.shader",
+    "Shader Graphs_DefaultShader.shader",
+    "Shader Graphs_FlagShader.shader",
+    "Shader Graphs_GlassShader.shader",
+    "Shader Graphs_LevelShader.shader",
+    "Shader Graphs_Outline Shader.shader",
+    "Shader Graphs_SkyboxShader.shader",
+    "Shader Graphs_WaterShader.shader"
+  ],
+  "originalGraphsRecovered": false
+}

@@ -1,0 +1,81 @@
+PASS Original host, player and island initialized
+PASS Workspace save isolation
+PASS Original resource item catalog loaded: 102
+PASS Original creature catalog loaded: 62
+PASS F8 opens gift panel
+PASS F8 closes gift panel and restores player input
+PASS Original InputSystem movement distance=3.582
+PASS Original mouse look angle=2.501
+PASS Original jump rise=1.309
+PASS Original rod, weapon and fish fixtures available
+PASS Original island load 0 => Island1
+PASS Original island load 1 => Island2
+PASS Original island load 2 => Island3
+PASS Original island load 3 => Island4
+PASS Original island load 4 => Island5
+PASS Original island load 6 => Mini1
+PASS Original island load 7 => Mini2
+PASS Original island load 8 => Mini3
+PASS Original island load 9 => Mini4
+PASS Original island load 10 => Mini5
+PASS Original plugin event chaos/spawn_fish
+PASS Original plugin event chaos/launch
+PASS Original plugin event inventory/drop_all
+PASS Original plugin event status/ignite
+PASS Original plugin event money/add
+PASS Original money gift changes wallet
+PASS Original plugin event player/heal
+PASS Original heal changes vitals
+PASS Original plugin event player/damage
+PASS Original plugin event money/remove
+PASS Original plugin event player/feed
+PASS Original plugin event status/poison
+PASS Original plugin event chaos/spawn_drip_fish
+PASS Original plugin event player/return_to_spawn
+PASS Original plugin event status/cleanse
+PASS Original plugin event movement/speed_boost
+PASS Original plugin event movement/super_jump
+PASS Original plugin event fishing/quick_bite
+PASS Original plugin event fishing/fast_reel
+PASS Original plugin event fishing/line_guard
+PASS Original plugin event bait/refill
+PASS Original plugin event birds/protect_catch
+PASS Original plugin event weapon/refill_ammo
+PASS Original plugin event weapon/steady_aim
+PASS Original plugin event loot/next_drip
+PASS Original plugin event loot/next_heavy_fish
+PASS Original plugin event economy/next_sale_boost
+PASS Original plugin event combat/damage_boost
+PASS Original plugin event boat/speed_boost
+PASS Original plugin event player/hunger
+PASS Original plugin event movement/slow
+PASS Original plugin event movement/weak_jump
+PASS Original plugin event controls/reverse
+PASS Original plugin event controls/force_crouch
+PASS Original plugin event weapon/empty_mag
+PASS Original empty-mag changes held weapon
+PASS Original plugin event weapon/max_recoil
+PASS Original plugin event weapon/max_spread
+PASS Original plugin event fishing/slow_reel
+PASS Original plugin event fishing/slow_bite
+PASS Original plugin event birds/raid
+PASS Original plugin event boss/heal
+PASS Original plugin event visual/hide_hud
+PASS Original plugin event visual/deep_fog
+PASS Original plugin event player/freeze
+PASS Original plugin event chaos/yeet_held_item
+PASS Original plugin event chaos/spawn_item
+PASS Original plugin event chaos/spawn_giant_fish
+PASS Original plugin event chaos/spawn_tiny_fish
+PASS Original plugin event chaos/spawn_boss
+PASS Original plugin event chaos/dynamite
+PASS Original plugin event chaos/boat_boost
+PASS Original plugin event chaos/boat_spin
+PASS Original plugin event chaos/random_skin
+PASS Original plugin event chaos/cook_held_fish
+PASS Fixture resurrected after destructive gifts
+PASS Original plugin event visual/sunset
+PASS Original plugin event visual/vignette_flash
+PASS Original plugin event visual/slow_motion
+PASS Original plugin event visual/speed_up
+PASS Original time scale restores after timed gifts

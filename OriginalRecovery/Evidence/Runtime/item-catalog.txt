@@ -1,0 +1,102 @@
+Angelfish | rod=False | weapon=False | creature=True
+Anglerfish | rod=False | weapon=False | creature=True
+Bass | rod=False | weapon=False | creature=True
+BingBong | rod=False | weapon=False | creature=True
+Blobfish | rod=False | weapon=False | creature=True
+Bluegill | rod=False | weapon=False | creature=True
+Albatross | rod=False | weapon=False | creature=True
+Blue Shark | rod=False | weapon=False | creature=True
+Bowhead Whale | rod=False | weapon=False | creature=True
+Giant Piranha | rod=False | weapon=False | creature=True
+Goblin Shark | rod=False | weapon=False | creature=True
+Manta | rod=False | weapon=False | creature=True
+Mutated Bowhead Whale | rod=False | weapon=False | creature=True
+Pufferfish | rod=False | weapon=False | creature=True
+Spidercrab | rod=False | weapon=False | creature=True
+Sunfish | rod=False | weapon=False | creature=True
+The Old Pike | rod=False | weapon=False | creature=True
+Tuna | rod=False | weapon=False | creature=True
+Bowlfish | rod=False | weapon=False | creature=True
+BrownCrab | rod=False | weapon=False | creature=True
+Carp | rod=False | weapon=False | creature=True
+Catfish | rod=False | weapon=False | creature=True
+Clam | rod=False | weapon=False | creature=True
+Clownfish | rod=False | weapon=False | creature=True
+Cod | rod=False | weapon=False | creature=True
+Dogfish | rod=False | weapon=False | creature=True
+Dripper | rod=False | weapon=False | creature=True
+Eel | rod=False | weapon=False | creature=True
+Alaska Pollock | rod=False | weapon=False | creature=True
+Amberjack | rod=False | weapon=False | creature=True
+Char | rod=False | weapon=False | creature=True
+Mahi-Mahi | rod=False | weapon=False | creature=True
+Sponge | rod=False | weapon=False | creature=True
+Squid | rod=False | weapon=False | creature=True
+Starfish | rod=False | weapon=False | creature=True
+Tench | rod=False | weapon=False | creature=True
+Flying Fish | rod=False | weapon=False | creature=True
+FootSnail | rod=False | weapon=False | creature=True
+Gar | rod=False | weapon=False | creature=True
+Goby | rod=False | weapon=False | creature=True
+Goldfish | rod=False | weapon=False | creature=True
+Halibut | rod=False | weapon=False | creature=True
+KoiFish | rod=False | weapon=False | creature=True
+Leech | rod=False | weapon=False | creature=True
+Lobster | rod=False | weapon=False | creature=True
+Mackerel | rod=False | weapon=False | creature=True
+Needlefish | rod=False | weapon=False | creature=True
+Oarfish | rod=False | weapon=False | creature=True
+Parrotfish | rod=False | weapon=False | creature=True
+Perch | rod=False | weapon=False | creature=True
+Pike | rod=False | weapon=False | creature=True
+Piranha | rod=False | weapon=False | creature=True
+Red Snapper | rod=False | weapon=False | creature=True
+RockCrab | rod=False | weapon=False | creature=True
+Salmon | rod=False | weapon=False | creature=True
+Sea Urchin | rod=False | weapon=False | creature=True
+Seagull | rod=False | weapon=False | creature=True
+Seahorse | rod=False | weapon=False | creature=True
+Sengarat | rod=False | weapon=False | creature=True
+Shrimp | rod=False | weapon=False | creature=True
+Stonefish | rod=False | weapon=False | creature=True
+Superdwarf Fish | rod=False | weapon=False | creature=True
+Tigerfish | rod=False | weapon=False | creature=True
+Triggerfish | rod=False | weapon=False | creature=True
+Tripod Fish | rod=False | weapon=False | creature=True
+Voxel Fish | rod=False | weapon=False | creature=True
+Yellow Boxfish | rod=False | weapon=False | creature=True
+AlbatrossMeat | rod=False | weapon=False | creature=True
+CrabMeat | rod=False | weapon=False | creature=True
+PiranhaMeat | rod=False | weapon=False | creature=True
+PufferfishMeat | rod=False | weapon=False | creature=True
+WhaleMeat | rod=False | weapon=False | creature=True
+Barrel | rod=False | weapon=False | creature=False
+DeadPlayer | rod=False | weapon=False | creature=False
+GroundBait | rod=False | weapon=False | creature=False
+MoneyInABottle | rod=False | weapon=False | creature=False
+Assault Rifle | rod=False | weapon=True | creature=False
+Badball | rod=False | weapon=False | creature=False
+Beer | rod=False | weapon=False | creature=True
+Bow | rod=False | weapon=True | creature=False
+Brass Knuckles | rod=False | weapon=False | creature=False
+BrassKnucklesPackedBackup | rod=False | weapon=False | creature=False
+Crab Fishing Rod | rod=True | weapon=False | creature=False
+Disc | rod=False | weapon=False | creature=False
+Dynamite | rod=False | weapon=False | creature=False
+Fishing Rod | rod=True | weapon=False | creature=False
+Knife | rod=False | weapon=False | creature=False
+KnifePackedBackup | rod=False | weapon=False | creature=False
+Map | rod=False | weapon=False | creature=False
+Pistol | rod=False | weapon=True | creature=False
+Radio | rod=False | weapon=False | creature=False
+Shotgun | rod=False | weapon=True | creature=False
+Smg | rod=False | weapon=True | creature=False
+Sniper Rifle | rod=False | weapon=True | creature=False
+Snowball1 | rod=False | weapon=False | creature=False
+Snowball2 | rod=False | weapon=False | creature=False
+Snowball3 | rod=False | weapon=False | creature=False
+Albatross Head | rod=False | weapon=False | creature=False
+GiantPiranhaSkeleton | rod=False | weapon=False | creature=False
+Pufferfish Fin | rod=False | weapon=False | creature=False
+Spidercrab Shell | rod=False | weapon=False | creature=False
+Whale Fin | rod=False | weapon=False | creature=False

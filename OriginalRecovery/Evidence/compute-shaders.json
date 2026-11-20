@@ -1,0 +1,10 @@
+{
+  "officialSources": [
+    "ProbeVolumeBlendStates.compute",
+    "ProbeVolumeUploadData.compute",
+    "ProbeVolumeUploadDataL2.compute",
+    "VrsTexture.compute",
+    "ProbeVolumeSamplingDebugPositionNormal.compute"
+  ],
+  "preservedGuids": true
+}

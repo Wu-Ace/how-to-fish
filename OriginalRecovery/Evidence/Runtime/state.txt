@@ -1,0 +1,4 @@
+scene=Game
+player=True
+server=True
+saves=E:\TT Gaming\How to fish\OriginalRecovery\LocalSaves

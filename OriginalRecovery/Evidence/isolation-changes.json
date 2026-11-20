@@ -1,0 +1,15 @@
+[
+  "AchievementManager.cs",
+  "ButtonManager.cs",
+  "ChatManager.cs",
+  "ConnectionManager.cs",
+  "LocalizationManager.cs",
+  "OtherPlayer.cs",
+  "PauseManager.cs",
+  "Player.cs",
+  "SaveSystem.cs",
+  "Server.cs",
+  "SteamManager.cs",
+  "UnityEngine.InputSystem.Samples.RebindUI\\RebindActionParameterUI.cs",
+  "UnityEngine.InputSystem.Samples.RebindUI\\RebindSaveLoad.cs"
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1go5_SFLW93ke-M1mjB-NyyQOGLvmlYVe",
+    "author": "Quaternius",
+    "name": "Dolphin.fbx",
+    "sha256": "4B6F1FF9487BF25BD3DD7E3397723A356579EE9E3D62E915F978C003EE41644F",
+    "sourcePage": "https://quaternius.com/packs/animatedfish.html",
+    "license": "CC0-1.0",
+    "originalGameProvenanceConfirmed": false
+  },
+  {
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=11ce4zeSgSk4FeO81mOv-sgrYhRlaBmHz",
+    "author": "Quaternius",
+    "name": "Fish1.fbx",
+    "sha256": "1ADEA1CCA2F02F351CF524B60D2448502E3ACB3EF2965F74A21C45A5DFCE77E3",
+    "sourcePage": "https://quaternius.com/packs/animatedfish.html",
+    "license": "CC0-1.0",
+    "originalGameProvenanceConfirmed": false
+  },
+  {
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1Y2KfJrVq-FZ2aPzHe1NCJvBX_AsVKC6Q",
+    "author": "Quaternius",
+    "name": "Fish2.fbx",
+    "sha256": "AB12853CBD9C205A3AEB1D2CFF1FD0CCED44E5FAA707020637BFD41634201509",
+    "sourcePage": "https://quaternius.com/packs/animatedfish.html",
+    "license": "CC0-1.0",
+    "originalGameProvenanceConfirmed": false
+  },
+  {
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1IhETkaj4bssjH3lNmxvSW7VwW8uCcM0C",
+    "author": "Quaternius",
+    "name": "Fish3.fbx",
+    "sha256": "142BB6559B928C61FF839EECBBA4EE0CFAFA964DF37720DB6A6BA3A90B4ED639",
+    "sourcePage": "https://quaternius.com/packs/animatedfish.html",
+    "license": "CC0-1.0",
+    "originalGameProvenanceConfirmed": false
+  },
+  {
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1rS0aoM_-e0SZJIFJgcyJkbC1bpGnFzdH",
+    "author": "Quaternius",
+    "name": "Manta ray.fbx",
+    "sha256": "BDE315D4F35205215E1C0A2443F8256E7F5B3641C765686C941040530AAA81EC",
+    "sourcePage": "https://quaternius.com/packs/animatedfish.html",
+    "license": "CC0-1.0",
+    "originalGameProvenanceConfirmed": false
+  },
+  {
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1KDMkQoY97oRGvAt1BEV5bLJ3hfm1aHiW",
+    "author": "Quaternius",
+    "name": "Shark.fbx",
+    "sha256": "FEE1CFE578643CEFB06457332B5D323F4883EBA2515EB255AE0F2ABB497A75C9",
+    "sourcePage": "https://quaternius.com/packs/animatedfish.html",
+    "license": "CC0-1.0",
+    "originalGameProvenanceConfirmed": false
+  },
+  {
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1h6v3BFzlfFSHfRvfVTJ3Ezyz7shJ-57T",
+    "author": "Quaternius",
+    "name": "Whale.fbx",
+    "sha256": "56CBDB5A6EEB8F9D334440FE384B7849EB84FBA1CE03D8DF9A997BE981CBB8D9",
+    "sourcePage": "https://quaternius.com/packs/animatedfish.html",
+    "license": "CC0-1.0",
+    "originalGameProvenanceConfirmed": false
+  }
+]

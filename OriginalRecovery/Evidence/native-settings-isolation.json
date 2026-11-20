@@ -1,0 +1,17 @@
+{
+  "originalSha256": "f36e32cf6690200dbb5a53f28f2a09df8bc83ae8362af78391f3319233921b35",
+  "patchedSha256": "524ad4cfe7043bf45b27863cdb5960f3313dcfeb3b98f84293de5870dfb4c1fb",
+  "sameLength": true,
+  "changes": [
+    {
+      "old": "Dazed Games",
+      "new": "FishRecover",
+      "offset": 1304
+    },
+    {
+      "old": "How to Fish",
+      "new": "FishRecover",
+      "offset": 1320
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Project-authored replacement art. Source: OriginalRecovery/Tools/author_original_art.py and OriginalRecovery/OriginalArt/Blender. No original-game geometry, textures, rigs or third-party models were imported into these meshes. Materials are flat project-created colors. Existing game code, other scene objects and referenced assets retain their independent licensing status.

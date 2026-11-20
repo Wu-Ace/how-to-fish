@@ -1,0 +1,1879 @@
+Mono path[0] = 'E:/TT Gaming/How to fish/OriginalRecovery/Builds/EditorRebuilt/HowToFishRecovered_Data/Managed'
+Mono config path = 'E:/TT Gaming/How to fish/OriginalRecovery/Builds/EditorRebuilt/MonoBleedingEdge/etc'
+Found 2 interfaces on host : 0) 172.18.0.1 1) 192.168.71.68
+Player connection [64636]  Target information:
+
+Player connection [64636]  * "[IP] 172.18.0.1 [Port] 55000 [Flags] 2 [Guid] 114461839 [EditorId] 3826340916 [Version] 1048832 [Id] WindowsPlayer(2,splashed_white) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] How to Fish Recovered" 
+
+Player connection [64636]  * "[IP] 192.168.71.68 [Port] 55000 [Flags] 2 [Guid] 114461839 [EditorId] 3826340916 [Version] 1048832 [Id] WindowsPlayer(2,splashed_white) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] How to Fish Recovered" 
+
+Player connection [64636] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.26f1 (de8167e7440c)
+[Subsystems] Discovering subsystems at path E:/TT Gaming/How to fish/OriginalRecovery/Builds/EditorRebuilt/HowToFishRecovered_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 3060 Laptop GPU
+[D3D12 Device Filter] Driver Version: 32.0.16.1074
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 5994 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:          NVIDIA
+    VRAM:            5994 MB
+    App VRAM Budget: 5226 MB
+    Driver:          32.0.16.1074
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.162 seconds
+- Finished resetting the current domain, in  0.003 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+UnloadTime: 2.387200 ms
+[Message:   BepInEx] BepInEx 5.4.23.5 - HowToFishRecovered (2026/11/18 17:35:22)
+[Info   :   BepInEx] Running under Unity v6000.3.26.14582119
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.23.5]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 1 plugin to load
+[Info   :   BepInEx] Loading [HypeMyStream How to Fish 0.2.3]
+[Info   :HypeMyStream How to Fish] Server started on http://127.0.0.1:6097/
+[Info   :HypeMyStream How to Fish] EmbeddedServer listening on http://127.0.0.1:6097/
+[Info   :HypeMyStream How to Fish] Reloading modules...
+[Info   :HypeMyStream How to Fish] How to Fish: registered 56 stream events.
+[Info   :HypeMyStream How to Fish] Loaded module: HowToFishEffects from EmbeddedServer.Mod.dll
+[Info   :HypeMyStream How to Fish] Reload complete. 1 module(s) loaded.
+[Info   :HypeMyStream How to Fish] HotReloader watching: E:\TT Gaming\How to fish\OriginalRecovery\Builds\EditorRebuilt\BepInEx\plugins\EmbeddedServer\mods
+[Info   :HypeMyStream How to Fish] HypeMyStream How to Fish v0.2.3 loaded!
+[Message:   BepInEx] Chainloader startup complete
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+No AudioManager in scene
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+AudioManager:PlayClip (string,UnityEngine.Vector3,single,single,bool,AudioDistance,bool,string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/AudioManager.cs:338)
+AudioManager:PlayGlobalClip (string,bool,single,single,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/AudioManager.cs:306)
+UIButton:Hover () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/UIButton.cs:66)
+UIButton:OnSelect (UnityEngine.EventSystems.BaseEventData) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/UIButton.cs:106)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.ISelectHandler,UnityEngine.EventSystems.BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.ISelectHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISelectHandler>)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject (UnityEngine.GameObject)
+UIButton:OnEnable () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/UIButton.cs:47)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/AudioManager.cs Line: 338)
+
+Version: 1.0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+SaveManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SaveManager.cs:131)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SaveManager.cs Line: 131)
+
+[Recovery] Loaded original scene Game
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+RecoveryGiftPanel:Install () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:22)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Recovery] Original gameplay with isolated recovery extension; saves=E:\TT Gaming\How to fish\OriginalRecovery\LocalSaves
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:Install () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:22)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 22)
+
+Could not query Steam Relay status: System.InvalidOperationException: Steamworks is not initialized.
+  at Steamworks.InteropHelp.TestIfAvailableClient () [0x0001d] in <838935102a5b43408219717ae515cc24>:0 
+  at Steamworks.SteamNetworkingUtils.GetRelayNetworkStatus (Steamworks.SteamRelayNetworkStatus_t& pDetails) [0x00000] in <838935102a5b43408219717ae515cc24>:0 
+  at SteamManager.RefreshRelayStatus () [0x00002] in E:\TT Gaming\How to fish\OriginalRecovery\RecoveredProject\ExportedProject\Assets\Scripts\Assembly-CSharp\SteamManager.cs:79 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+SteamManager:RefreshRelayStatus () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SteamManager.cs:88)
+CanvasManager:Start () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/CanvasManager.cs:84)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SteamManager.cs Line: 88)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+Local keyword BLIT_DECODE_HDR doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+UnityEngine.Rendering.Blitter:Initialize (UnityEngine.Shader,UnityEngine.Shader)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline ()
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object)
+
+Local keyword _MSAA_2X doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+UnityEngine.Rendering.Blitter:Initialize (UnityEngine.Shader,UnityEngine.Shader)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline ()
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object)
+
+Local keyword _MSAA_4X doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+UnityEngine.Rendering.Blitter:Initialize (UnityEngine.Shader,UnityEngine.Shader)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline ()
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object)
+
+Local keyword _MSAA_8X doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+UnityEngine.Rendering.Blitter:Initialize (UnityEngine.Shader,UnityEngine.Shader)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline ()
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[RecoveryInput] enabled=True active=True user=True actions=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryInputCompatibility/<Start>d__1:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryInputCompatibility.cs:8)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryInputCompatibility.cs Line: 8)
+
+[RecoveryInput] ready=True scheme=Keyboard
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryInputCompatibility/<Start>d__1:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryInputCompatibility.cs:10)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryInputCompatibility.cs Line: 10)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+useSteam: False, isPublic: False
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+SaveManager:CreateServer (string,bool,bool,Difficulty) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SaveManager.cs:173)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SaveManager.cs Line: 173)
+
+[2026.11.18 17:38:56] Local server is starting for UnityTransport. Listening on port 7777.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.NetworkManagerExtensions:Log (string)
+FishNet.Managing.Server.ServerManager:Transport_OnServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetServerConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StartServer ()
+FishNet.Transporting.UTP.UnityTransport:StartConnection (bool)
+ConnectionManager:CreateOfflineLobby () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs:176)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs Line: 176)
+
+[2026.11.18 17:38:56] Local server is started for UnityTransport.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.NetworkManagerExtensions:Log (string)
+FishNet.Managing.Server.ServerManager:Transport_OnServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetServerConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StartServer ()
+FishNet.Transporting.UTP.UnityTransport:StartConnection (bool)
+ConnectionManager:CreateOfflineLobby () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs:176)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs Line: 176)
+
+[2026.11.18 17:38:56] Local client is starting for UnityTransport. Server IP is localhost, port is 7777.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.Client.ClientManager:Transport_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetClientConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StartClient ()
+FishNet.Transporting.UTP.UnityTransport:StartConnection (bool)
+ConnectionManager:CreateOfflineLobby () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs:177)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs Line: 177)
+
+[2026.11.18 17:38:56] Remote connection started for Id 0.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.Server.ServerManager:Transport_OnRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleRemoteConnectionState (FishNet.Transporting.RemoteConnectionState,ulong)
+FishNet.Transporting.UTP.UnityTransport:StartClient ()
+FishNet.Transporting.UTP.UnityTransport:StartConnection (bool)
+ConnectionManager:CreateOfflineLobby () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs:177)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs Line: 177)
+
+FishNet client 0 connected. Steam lobby members: 0; FishNet server clients: 1.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+SteamManager:PrintConnectedClientCounts (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SteamManager.cs:72)
+SteamManager:OnRemoteConnectionState (FishNet.Connection.NetworkConnection,FishNet.Transporting.RemoteConnectionStateArgs) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SteamManager.cs:64)
+FishNet.Managing.Server.ServerManager:Transport_OnRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleRemoteConnectionState (FishNet.Transporting.RemoteConnectionState,ulong)
+FishNet.Transporting.UTP.UnityTransport:StartClient ()
+FishNet.Transporting.UTP.UnityTransport:StartConnection (bool)
+ConnectionManager:CreateOfflineLobby () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs:177)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SteamManager.cs Line: 72)
+
+[2026.11.18 17:38:56] Local client is started for UnityTransport.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.Client.ClientManager:Transport_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetClientConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StartClient ()
+FishNet.Transporting.UTP.UnityTransport:StartConnection (bool)
+ConnectionManager:CreateOfflineLobby () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs:177)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs Line: 177)
+
+[Recovery] Loaded original scene Island1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 51.6587 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 57.1262 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 62.2569 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 66.2994 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 69.7366 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 72.5779 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 75.9265 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 78.7902 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 82.1236 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 85.0266 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 88.0012 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 91.358 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 95.7707 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 101.8965 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 105.7183 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 109.4871 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 112.4613 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 115.9988 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 118.9572 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 122.0167 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 125.8347 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 129.8554 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 133.6812 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 137.423 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 140.8522 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 144.0118 is greater than warning ms of 50 on frame 89.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 51.3341 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 56.372 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 60.4878 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 64.1862 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 67.7539 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 72.5077 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 76.038 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 79.5144 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 83.1575 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 86.8709 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 89.798 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 92.7693 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 96.2945 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 101.2091 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 104.7281 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 109.0987 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 113.7094 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 116.7126 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 120.0189 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 123.9703 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 127.8071 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 130.6366 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 134.2493 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 137.2653 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 141.1496 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 148.7708 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 152.6241 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 155.5367 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 159.6801 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 163.6545 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 168.519 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 172.4553 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 175.5562 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 178.6211 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 182.7735 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 187.0416 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 192.6165 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 198.1731 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 201.2878 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 204.1874 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 207.4299 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 211.4105 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 214.6087 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 217.5644 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 220.449 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 224.9868 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 228.1073 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 231.3517 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 234.6282 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 239.0396 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 243.0917 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 245.9731 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 249.3019 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 253.4972 is greater than warning ms of 50 on frame 996.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] SMOKE_CAPTURE_COMPLETE
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 42)
+
+[Info   :HypeMyStream How to Fish] How to Fish effects shut down and restored timed state.
+[Info   :HypeMyStream How to Fish] ListenLoop exited. running=False
+[Info   :HypeMyStream How to Fish] Server stopped.
+No MusicManager in scene
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+MusicManager:PlayMusic (string,string,single,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MusicManager.cs:63)
+MainMenuManager:ToggleMenu (bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MainMenuManager.cs:54)
+Server:OnStopClient () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Server.cs:51)
+FishNet.Object.NetworkBehaviour:OnStopClient_Internal ()
+FishNet.Object.NetworkObject:InvokeStopCallbacks (bool,bool)
+FishNet.Managing.Client.ClientObjects:OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Managing.Client.ClientManager:Transport_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetClientConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StopClientHost ()
+FishNet.Transporting.UTP.UnityTransport:StopClient ()
+FishNet.Transporting.UTP.UnityTransport:StopConnection (bool)
+FishNet.Transporting.UTP.UnityTransport:Shutdown ()
+FishNet.Transporting.Multipass.Multipass:OnDestroy ()
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MusicManager.cs Line: 63)
+
+[2026.11.18 17:39:17] Local client is stopping for UnityTransport.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.Client.ClientManager:Transport_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetClientConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StopClientHost ()
+FishNet.Transporting.UTP.UnityTransport:StopClient ()
+FishNet.Transporting.UTP.UnityTransport:StopConnection (bool)
+FishNet.Transporting.UTP.UnityTransport:Shutdown ()
+FishNet.Transporting.Multipass.Multipass:OnDestroy ()
+
+[2026.11.18 17:39:17] Local client is stopped for UnityTransport.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.Client.ClientManager:Transport_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetClientConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StopClientHost ()
+FishNet.Transporting.UTP.UnityTransport:StopClient ()
+FishNet.Transporting.UTP.UnityTransport:StopConnection (bool)
+FishNet.Transporting.UTP.UnityTransport:Shutdown ()
+FishNet.Transporting.Multipass.Multipass:OnDestroy ()
+
+[2026.11.18 17:39:17] NetworkObject cannot be despawned because it is null.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:LogWarning (string)
+FishNet.Managing.NetworkManager:InternalLogWarning (string)
+FishNet.Managing.NetworkManagerExtensions:LogWarning (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.Server.ServerObjects:Despawn (FishNet.Object.NetworkObject,FishNet.Object.DespawnType,bool)
+FishNet.Managing.Server.ServerManager:Despawn (FishNet.Object.NetworkObject,System.Nullable`1<FishNet.Object.DespawnType>)
+FishNet.Managing.Server.ServerObjects:ClientDisconnected (FishNet.Connection.NetworkConnection)
+FishNet.Managing.Server.ServerManager:Transport_OnRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleRemoteConnectionState (FishNet.Transporting.RemoteConnectionState,ulong)
+FishNet.Transporting.UTP.UnityTransport:StopClientHost ()
+FishNet.Transporting.UTP.UnityTransport:StopClient ()
+FishNet.Transporting.UTP.UnityTransport:StopConnection (bool)
+FishNet.Transporting.UTP.UnityTransport:Shutdown ()
+FishNet.Transporting.Multipass.Multipass:OnDestroy ()
+
+[2026.11.18 17:39:17] Remote connection stopped for Id 0.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.Server.ServerManager:Transport_OnRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleRemoteConnectionState (FishNet.Transporting.RemoteConnectionState,ulong)
+FishNet.Transporting.UTP.UnityTransport:StopClientHost ()
+FishNet.Transporting.UTP.UnityTransport:StopClient ()
+FishNet.Transporting.UTP.UnityTransport:StopConnection (bool)
+FishNet.Transporting.UTP.UnityTransport:Shutdown ()
+FishNet.Transporting.Multipass.Multipass:OnDestroy ()
+
+[2026.11.18 17:39:17] Local server is stopping for UnityTransport.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.NetworkManagerExtensions:Log (string)
+FishNet.Managing.Server.ServerManager:Transport_OnServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetServerConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StopServer ()
+FishNet.Transporting.UTP.UnityTransport:StopConnection (bool)
+FishNet.Transporting.UTP.UnityTransport:Shutdown ()
+FishNet.Transporting.Multipass.Multipass:OnDestroy ()
+
+[2026.11.18 17:39:17] Local server is stopped for UnityTransport.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.NetworkManagerExtensions:Log (string)
+FishNet.Managing.Server.ServerManager:Transport_OnServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetServerConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StopServer ()
+FishNet.Transporting.UTP.UnityTransport:StopConnection (bool)
+FishNet.Transporting.UTP.UnityTransport:Shutdown ()
+FishNet.Transporting.Multipass.Multipass:OnDestroy ()
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+debugger-agent: Unable to listen on 1224
+PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794994757440,"processId":70516,"allocatedMemory":746338,"memoryLabels":[{"Default":296},{"NewDelete":1832},{"Thread":11200},{"Manager":548167},{"GfxDevice":2168},{"GfxThread":10752},{"Audio":752},{"Serialization":27400},{"JobScheduler":32768},{"File":3822},{"String":542},{"DynamicArray":8},{"HashMap":103424},{"PoolAlloc":384},{"CloudService":144},{"VR":1872},{"Video":144},{"NativeArray":372},{"Subsystems":96},{"Gui":179},{"CoreBusinessMetrics":120}]}

@@ -1,0 +1,247 @@
+Mono path[0] = 'E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/How to Fish_Data/Managed'
+Mono config path = 'E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.4.4f1 (360f97ecca93)
+[Subsystems] Discovering subsystems at path E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/How to Fish_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 3060 Laptop GPU
+[D3D12 Device Filter] Driver Version: 32.0.16.1074
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 5994 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5994 MB
+    Driver:   32.0.16.1074
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.003 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Message:   BepInEx] BepInEx 5.4.23.5 - How to Fish (2026/11/18 0:25:28)
+[Info   :   BepInEx] Running under Unity v6000.4.4.3542935
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.23.5]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 1 plugin to load
+[Info   :   BepInEx] Loading [HypeMyStream How to Fish 0.2.3]
+[Info   :HypeMyStream How to Fish] Server started on http://127.0.0.1:6096/
+[Info   :HypeMyStream How to Fish] EmbeddedServer listening on http://127.0.0.1:6096/
+[Info   :HypeMyStream How to Fish] Reloading modules...
+[Info   :HypeMyStream How to Fish] How to Fish: registered 56 stream events.
+[Info   :HypeMyStream How to Fish] Loaded module: HowToFishEffects from EmbeddedServer.Mod.dll
+[Info   :HypeMyStream How to Fish] Reload complete. 1 module(s) loaded.
+[Info   :HypeMyStream How to Fish] HotReloader watching: E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\BepInEx\plugins\EmbeddedServer\mods
+[Info   :HypeMyStream How to Fish] HypeMyStream How to Fish v0.2.3 loaded!
+[Message:   BepInEx] Chainloader startup complete
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+UnloadTime: 0.718600 ms
+Setting breakpad minidump AppID = 4001890
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561198312832783 [API loaded no]
+Local User: 25小时高强度冲浪选手:10
+No AudioManager in scene
+Version: 1.1.3
+[Recovery] Loaded original scene Game
+[Recovery] Original gameplay with isolated recovery extension; saves=E:\TT Gaming\How to fish\OriginalRecovery\LocalSaves
+[Info   :HypeMyStream How to Fish] GET /api/state
+Failed to load the Steam App List: State = ProtocolError, Error Message = HTTP/1.1 404 Not Found
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+useSteam: False, isPublic: False
+[2026.11.18 16:48:37] Local server is starting for UnityTransport. Listening on port 7777.
+[2026.11.18 16:48:37] Local server is started for UnityTransport.
+[2026.11.18 16:48:37] Local client is starting for UnityTransport. Server IP is localhost, port is 7777.
+[2026.11.18 16:48:37] Remote connection started for Id 0.
+[2026.11.18 16:48:37] Local client is started for UnityTransport.
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] Loaded original scene Island1
+[Info   :HypeMyStream How to Fish] GET /api/state
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 50.7212 is greater than warning ms of 50 on frame 1632.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 56.4896 is greater than warning ms of 50 on frame 1632.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 61.3075 is greater than warning ms of 50 on frame 1632.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 65.6261 is greater than warning ms of 50 on frame 1632.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 70.7654 is greater than warning ms of 50 on frame 1632.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 76.2818 is greater than warning ms of 50 on frame 1632.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 82.931 is greater than warning ms of 50 on frame 1632.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 105.5389 is greater than warning ms of 50 on frame 1632.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 109.8639 is greater than warning ms of 50 on frame 1632.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 114.9667 is greater than warning ms of 50 on frame 1632.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 120.2425 is greater than warning ms of 50 on frame 1632.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 125.5943 is greater than warning ms of 50 on frame 1632.
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 131.0753 is greater than warning ms of 50 on frame 1632.
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 52.7547 is greater than warning ms of 50 on frame 1819.
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] How to Fish effects shut down and restored timed state.
+[Info   :HypeMyStream How to Fish] ListenLoop exited. running=False
+[Info   :HypeMyStream How to Fish] Server stopped.
+[2026.11.18 16:50:21] Local client is stopping for UnityTransport.
+[2026.11.18 16:50:21] Local client is stopped for UnityTransport.
+[2026.11.18 16:50:21] NetworkObject cannot be despawned because it is null.
+[2026.11.18 16:50:21] Remote connection stopped for Id 0.
+[2026.11.18 16:50:21] Local server is stopping for UnityTransport.
+[2026.11.18 16:50:21] Local server is stopped for UnityTransport.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 1028

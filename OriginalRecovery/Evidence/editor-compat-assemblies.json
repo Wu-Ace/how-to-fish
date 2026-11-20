@@ -1,0 +1,21 @@
+[
+  "Unity.Burst.dll",
+  "Unity.Collections.dll",
+  "Unity.InputSystem.dll",
+  "Unity.InputSystem.ForUI.dll",
+  "Unity.InternalAPIEngineBridge.004.dll",
+  "Unity.Mathematics.dll",
+  "Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+  "Unity.RenderPipelines.Core.Runtime.dll",
+  "Unity.RenderPipelines.Core.Runtime.Shared.dll",
+  "Unity.RenderPipelines.Core.ShaderLibrary.dll",
+  "Unity.RenderPipelines.GPUDriven.Runtime.dll",
+  "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+  "Unity.RenderPipelines.Universal.2D.Runtime.dll",
+  "Unity.RenderPipelines.Universal.Config.Runtime.dll",
+  "Unity.RenderPipelines.Universal.Runtime.dll",
+  "Unity.RenderPipelines.Universal.Shaders.dll",
+  "Unity.TextMeshPro.dll",
+  "Unity.UnifiedRayTracing.Runtime.dll",
+  "UnityEngine.UI.dll"
+]

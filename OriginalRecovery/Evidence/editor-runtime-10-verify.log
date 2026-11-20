@@ -1,0 +1,1746 @@
+Mono path[0] = 'E:/TT Gaming/How to fish/OriginalRecovery/Builds/EditorRebuilt/HowToFishRecovered_Data/Managed'
+Mono config path = 'E:/TT Gaming/How to fish/OriginalRecovery/Builds/EditorRebuilt/MonoBleedingEdge/etc'
+Found 2 interfaces on host : 0) 172.18.0.1 1) 192.168.71.68
+Player connection [66668]  Target information:
+
+Player connection [66668]  * "[IP] 172.18.0.1 [Port] 55000 [Flags] 2 [Guid] 415630629 [EditorId] 4290721517 [Version] 1048832 [Id] WindowsPlayer(2,splashed_white) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] How to Fish Recovered" 
+
+Player connection [66668]  * "[IP] 192.168.71.68 [Port] 55000 [Flags] 2 [Guid] 415630629 [EditorId] 4290721517 [Version] 1048832 [Id] WindowsPlayer(2,splashed_white) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] How to Fish Recovered" 
+
+Player connection [66668] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.26f1 (de8167e7440c)
+[Subsystems] Discovering subsystems at path E:/TT Gaming/How to fish/OriginalRecovery/Builds/EditorRebuilt/HowToFishRecovered_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 3060 Laptop GPU
+[D3D12 Device Filter] Driver Version: 32.0.16.1074
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 5994 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:          NVIDIA
+    VRAM:            5994 MB
+    App VRAM Budget: 5226 MB
+    Driver:          32.0.16.1074
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.101 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+UnloadTime: 0.689900 ms
+[Message:   BepInEx] BepInEx 5.4.23.5 - HowToFishRecovered (2026/11/18 17:50:32)
+[Info   :   BepInEx] Running under Unity v6000.3.26.14582119
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.23.5]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 1 plugin to load
+[Info   :   BepInEx] Loading [HypeMyStream How to Fish 0.2.3]
+[Info   :HypeMyStream How to Fish] Server started on http://127.0.0.1:6097/
+[Info   :HypeMyStream How to Fish] EmbeddedServer listening on http://127.0.0.1:6097/
+[Info   :HypeMyStream How to Fish] Reloading modules...
+[Info   :HypeMyStream How to Fish] How to Fish: registered 56 stream events.
+[Info   :HypeMyStream How to Fish] Loaded module: HowToFishEffects from EmbeddedServer.Mod.dll
+[Info   :HypeMyStream How to Fish] Reload complete. 1 module(s) loaded.
+[Info   :HypeMyStream How to Fish] HotReloader watching: E:\TT Gaming\How to fish\OriginalRecovery\Builds\EditorRebuilt\BepInEx\plugins\EmbeddedServer\mods
+[Info   :HypeMyStream How to Fish] HypeMyStream How to Fish v0.2.3 loaded!
+[Message:   BepInEx] Chainloader startup complete
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+No AudioManager in scene
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+AudioManager:PlayClip (string,UnityEngine.Vector3,single,single,bool,AudioDistance,bool,string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/AudioManager.cs:338)
+AudioManager:PlayGlobalClip (string,bool,single,single,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/AudioManager.cs:306)
+UIButton:Hover () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/UIButton.cs:66)
+UIButton:OnSelect (UnityEngine.EventSystems.BaseEventData) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/UIButton.cs:106)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.ISelectHandler,UnityEngine.EventSystems.BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.ISelectHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISelectHandler>)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject (UnityEngine.GameObject)
+UIButton:OnEnable () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/UIButton.cs:47)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/AudioManager.cs Line: 338)
+
+Version: 1.0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+SaveManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SaveManager.cs:131)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SaveManager.cs Line: 131)
+
+[Recovery] Loaded original scene Game
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+RecoveryGiftPanel:Install () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:22)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Recovery] Original gameplay with isolated recovery extension; saves=E:\TT Gaming\How to fish\OriginalRecovery\LocalSaves
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:Install () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:22)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 22)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[RecoveryInput] enabled=True active=True user=True actions=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryInputCompatibility/<Start>d__1:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryInputCompatibility.cs:8)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryInputCompatibility.cs Line: 8)
+
+[RecoveryInput] ready=True scheme=Keyboard
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryInputCompatibility/<Start>d__1:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryInputCompatibility.cs:10)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryInputCompatibility.cs Line: 10)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+useSteam: False, isPublic: False
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+SaveManager:CreateServer (string,bool,bool,Difficulty) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SaveManager.cs:173)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SaveManager.cs Line: 173)
+
+[2026.11.18 17:52:11] Local server is starting for UnityTransport. Listening on port 7777.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.NetworkManagerExtensions:Log (string)
+FishNet.Managing.Server.ServerManager:Transport_OnServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetServerConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StartServer ()
+FishNet.Transporting.UTP.UnityTransport:StartConnection (bool)
+ConnectionManager:CreateOfflineLobby () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs:176)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs Line: 176)
+
+[2026.11.18 17:52:11] Local server is started for UnityTransport.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.NetworkManagerExtensions:Log (string)
+FishNet.Managing.Server.ServerManager:Transport_OnServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleServerConnectionState (FishNet.Transporting.ServerConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetServerConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StartServer ()
+FishNet.Transporting.UTP.UnityTransport:StartConnection (bool)
+ConnectionManager:CreateOfflineLobby () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs:176)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs Line: 176)
+
+[2026.11.18 17:52:11] Local client is starting for UnityTransport. Server IP is localhost, port is 7777.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.Client.ClientManager:Transport_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetClientConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StartClient ()
+FishNet.Transporting.UTP.UnityTransport:StartConnection (bool)
+ConnectionManager:CreateOfflineLobby () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs:177)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs Line: 177)
+
+[2026.11.18 17:52:11] Remote connection started for Id 0.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.Server.ServerManager:Transport_OnRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleRemoteConnectionState (FishNet.Transporting.RemoteConnectionState,ulong)
+FishNet.Transporting.UTP.UnityTransport:StartClient ()
+FishNet.Transporting.UTP.UnityTransport:StartConnection (bool)
+ConnectionManager:CreateOfflineLobby () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs:177)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs Line: 177)
+
+FishNet client 0 connected. Steam lobby members: 0; FishNet server clients: 1.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+SteamManager:PrintConnectedClientCounts (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SteamManager.cs:72)
+SteamManager:OnRemoteConnectionState (FishNet.Connection.NetworkConnection,FishNet.Transporting.RemoteConnectionStateArgs) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SteamManager.cs:64)
+FishNet.Managing.Server.ServerManager:Transport_OnRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleRemoteConnectionState (FishNet.Transporting.RemoteConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleRemoteConnectionState (FishNet.Transporting.RemoteConnectionState,ulong)
+FishNet.Transporting.UTP.UnityTransport:StartClient ()
+FishNet.Transporting.UTP.UnityTransport:StartConnection (bool)
+ConnectionManager:CreateOfflineLobby () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs:177)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SteamManager.cs Line: 72)
+
+[2026.11.18 17:52:11] Local client is started for UnityTransport.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FishNet.Managing.Logging.LevelLoggingConfiguration:Log (string)
+FishNet.Managing.NetworkManager:InternalLog (string)
+FishNet.Managing.NetworkManagerExtensions:Log (FishNet.Managing.NetworkManager,string)
+FishNet.Managing.Client.ClientManager:Transport_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleClientConnectionState (FishNet.Transporting.ClientConnectionStateArgs)
+FishNet.Transporting.UTP.UnityTransport:SetClientConnectionState (FishNet.Transporting.LocalConnectionState)
+FishNet.Transporting.UTP.UnityTransport:StartClient ()
+FishNet.Transporting.UTP.UnityTransport:StartConnection (bool)
+ConnectionManager:CreateOfflineLobby () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs:177)
+RecoveryGiftPanel:StartLocal (string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:32)
+RecoveryGiftPanel/<Smoke>d__46:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:42)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ConnectionManager.cs Line: 177)
+
+[Recovery] Loaded original scene Island1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 53.0713 is greater than warning ms of 50 on frame 172.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 56.5223 is greater than warning ms of 50 on frame 172.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 59.7975 is greater than warning ms of 50 on frame 172.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 63.2341 is greater than warning ms of 50 on frame 172.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] F8 panel=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:ToggleKey () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:34)
+RecoveryGiftPanel:Update () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:26)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 34)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] F8 panel=False
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:ToggleKey () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:34)
+RecoveryGiftPanel:Update () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:26)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 34)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] Loaded original scene Island2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 55.0117 is greater than warning ms of 50 on frame 1384.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] Loaded original scene Island3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 65.0925 is greater than warning ms of 50 on frame 1477.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 70.928 is greater than warning ms of 50 on frame 1477.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 77.4887 is greater than warning ms of 50 on frame 1477.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+Opus codec took too long this frame. It is recommended to decrease Opus complexity until this message is rare as long as you have a sensible max codec ms value chosen to maintain your desired fps.
+Elapsed ms of 83.5172 is greater than warning ms of 50 on frame 1477.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MetaVoiceChat.Utils.FrameStopwatch:Stop (single,string,bool,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs:38)
+MetaVoiceChat.MetaVc:SendFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/MetaVc.cs:133)
+MetaVoiceChat.Input.VcAudioInput:SendAndFilterFrame (int,single[]) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/VcAudioInput.cs:25)
+MetaVoiceChat.Input.Mic.VcMic/<CoRecord>d__34:MoveNext () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Input/Mic/VcMic.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/MetaVoiceChat/Utils/FrameStopwatch.cs Line: 38)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] Loaded original scene Island4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] Loaded original scene Island5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] Loaded original scene Mini1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] Loaded original scene Mini2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] Loaded original scene Mini3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] Loaded original scene Mini4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] Loaded original scene Mini5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+playing water
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+Manta:OnStartClient () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Manta.cs:139)
+FishNet.Object.NetworkBehaviour:OnStartClient_Internal ()
+FishNet.Object.NetworkObject:InvokeStartCallbacks (bool,bool)
+FishNet.Object.NetworkObject:Initialize (bool,bool)
+FishNet.Managing.Client.ClientObjectCache:Iterate ()
+FishNet.Managing.Client.ClientObjects:IterateObjectCache ()
+FishNet.Managing.Client.ClientManager:ParseReader (FishNet.Serializing.PooledReader,FishNet.Transporting.Channel,bool)
+FishNet.Managing.Client.ClientManager:ParseReceived (FishNet.Transporting.ClientReceivedDataArgs)
+FishNet.Managing.Client.ClientManager:Transport_OnClientReceivedData (FishNet.Transporting.ClientReceivedDataArgs)
+FishNet.Transporting.Multipass.Multipass:Multipass_OnClientReceivedData (FishNet.Transporting.ClientReceivedDataArgs)
+FishNet.Transporting.UTP.UnityTransport:HandleClientReceivedDataArgs (FishNet.Transporting.ClientReceivedDataArgs)
+FishNet.Transporting.UTP.UnityTransport:IterateClientHost (bool)
+FishNet.Transporting.UTP.UnityTransport:IterateIncoming (bool)
+FishNet.Transporting.Multipass.Multipass:IterateIncoming (bool)
+FishNet.Managing.Transporting.TransportManager:IterateIncoming (bool)
+FishNet.Managing.Timing.TimeManager:TryIterateData (bool)
+FishNet.Managing.Timing.TimeManager:IncreaseTick ()
+FishNet.Managing.Timing.TimeManager:<TickUpdate>g__MethodLogic|102_0 ()
+FishNet.Managing.Timing.TimeManager:TickUpdate ()
+FishNet.Transporting.NetworkReaderLoop:Update ()
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Manta.cs Line: 139)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Recovery] Loaded original scene Island1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] POST /api/chaos/spawn_fish
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] POST /api/chaos/launch
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] POST /api/inventory/drop_all
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] POST /api/status/ignite
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] POST /api/money/add
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+ArgumentNullException: Value cannot be null.
+Parameter name: value
+  at Newtonsoft.Json.Linq.JToken.EnsureValue (Newtonsoft.Json.Linq.JToken value) [0x00003] in <29e3dfd7379d434ca9881f8263fe42fe>:0 
+  at Newtonsoft.Json.Linq.JToken.op_Explicit (Newtonsoft.Json.Linq.JToken value) [0x00000] in <29e3dfd7379d434ca9881f8263fe42fe>:0 
+  at RecoveryVerification+<Run>d__13.MoveNext () [0x013bc] in E:\TT Gaming\How to fish\OriginalRecovery\RecoveredProject\ExportedProject\Assets\Recovery\RecoveryVerification.cs:33 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <9eb5f512edf84b29b73cbc699a604447>:0 
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryVerification.cs Line: 33)
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:Jump (bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:127)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:100)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 127]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:Jump (bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:127)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:100)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 127]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:95)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 95]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:96)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 96]
+
+Setting linear velocity of a kinematic body is not supported.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rigidbody:set_linearVelocity (UnityEngine.Vector3)
+Crab:Jump (bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:127)
+Crab:UpdateMovement () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:100)
+Crab:FixedUpdate () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs:78)
+
+[E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/Crab.cs line 127]
+
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state
+[Info   :HypeMyStream How to Fish] GET /api/state

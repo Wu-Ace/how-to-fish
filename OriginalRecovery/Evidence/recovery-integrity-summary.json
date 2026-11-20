@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-18T08:52:00.659050+00:00",
+  "originalRoot": "E:\\SteamLibrary\\steamapps\\common\\How to Fish\\How to Fish",
+  "runtimeRoot": "E:\\TT Gaming\\How to fish\\OriginalRecovery\\Builds\\OriginalRuntime",
+  "editorVersion": "6000.3.26f1",
+  "originalEngineVersion": "6000.4.4f1",
+  "dataFilesCompared": 319,
+  "identicalDataFiles": 315,
+  "adaptedDataFiles": [
+    "How to Fish_Data/globalgamemanagers",
+    "How to Fish_Data/RuntimeInitializeOnLoads.json",
+    "How to Fish_Data/ScriptingAssemblies.json",
+    "How to Fish_Data/Managed/Assembly-CSharp.dll"
+  ],
+  "unexpectedDifferences": [],
+  "missing": [],
+  "scenes": 12,
+  "prefabs": 182,
+  "sourceFiles": 329,
+  "plugins": [
+    {
+      "path": "BepInEx/plugins/EmbeddedServer/EmbeddedServer.dll",
+      "identical": true,
+      "sha256": "333a02e83b9caa0a6e16d181e5bd4474555e9ed1183be74907657d43a5327dc8"
+    },
+    {
+      "path": "BepInEx/plugins/EmbeddedServer/EmbeddedServerPlugin.dll",
+      "identical": true,
+      "sha256": "9955732e3be3b3fdac011ef73d3879fc7f6be3a8e31fd1ca5c1a94abcf6bbc57"
+    },
+    {
+      "path": "BepInEx/plugins/EmbeddedServer/mods/EmbeddedServer.Mod.dll",
+      "identical": true,
+      "sha256": "8071b2bc4f70deb517c7fa5b4bec0cad418072eec36be351c5b1e11aeefd0fee"
+    }
+  ]
+}

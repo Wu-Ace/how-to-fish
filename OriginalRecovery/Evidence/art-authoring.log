@@ -1,0 +1,161 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.1.1 (hash e1743a0317bc built 2024-04-15 23:33:30)
+Info: Total files 0 | Changed 0 | Failed 0
+Fra:1 Mem:30.20M (Peak 31.26M) | Time:00:03.19 | Syncing Fisher_Original_Skinned
+Fra:1 Mem:30.41M (Peak 31.26M) | Time:00:04.43 | Syncing FisherRig
+Fra:1 Mem:30.42M (Peak 31.26M) | Time:00:04.43 | Syncing Preview floor
+Fra:1 Mem:30.42M (Peak 31.26M) | Time:00:04.43 | Syncing PreviewCamera
+Fra:1 Mem:30.42M (Peak 31.26M) | Time:00:04.43 | Syncing Key
+Fra:1 Mem:30.42M (Peak 31.26M) | Time:00:04.43 | Syncing Fill
+Fra:1 Mem:30.42M (Peak 31.26M) | Time:00:04.43 | Syncing Rim
+Fra:1 Mem:30.42M (Peak 31.26M) | Time:00:04.44 | Rendering 1 / 96 samples
+Fra:1 Mem:30.34M (Peak 31.26M) | Time:00:05.32 | Rendering 26 / 96 samples
+Fra:1 Mem:30.34M (Peak 31.26M) | Time:00:05.44 | Rendering 51 / 96 samples
+Fra:1 Mem:30.34M (Peak 31.26M) | Time:00:05.55 | Rendering 76 / 96 samples
+Fra:1 Mem:30.34M (Peak 31.26M) | Time:00:05.62 | Rendering 96 / 96 samples
+Saved: 'E:\TT Gaming\How to fish\OriginalRecovery\Evidence\OriginalArt\fisher-front.png'
+Time: 00:06.02 (Saving: 00:00.37)
+
+Fra:1 Mem:30.38M (Peak 30.38M) | Time:00:00.00 | Syncing Fisher_Original_Skinned
+Fra:1 Mem:30.54M (Peak 30.54M) | Time:00:00.01 | Syncing FisherRig
+Fra:1 Mem:30.55M (Peak 30.55M) | Time:00:00.01 | Syncing Preview floor
+Fra:1 Mem:30.55M (Peak 30.55M) | Time:00:00.01 | Syncing PreviewCamera
+Fra:1 Mem:30.55M (Peak 30.55M) | Time:00:00.01 | Syncing Key
+Fra:1 Mem:30.55M (Peak 30.55M) | Time:00:00.01 | Syncing Fill
+Fra:1 Mem:30.55M (Peak 30.55M) | Time:00:00.01 | Syncing Rim
+Fra:1 Mem:30.55M (Peak 30.55M) | Time:00:00.01 | Syncing PreviewCamera.001
+Fra:1 Mem:30.55M (Peak 30.55M) | Time:00:00.01 | Syncing Key.001
+Fra:1 Mem:30.55M (Peak 30.55M) | Time:00:00.01 | Syncing Fill.001
+Fra:1 Mem:30.55M (Peak 30.55M) | Time:00:00.01 | Syncing Rim.001
+Fra:1 Mem:30.55M (Peak 30.55M) | Time:00:00.01 | Rendering 1 / 96 samples
+Fra:1 Mem:30.46M (Peak 30.55M) | Time:00:00.17 | Rendering 26 / 96 samples
+Fra:1 Mem:30.46M (Peak 30.55M) | Time:00:00.29 | Rendering 51 / 96 samples
+Fra:1 Mem:30.46M (Peak 30.55M) | Time:00:00.41 | Rendering 76 / 96 samples
+Fra:1 Mem:30.46M (Peak 30.55M) | Time:00:00.51 | Rendering 96 / 96 samples
+Saved: 'E:\TT Gaming\How to fish\OriginalRecovery\Evidence\OriginalArt\fisher-back.png'
+Time: 00:00.69 (Saving: 00:00.16)
+
+Fra:1 Mem:36.66M (Peak 36.66M) | Time:00:00.00 | Syncing Terrain_Harbour
+Fra:1 Mem:36.78M (Peak 36.78M) | Time:00:00.00 | Syncing VegetationAndRocks
+Fra:1 Mem:37.60M (Peak 37.60M) | Time:00:00.00 | Syncing HarbourCabin
+Fra:1 Mem:37.88M (Peak 37.88M) | Time:00:00.00 | Syncing FishingDock
+Fra:1 Mem:38.14M (Peak 38.14M) | Time:00:00.00 | Syncing HarbourProps
+Fra:1 Mem:38.20M (Peak 38.20M) | Time:00:00.00 | Syncing Preview ocean
+Fra:1 Mem:38.20M (Peak 38.20M) | Time:00:00.00 | Syncing PreviewCamera
+Fra:1 Mem:38.20M (Peak 38.20M) | Time:00:00.00 | Syncing Key
+Fra:1 Mem:38.20M (Peak 38.20M) | Time:00:00.00 | Syncing Fill
+Fra:1 Mem:38.20M (Peak 38.20M) | Time:00:00.00 | Syncing Rim
+Fra:1 Mem:38.20M (Peak 38.20M) | Time:00:00.00 | Syncing Sun
+Fra:1 Mem:38.20M (Peak 38.20M) | Time:00:00.01 | Rendering 1 / 96 samples
+Fra:1 Mem:37.33M (Peak 38.20M) | Time:00:00.15 | Rendering 26 / 96 samples
+Fra:1 Mem:37.33M (Peak 38.20M) | Time:00:00.26 | Rendering 51 / 96 samples
+Fra:1 Mem:37.33M (Peak 38.20M) | Time:00:00.34 | Rendering 76 / 96 samples
+Fra:1 Mem:37.33M (Peak 38.20M) | Time:00:00.41 | Rendering 96 / 96 samples
+Saved: 'E:\TT Gaming\How to fish\OriginalRecovery\Evidence\OriginalArt\island-harbour.png'
+Time: 00:00.53 (Saving: 00:00.10)
+
+Fra:1 Mem:42.12M (Peak 42.12M) | Time:00:00.00 | Syncing Terrain_Autumn
+Fra:1 Mem:42.24M (Peak 42.24M) | Time:00:00.00 | Syncing VegetationAndRocks
+Fra:1 Mem:42.98M (Peak 42.98M) | Time:00:00.01 | Syncing HarbourCabin
+Fra:1 Mem:43.27M (Peak 43.27M) | Time:00:00.01 | Syncing FishingDock
+Fra:1 Mem:43.52M (Peak 43.52M) | Time:00:00.01 | Syncing HarbourProps
+Fra:1 Mem:43.58M (Peak 43.58M) | Time:00:00.01 | Syncing Preview ocean
+Fra:1 Mem:43.59M (Peak 43.59M) | Time:00:00.01 | Syncing PreviewCamera
+Fra:1 Mem:43.59M (Peak 43.59M) | Time:00:00.01 | Syncing Key
+Fra:1 Mem:43.59M (Peak 43.59M) | Time:00:00.01 | Syncing Fill
+Fra:1 Mem:43.59M (Peak 43.59M) | Time:00:00.01 | Syncing Rim
+Fra:1 Mem:43.59M (Peak 43.59M) | Time:00:00.01 | Syncing Sun
+Fra:1 Mem:43.58M (Peak 43.59M) | Time:00:00.01 | Rendering 1 / 96 samples
+Fra:1 Mem:42.75M (Peak 43.59M) | Time:00:00.19 | Rendering 26 / 96 samples
+Fra:1 Mem:42.75M (Peak 43.59M) | Time:00:00.32 | Rendering 51 / 96 samples
+Fra:1 Mem:42.75M (Peak 43.59M) | Time:00:00.41 | Rendering 76 / 96 samples
+Fra:1 Mem:42.75M (Peak 43.59M) | Time:00:00.48 | Rendering 96 / 96 samples
+Saved: 'E:\TT Gaming\How to fish\OriginalRecovery\Evidence\OriginalArt\island-autumn.png'
+Time: 00:00.64 (Saving: 00:00.13)
+
+Fra:1 Mem:46.81M (Peak 46.81M) | Time:00:00.00 | Syncing Terrain_Snow
+Fra:1 Mem:46.93M (Peak 46.93M) | Time:00:00.00 | Syncing VegetationAndRocks
+Fra:1 Mem:47.65M (Peak 47.65M) | Time:00:00.01 | Syncing HarbourCabin
+Fra:1 Mem:47.94M (Peak 47.94M) | Time:00:00.01 | Syncing FishingDock
+Fra:1 Mem:48.19M (Peak 48.19M) | Time:00:00.01 | Syncing HarbourProps
+Fra:1 Mem:48.25M (Peak 48.25M) | Time:00:00.01 | Syncing Preview ocean
+Fra:1 Mem:48.26M (Peak 48.26M) | Time:00:00.01 | Syncing PreviewCamera
+Fra:1 Mem:48.26M (Peak 48.26M) | Time:00:00.01 | Syncing Key
+Fra:1 Mem:48.26M (Peak 48.26M) | Time:00:00.01 | Syncing Fill
+Fra:1 Mem:48.26M (Peak 48.26M) | Time:00:00.01 | Syncing Rim
+Fra:1 Mem:48.26M (Peak 48.26M) | Time:00:00.01 | Syncing Sun
+Fra:1 Mem:48.25M (Peak 48.26M) | Time:00:00.02 | Rendering 1 / 96 samples
+Fra:1 Mem:47.44M (Peak 48.26M) | Time:00:00.16 | Rendering 26 / 96 samples
+Fra:1 Mem:47.44M (Peak 48.26M) | Time:00:00.25 | Rendering 51 / 96 samples
+Fra:1 Mem:47.44M (Peak 48.26M) | Time:00:00.35 | Rendering 76 / 96 samples
+Fra:1 Mem:47.44M (Peak 48.26M) | Time:00:00.41 | Rendering 96 / 96 samples
+Saved: 'E:\TT Gaming\How to fish\OriginalRecovery\Evidence\OriginalArt\island-snow.png'
+Time: 00:00.57 (Saving: 00:00.13)
+
+Fra:1 Mem:49.67M (Peak 49.67M) | Time:00:00.00 | Syncing Terrain_Volcanic
+Fra:1 Mem:49.79M (Peak 49.79M) | Time:00:00.00 | Syncing VegetationAndRocks
+Fra:1 Mem:49.94M (Peak 49.94M) | Time:00:00.00 | Syncing HarbourCabin
+Fra:1 Mem:50.23M (Peak 50.23M) | Time:00:00.00 | Syncing FishingDock
+Fra:1 Mem:50.48M (Peak 50.48M) | Time:00:00.01 | Syncing HarbourProps
+Fra:1 Mem:50.56M (Peak 50.56M) | Time:00:00.01 | Syncing Preview ocean
+Fra:1 Mem:50.56M (Peak 50.56M) | Time:00:00.01 | Syncing PreviewCamera
+Fra:1 Mem:50.56M (Peak 50.56M) | Time:00:00.01 | Syncing Key
+Fra:1 Mem:50.56M (Peak 50.56M) | Time:00:00.01 | Syncing Fill
+Fra:1 Mem:50.56M (Peak 50.56M) | Time:00:00.01 | Syncing Rim
+Fra:1 Mem:50.56M (Peak 50.56M) | Time:00:00.01 | Syncing Sun
+Fra:1 Mem:50.56M (Peak 50.56M) | Time:00:00.01 | Rendering 1 / 96 samples
+Fra:1 Mem:50.06M (Peak 50.56M) | Time:00:00.18 | Rendering 26 / 96 samples
+Fra:1 Mem:50.06M (Peak 50.56M) | Time:00:00.28 | Rendering 51 / 96 samples
+Fra:1 Mem:50.06M (Peak 50.56M) | Time:00:00.38 | Rendering 76 / 96 samples
+Fra:1 Mem:50.06M (Peak 50.56M) | Time:00:00.46 | Rendering 96 / 96 samples
+Saved: 'E:\TT Gaming\How to fish\OriginalRecovery\Evidence\OriginalArt\island-volcanic.png'
+Time: 00:00.62 (Saving: 00:00.13)
+
+Fra:1 Mem:57.70M (Peak 57.70M) | Time:00:00.00 | Syncing Terrain_Tropical
+Fra:1 Mem:57.82M (Peak 57.82M) | Time:00:00.00 | Syncing VegetationAndRocks
+Fra:1 Mem:58.86M (Peak 58.92M) | Time:00:00.00 | Syncing HarbourCabin
+Fra:1 Mem:59.15M (Peak 59.15M) | Time:00:00.00 | Syncing FishingDock
+Fra:1 Mem:59.40M (Peak 59.40M) | Time:00:00.00 | Syncing HarbourProps
+Fra:1 Mem:59.46M (Peak 59.46M) | Time:00:00.00 | Syncing Preview ocean
+Fra:1 Mem:59.47M (Peak 59.47M) | Time:00:00.00 | Syncing PreviewCamera
+Fra:1 Mem:59.47M (Peak 59.47M) | Time:00:00.00 | Syncing Key
+Fra:1 Mem:59.47M (Peak 59.47M) | Time:00:00.00 | Syncing Fill
+Fra:1 Mem:59.47M (Peak 59.47M) | Time:00:00.00 | Syncing Rim
+Fra:1 Mem:59.47M (Peak 59.47M) | Time:00:00.00 | Syncing Sun
+Fra:1 Mem:59.46M (Peak 59.47M) | Time:00:00.01 | Rendering 1 / 96 samples
+Fra:1 Mem:58.44M (Peak 59.47M) | Time:00:00.13 | Rendering 26 / 96 samples
+Fra:1 Mem:58.44M (Peak 59.47M) | Time:00:00.24 | Rendering 51 / 96 samples
+Fra:1 Mem:58.44M (Peak 59.47M) | Time:00:00.32 | Rendering 76 / 96 samples
+Fra:1 Mem:58.44M (Peak 59.47M) | Time:00:00.37 | Rendering 96 / 96 samples
+Saved: 'E:\TT Gaming\How to fish\OriginalRecovery\Evidence\OriginalArt\island-tropical.png'
+Time: 00:00.49 (Saving: 00:00.10)
+
+
+FBX export starting... 'E:\\TT Gaming\\How to fish\\OriginalRecovery\\RecoveredProject\\ExportedProject\\Assets\\ArtOriginal\\Models\\Fisher_Original.fbx'
+(bpy.data.armatures['Armature'], 'POSE')
+export finished in 0.3438 sec.
+Info: Saved "Fisher_Original.blend"
+
+FBX export starting... 'E:\\TT Gaming\\How to fish\\OriginalRecovery\\RecoveredProject\\ExportedProject\\Assets\\ArtOriginal\\Models\\Island_Harbour_Original.fbx'
+export finished in 0.0312 sec.
+Info: Saved "Island_Harbour_Original.blend"
+
+FBX export starting... 'E:\\TT Gaming\\How to fish\\OriginalRecovery\\RecoveredProject\\ExportedProject\\Assets\\ArtOriginal\\Models\\Island_Autumn_Original.fbx'
+export finished in 0.0469 sec.
+Info: Saved "Island_Autumn_Original.blend"
+
+FBX export starting... 'E:\\TT Gaming\\How to fish\\OriginalRecovery\\RecoveredProject\\ExportedProject\\Assets\\ArtOriginal\\Models\\Island_Snow_Original.fbx'
+export finished in 0.0469 sec.
+Info: Saved "Island_Snow_Original.blend"
+
+FBX export starting... 'E:\\TT Gaming\\How to fish\\OriginalRecovery\\RecoveredProject\\ExportedProject\\Assets\\ArtOriginal\\Models\\Island_Volcanic_Original.fbx'
+export finished in 0.0312 sec.
+Info: Saved "Island_Volcanic_Original.blend"
+
+FBX export starting... 'E:\\TT Gaming\\How to fish\\OriginalRecovery\\RecoveredProject\\ExportedProject\\Assets\\ArtOriginal\\Models\\Island_Tropical_Original.fbx'
+export finished in 0.0156 sec.
+Info: Saved "Island_Tropical_Original.blend"
+ORIGINAL_ART_AUTHORING_COMPLETE
+
+Blender quit
+Error: Not freed memory blocks: 1, total unfreed memory 0.000023 MB

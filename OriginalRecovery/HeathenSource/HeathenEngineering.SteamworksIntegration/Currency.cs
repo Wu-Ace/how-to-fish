@@ -1,0 +1,86 @@
+namespace HeathenEngineering.SteamworksIntegration;
+
+public static class Currency
+{
+	public enum Code
+	{
+		Unknown,
+		AED,
+		ARS,
+		AUD,
+		BRL,
+		CAD,
+		CHF,
+		CLP,
+		CNY,
+		COP,
+		CRC,
+		EUR,
+		GBP,
+		HKD,
+		ILS,
+		IDR,
+		INR,
+		JPY,
+		KRW,
+		KWD,
+		KZT,
+		MXN,
+		MYR,
+		NOK,
+		NZD,
+		PEN,
+		PHP,
+		PLN,
+		QAR,
+		RUB,
+		SAR,
+		SGD,
+		THB,
+		TRY,
+		TWD,
+		UAH,
+		USD,
+		UYU,
+		VND,
+		ZAR
+	}
+
+	public static string GetSymbol(Code code)
+	{
+		return code switch
+		{
+			Code.Unknown => string.Empty, 
+			Code.AED => "د.إ", 
+			Code.BRL => "R$", 
+			Code.CHF => "CHF", 
+			Code.CNY => "¥", 
+			Code.CRC => "₡", 
+			Code.EUR => "€", 
+			Code.GBP => "£", 
+			Code.ILS => "₪", 
+			Code.IDR => "Rp", 
+			Code.INR => "₹", 
+			Code.JPY => "¥", 
+			Code.KRW => "₩", 
+			Code.KWD => "د.ك", 
+			Code.KZT => "лв", 
+			Code.MYR => "RM", 
+			Code.NOK => "kr", 
+			Code.PEN => "S/.", 
+			Code.PHP => "₱", 
+			Code.PLN => "zł", 
+			Code.QAR => "﷼", 
+			Code.RUB => "₽", 
+			Code.SAR => "﷼", 
+			Code.THB => "฿", 
+			Code.TRY => "₺", 
+			Code.TWD => "NT$", 
+			Code.UAH => "₴", 
+			Code.UYU => "$U", 
+			Code.VND => "₫", 
+			Code.ZAR => "R", 
+			_ => "$", 
+		};
+	}
+}

@@ -1,0 +1,3 @@
+MetaVoiceChat/MetaVc.cs => MetaVoiceChat.MetaVc
+RigidbodySync.cs => RigidbodySync
+Item.cs => Item

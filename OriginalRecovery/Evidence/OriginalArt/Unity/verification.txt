@@ -1,0 +1,65 @@
+UTC 2026-11-18T12:29:24.1749544Z
+Checks=62 Failed=0
+These verify original-art models, import, animation and isolated island colliders; not full restored-game acceptance.
+PASS island 0 original terrain collider
+PASS island 0 ground z=0
+PASS island 0 ground z=5
+PASS island 0 ground z=10
+PASS island 0 ground z=14
+PASS island 0 ground z=16
+PASS island 0 ground z=20
+PASS island 0 ground z=25
+PASS island 0 ground z=29
+PASS island 0 no missing materials
+PASS island 0 dock capsule stays above deck
+PASS island 0 dock capsule travels 4m
+PASS island 1 original terrain collider
+PASS island 1 ground z=0
+PASS island 1 ground z=5
+PASS island 1 ground z=10
+PASS island 1 ground z=14
+PASS island 1 ground z=16
+PASS island 1 ground z=20
+PASS island 1 ground z=25
+PASS island 1 ground z=29
+PASS island 1 no missing materials
+PASS island 1 dock capsule stays above deck
+PASS island 1 dock capsule travels 4m
+PASS island 2 original terrain collider
+PASS island 2 ground z=0
+PASS island 2 ground z=5
+PASS island 2 ground z=10
+PASS island 2 ground z=14
+PASS island 2 ground z=16
+PASS island 2 ground z=20
+PASS island 2 ground z=25
+PASS island 2 ground z=29
+PASS island 2 no missing materials
+PASS island 2 dock capsule stays above deck
+PASS island 2 dock capsule travels 4m
+PASS island 3 original terrain collider
+PASS island 3 ground z=0
+PASS island 3 ground z=5
+PASS island 3 ground z=10
+PASS island 3 ground z=14
+PASS island 3 ground z=16
+PASS island 3 ground z=20
+PASS island 3 ground z=25
+PASS island 3 ground z=29
+PASS island 3 no missing materials
+PASS island 3 dock capsule stays above deck
+PASS island 3 dock capsule travels 4m
+PASS island 4 original terrain collider
+PASS island 4 ground z=0
+PASS island 4 ground z=5
+PASS island 4 ground z=10
+PASS island 4 ground z=14
+PASS island 4 ground z=16
+PASS island 4 ground z=20
+PASS island 4 ground z=25
+PASS island 4 ground z=29
+PASS island 4 no missing materials
+PASS island 4 dock capsule stays above deck
+PASS island 4 dock capsule travels 4m
+PASS fisher skinned mesh and 15 bones
+PASS walk deforms own skinned vertices

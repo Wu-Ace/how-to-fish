@@ -1,0 +1,9 @@
+2026-11-18T08:46:29.8567637Z
+boat=True
+boat root=(-196.50, -1.00, 614.07) deck=(-199.93, -0.58, 611.75)
+held=True bait=True pos=(-199.86, -0.36, 611.88)
+PASS Original right mouse cast: bait distance=28.4028 water=-1 bait=(-199.47, -1.98, 642.47) line=29.47587
+bait type=Default Fish Bait requiresReeling=True
+PASS Original catch spawn: Pike(Clone) underwater=0.2399998 wait=2.487201
+Original reel line=2.605615 bait=(-199.53, -1.88, 614.48)
+FISHING_VERIFICATION_COMPLETE

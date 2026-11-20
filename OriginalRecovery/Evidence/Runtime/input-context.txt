@@ -1,0 +1,2 @@
+blocked=False grounded=True boatDriving=False menu=False paused=False pos=(-192.84, -0.69, 593.18)
+focus=False map=InputActions (UnityEngine.InputSystem.InputActionAsset):Player moveEnabled=True devices=True,True

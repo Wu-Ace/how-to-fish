@@ -1,0 +1,77 @@
+[
+  {
+    "license": "OFL-1.1",
+    "family": "underdog",
+    "sha256": "33F9AEE5B2AAEB85E1F433FB21916D0C6DBAE74E23B94D978B8131BDBDDC40C6",
+    "licenseUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/underdog/OFL.txt",
+    "downloadedUtc": "2026-11-18T10:38:19.1060518Z",
+    "usedPaths": [
+      "Font\\Underdog-Regular_0.ttf",
+      "Font\\Underdog-Regular.ttf"
+    ],
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/underdog/Underdog-Regular.ttf"
+  },
+  {
+    "license": "OFL-1.1",
+    "family": "zcoolkuaile",
+    "sha256": "812A6FC1FE54B6D73A419245C32DFEBA8AA33104D5BE90D1CF6AF082007CB71D",
+    "licenseUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolkuaile/OFL.txt",
+    "downloadedUtc": "2026-11-18T10:38:22.9567115Z",
+    "usedPaths": [
+      "Font\\ZCOOLKuaiLe-Regular.ttf"
+    ],
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolkuaile/ZCOOLKuaiLe-Regular.ttf"
+  },
+  {
+    "license": "OFL-1.1",
+    "family": "notosanssc",
+    "sha256": "A3041811A78C361B1DE50F953C805E0244951C21C5BD412F7232EF0D899AF0DA",
+    "licenseUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+    "downloadedUtc": "2026-11-18T10:38:36.1482968Z",
+    "usedPaths": [
+      "Font\\NotoSansSC-VariableFont_wght.ttf",
+      "Other\\Fonts\\SC\\NotoSansSC-VariableFont_wght_0.ttf",
+      "Other\\Fonts\\SC\\NotoSansSC-VariableFont_wght.ttf"
+    ],
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf"
+  },
+  {
+    "license": "OFL-1.1",
+    "family": "notosansjp",
+    "sha256": "C2F3B4D463500A2DDCD3849CDED1FCEEB9FD6D1C32E6CBECD568453BA50FC68F",
+    "licenseUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/OFL.txt",
+    "downloadedUtc": "2026-11-18T10:38:44.2121327Z",
+    "usedPaths": [
+      "Font\\JP_NotoSans.ttf",
+      "Other\\Fonts\\Japanese\\JP_NotoSans_0.ttf",
+      "Other\\Fonts\\Japanese\\JP_NotoSans.ttf"
+    ],
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf"
+  },
+  {
+    "license": "OFL-1.1",
+    "family": "notosanskr",
+    "sha256": "194018E6B2B293A7964F037B25C0249CE1418BC9AB3C971060A03AA57861E252",
+    "licenseUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/OFL.txt",
+    "downloadedUtc": "2026-11-18T10:38:51.2086933Z",
+    "usedPaths": [
+      "Font\\NotoSansKR.ttf",
+      "Other\\Fonts\\Korean\\NotoSansKR_0.ttf",
+      "Other\\Fonts\\Korean\\NotoSansKR.ttf"
+    ],
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf"
+  },
+  {
+    "license": "OFL-1.1",
+    "family": "notosanstc",
+    "sha256": "864727D210D54F2537BBE23B3A839436C3992AF72DE9322AF5270897246BD44F",
+    "licenseUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanstc/OFL.txt",
+    "downloadedUtc": "2026-11-18T10:38:57.7673700Z",
+    "usedPaths": [
+      "Font\\NotoSansTC.ttf",
+      "Other\\Fonts\\TC\\NotoSansTC_0.ttf",
+      "Other\\Fonts\\TC\\NotoSansTC.ttf"
+    ],
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanstc/NotoSansTC%5Bwght%5D.ttf"
+  }
+]

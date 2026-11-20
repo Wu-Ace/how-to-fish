@@ -1,0 +1,283 @@
+Mono path[0] = 'E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/How to Fish_Data/Managed'
+Mono config path = 'E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.4.4f1 (360f97ecca93)
+[Subsystems] Discovering subsystems at path E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/How to Fish_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 3060 Laptop GPU
+[D3D12 Device Filter] Driver Version: 32.0.16.1074
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 5994 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5994 MB
+    Driver:   32.0.16.1074
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.004 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Message:   BepInEx] BepInEx 5.4.23.5 - How to Fish (2026/11/18 0:25:28)
+[Info   :   BepInEx] Running under Unity v6000.4.4.3542935
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.23.5]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 1 plugin to load
+[Info   :   BepInEx] Loading [HypeMyStream How to Fish 0.2.3]
+[Info   :HypeMyStream How to Fish] Server started on http://127.0.0.1:6096/
+[Info   :HypeMyStream How to Fish] EmbeddedServer listening on http://127.0.0.1:6096/
+[Info   :HypeMyStream How to Fish] Reloading modules...
+[Info   :HypeMyStream How to Fish] How to Fish: registered 56 stream events.
+[Info   :HypeMyStream How to Fish] Loaded module: HowToFishEffects from EmbeddedServer.Mod.dll
+[Info   :HypeMyStream How to Fish] Reload complete. 1 module(s) loaded.
+[Info   :HypeMyStream How to Fish] HotReloader watching: E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\BepInEx\plugins\EmbeddedServer\mods
+[Info   :HypeMyStream How to Fish] HypeMyStream How to Fish v0.2.3 loaded!
+[Message:   BepInEx] Chainloader startup complete
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+Crash!!!
+SymInit: Symbol-SearchPath: '.;E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime;E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/How to Fish_Data/Plugins\x86_64;E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/How to Fish_Data/Plugins;E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: '30491'
+OS-Version: 10.0.0
+E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\How to Fish.exe:How to Fish.exe (00007FF795870000), size: 921600 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.4.4.3991
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFE511F0000), size: 2539520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFE4EF40000), size: 831488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFE4E680000), size: 4231168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\UnityPlayer.dll:UnityPlayer.dll (00007FFC3E920000), size: 38051840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.4.4.3991
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFE4E390000), size: 1564672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFE4ED50000), size: 1359872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9711
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFE4A580000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFE50320000), size: 1957888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFE4E650000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFE4EF10000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFE4E520000), size: 1216512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFE50180000), size: 1675264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\DSTORAGE.dll:DSTORAGE.dll (00007FFC51550000), size: 217088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.3.2506.2501
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFE4EB20000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9711
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFE449E0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFE4F010000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.9711
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFE50900000), size: 3821568 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFE50E80000), size: 1146880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFE51140000), size: 425984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFE4FCF0000), size: 4747264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFE4F910000), size: 770048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFE506A0000), size: 688128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFE4F9E0000), size: 1015808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFE4F150000), size: 8060928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFE50790000), size: 892928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFE50750000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFE4F0C0000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFE38A90000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFE4CA50000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFE4E270000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\WINHTTP.dll:WINHTTP.dll (0000000180000000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.5.0.0
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFE4C650000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFE0DBB0000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFE4BC00000), size: 1323008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFE0DB70000), size: 229376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FFE4E1E0000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3912
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFE4B990000), size: 2486272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFE4AA90000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL:UIAutomationCore.DLL (00007FFE00FD0000), size: 4325376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.2.26100.9818
+C:\WINDOWS\system32\WINHTTP.dll:WINHTTP.dll (00007FFE42780000), size: 1191936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFE4E1C0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+D:\steam\steamclient64.dll:steamclient64.dll (00007FFC86460000), size: 24535040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.86.62.31
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFE50670000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.4202
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFE51030000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8521
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFE4A400000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\WINDOWS\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (00007FFE4D5F0000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+D:\steam\tier0_s64.dll:tier0_s64.dll (00007FFCE7C70000), size: 1687552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.86.62.31
+D:\steam\vstdlib_s64.dll:vstdlib_s64.dll (00007FFCE7BA0000), size: 790528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.86.62.31
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFE4D2F0000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FFE4D900000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9711
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFE4EC90000), size: 704512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFE4D010000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFE4A480000), size: 696320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFC3DED0000), size: 10756096 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFE4BD80000), size: 9175040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFE4E2A0000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFE50CB0000), size: 1425408 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFE476C0000), size: 389120 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (00007FFE4DEE0000), size: 335872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\d3d12.dll:d3d12.dll (00007FFDAF060000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\D3D12\D3D12Core.dll:D3D12Core.dll (00007FFC3DA40000), size: 4780032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.618.1.0
+C:\WINDOWS\SYSTEM32\msasn1.dll:msasn1.dll (00007FFE4D960000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9711
+C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFE446B0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\wldp.dll:wldp.dll (00007FFE4D9E0000), size: 458752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FFE442B0000), size: 1552384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\devobj.dll:devobj.dll (00007FFE4DEA0000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\wintrust.dll:wintrust.dll (00007FFE4EA90000), size: 536576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFE4D8E0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFE4CF60000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FFE059A0000), size: 1339392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.7.247
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFE4D140000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\nvppex.dll:nvppex.dll (00007FFE04AD0000), size: 7499776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.16.1074
+C:\WINDOWS\SYSTEM32\D3DSCache.dll:D3DSCache.dll (00007FFE47C90000), size: 913408 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFE4D690000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\nvldumdx.dll:nvldumdx.dll (00007FFE449F0000), size: 827392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.16.1074
+C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\nvgpucomp64.dll:nvgpucomp64.dll (00007FFE3C300000), size: 98623488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.16.1074
+C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FFE38AD0000), size: 1290240 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\nvwgf2umx.dll:nvwgf2umx.dll (00007FFE32BD0000), size: 89808896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.16.1074
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFE505B0000), size: 716800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFE3B540000), size: 630784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FFE2F860000), size: 1785856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FFE4A810000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\Windows\System32\Windows.Gaming.Input.dll:Windows.Gaming.Input.dll (00007FFE39880000), size: 892928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\inputhost.dll:inputhost.dll (00007FFE2E420000), size: 2007040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\Windows\System32\CoreMessaging.dll:CoreMessaging.dll (00007FFE4A060000), size: 1232896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\Windows\System32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFE432D0000), size: 2424832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\Windows\System32\WinTypes.dll:WinTypes.dll (00007FFE463D0000), size: 1482752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (0000000000400000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.18.944.0
+C:\WINDOWS\SYSTEM32\dcomp.dll:dcomp.dll (00007FFE49990000), size: 2310144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\Microsoft.Internal.WarpPal.dll:Microsoft.Internal.WarpPal.dll (00007FFE49950000), size: 106496 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FFE2E190000), size: 1335296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFE4B730000), size: 2408448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+
+========== OUTPUTTING STACK TRACE ==================
+
+SymInit: Symbol-SearchPath: '.;E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime;E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/How to Fish_Data/Plugins\x86_64;E:/TT Gaming/How to fish/OriginalRecovery/Builds/OriginalRuntime/How to Fish_Data/Plugins;E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: '30491'
+OS-Version: 10.0.0
+E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\How to Fish.exe:How to Fish.exe (00007FF795870000), size: 921600 (result: 0), SymType: '-exported-', PDB: 'E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\How to Fish.exe', fileVersion: 6000.4.4.3991
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFE511F0000), size: 2539520 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntdll.dll', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFE4EF40000), size: 831488 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNEL32.DLL', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFE4E680000), size: 4231168 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNELBASE.dll', fileVersion: 10.0.26100.9974
+E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\UnityPlayer.dll:UnityPlayer.dll (00007FFC3E920000), size: 38051840 (result: 0), SymType: '-exported-', PDB: 'E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\UnityPlayer.dll', fileVersion: 6000.4.4.3991
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFE4E390000), size: 1564672 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\CRYPT32.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFE4ED50000), size: 1359872 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ucrtbase.dll', fileVersion: 10.0.26100.9711
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFE4A580000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dwmapi.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFE50320000), size: 1957888 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\USER32.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFE4E650000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\win32u.dll', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFE4EF10000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\GDI32.dll', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFE4E520000), size: 1216512 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\gdi32full.dll', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFE50180000), size: 1675264 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ole32.dll', fileVersion: 10.0.26100.9974
+E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\DSTORAGE.dll:DSTORAGE.dll (00007FFC51550000), size: 217088 (result: 0), SymType: '-exported-', PDB: 'E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\DSTORAGE.dll', fileVersion: 1.3.2506.2501
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFE4EB20000), size: 667648 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcp_win.dll', fileVersion: 10.0.26100.9711
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFE449E0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VERSION.dll', fileVersion: 10.0.26100.1150
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFE4F010000), size: 692224 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcrt.dll', fileVersion: 7.0.26100.9711
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFE50900000), size: 3821568 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\combase.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFE50E80000), size: 1146880 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\RPCRT4.dll', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFE51140000), size: 425984 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHLWAPI.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFE4FCF0000), size: 4747264 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SETUPAPI.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFE4F910000), size: 770048 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ADVAPI32.dll', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFE506A0000), size: 688128 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\sechost.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFE4F9E0000), size: 1015808 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\shcore.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFE4F150000), size: 8060928 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHELL32.dll', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFE50790000), size: 892928 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\OLEAUT32.dll', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFE50750000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\IMM32.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFE4F0C0000), size: 524288 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WS2_32.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFE38A90000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMM.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFE4CA50000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFE4E270000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\bcrypt.dll', fileVersion: 10.0.26100.9974
+E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\WINHTTP.dll:WINHTTP.dll (0000000180000000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\WINHTTP.dll', fileVersion: 4.5.0.0
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFE4C650000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\HID.DLL', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFE0DBB0000), size: 1097728 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\OPENGL32.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFE4BC00000), size: 1323008 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dxgi.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFE0DB70000), size: 229376 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\GLU32.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FFE4E1E0000), size: 385024 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\powrprof.dll', fileVersion: 10.0.26100.3912
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFE4B990000), size: 2486272 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\d3d11.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFE4AA90000), size: 303104 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dxcore.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL:UIAutomationCore.DLL (00007FFE00FD0000), size: 4325376 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL', fileVersion: 7.2.26100.9818
+C:\WINDOWS\system32\WINHTTP.dll:WINHTTP.dll (00007FFE42780000), size: 1191936 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\WINHTTP.dll', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFE4E1C0000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\UMPDC.dll', fileVersion: 10.0.26100.9818
+D:\steam\steamclient64.dll:steamclient64.dll (00007FFC86460000), size: 24535040 (result: 0), SymType: '-exported-', PDB: 'D:\steam\steamclient64.dll', fileVersion: 9.86.62.31
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFE50670000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\imagehlp.dll', fileVersion: 10.0.26100.4202
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFE51030000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\PSAPI.DLL', fileVersion: 10.0.26100.8521
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFE4A400000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\Secur32.dll', fileVersion: 10.0.26100.7705
+C:\WINDOWS\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (00007FFE4D5F0000), size: 438272 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSWSOCK.dll', fileVersion: 10.0.26100.9818
+D:\steam\tier0_s64.dll:tier0_s64.dll (00007FFCE7C70000), size: 1687552 (result: 0), SymType: '-exported-', PDB: 'D:\steam\tier0_s64.dll', fileVersion: 9.86.62.31
+D:\steam\vstdlib_s64.dll:vstdlib_s64.dll (00007FFCE7BA0000), size: 790528 (result: 0), SymType: '-exported-', PDB: 'D:\steam\vstdlib_s64.dll', fileVersion: 9.86.62.31
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFE4D2F0000), size: 303104 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\SSPICLI.DLL', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FFE4D900000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL', fileVersion: 10.0.26100.9711
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFE4EC90000), size: 704512 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\bcryptPrimitives.dll', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFE4D010000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\kernel.appcore.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFE4A480000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\uxtheme.dll', fileVersion: 10.0.26100.9818
+E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFC3DED0000), size: 10756096 (result: 0), SymType: '-exported-', PDB: 'E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll'
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFE4BD80000), size: 9175040 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\windows.storage.dll', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFE4E2A0000), size: 167936 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\profapi.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFE50CB0000), size: 1425408 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\MSCTF.dll', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFE476C0000), size: 389120 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (00007FFE4DEE0000), size: 335872 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\cfgmgr32.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\d3d12.dll:d3d12.dll (00007FFDAF060000), size: 143360 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\d3d12.dll', fileVersion: 10.0.26100.9818
+E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\D3D12\D3D12Core.dll:D3D12Core.dll (00007FFC3DA40000), size: 4780032 (result: 0), SymType: '-exported-', PDB: 'E:\TT Gaming\How to fish\OriginalRecovery\Builds\OriginalRuntime\D3D12\D3D12Core.dll', fileVersion: 1.618.1.0
+C:\WINDOWS\SYSTEM32\msasn1.dll:msasn1.dll (00007FFE4D960000), size: 77824 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\msasn1.dll', fileVersion: 10.0.26100.9711
+C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFE446B0000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\cryptnet.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\wldp.dll:wldp.dll (00007FFE4D9E0000), size: 458752 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wldp.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FFE442B0000), size: 1552384 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\drvstore.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\devobj.dll:devobj.dll (00007FFE4DEA0000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\devobj.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\wintrust.dll:wintrust.dll (00007FFE4EA90000), size: 536576 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\wintrust.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFE4D8E0000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CRYPTSP.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFE4CF60000), size: 233472 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\rsaenh.dll', fileVersion: 10.0.26100.7705
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FFE059A0000), size: 1339392 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\nvspcap64.dll', fileVersion: 11.0.7.247
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFE4D140000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntmarta.dll', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\nvppex.dll:nvppex.dll (00007FFE04AD0000), size: 7499776 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\nvppex.dll', fileVersion: 32.0.16.1074
+C:\WINDOWS\SYSTEM32\D3DSCache.dll:D3DSCache.dll (00007FFE47C90000), size: 913408 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\D3DSCache.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFE4D690000), size: 212992 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\USERENV.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\nvldumdx.dll:nvldumdx.dll (00007FFE449F0000), size: 827392 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\nvldumdx.dll', fileVersion: 32.0.16.1074
+C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\nvgpucomp64.dll:nvgpucomp64.dll (00007FFE3C300000), size: 98623488 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\nvgpucomp64.dll', fileVersion: 32.0.16.1074
+C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FFE38AD0000), size: 1290240 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\NvMemMapStoragex.dll'
+C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\nvwgf2umx.dll:nvwgf2umx.dll (00007FFE32BD0000), size: 89808896 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nvxii.inf_amd64_4ed98a1eb7b82e49\nvwgf2umx.dll', fileVersion: 32.0.16.1074
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFE505B0000), size: 716800 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFE3B540000), size: 630784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\MMDevApi.dll', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FFE2F860000), size: 1785856 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\AUDIOSES.DLL', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FFE4A810000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll', fileVersion: 10.0.26100.9974
+C:\Windows\System32\Windows.Gaming.Input.dll:Windows.Gaming.Input.dll (00007FFE39880000), size: 892928 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\Windows.Gaming.Input.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\inputhost.dll:inputhost.dll (00007FFE2E420000), size: 2007040 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\inputhost.dll', fileVersion: 10.0.26100.9818
+C:\Windows\System32\CoreMessaging.dll:CoreMessaging.dll (00007FFE4A060000), size: 1232896 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CoreMessaging.dll', fileVersion: 10.0.26100.9818
+C:\Windows\System32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFE432D0000), size: 2424832 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\twinapi.appcore.dll', fileVersion: 10.0.26100.9818
+C:\Windows\System32\WinTypes.dll:WinTypes.dll (00007FFE463D0000), size: 1482752 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WinTypes.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (0000000000400000), size: 122880 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\xinput1_3.dll', fileVersion: 9.18.944.0
+C:\WINDOWS\SYSTEM32\dcomp.dll:dcomp.dll (00007FFE49990000), size: 2310144 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dcomp.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\Microsoft.Internal.WarpPal.dll:Microsoft.Internal.WarpPal.dll (00007FFE49950000), size: 106496 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\Microsoft.Internal.WarpPal.dll'
+C:\WINDOWS\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FFE2E190000), size: 1335296 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\textinputframework.dll', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFE4B730000), size: 2408448 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dbghelp.dll', fileVersion: 10.0.26100.9818
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FFC3EE2BBCE)
+0x00007FFC3EE2BBCE (UnityPlayer) (function-name not available)
+0x00007FFC3FB32E6D (UnityPlayer) UnityMain
+0x00007FFC3FB21679 (UnityPlayer) UnityMain
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FFC3EE324C2)
+0x00007FFC3EE324C2 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FFC3EE32B48)
+0x00007FFC3EE32B48 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: '试图访问无效的地址。
+' (Address: 00007FFC3EE305DB)
+0x00007FFC3EE305DB (UnityPlayer) (function-name not available)
+0x00007FFC3FB1E0DE (UnityPlayer) UnityMain
+0x00007FFC3FB1E002 (UnityPlayer) UnityMain
+0x00007FFC3FB0D844 (UnityPlayer) UnityMain
+0x00007FFC3FB73510 (UnityPlayer) UnityMain
+0x00007FFC3FAFD4BD (UnityPlayer) UnityMain
+0x00007FFC3FAF40F2 (UnityPlayer) UnityMain
+0x00007FFC3FAF4F16 (UnityPlayer) UnityMain
+0x00007FFC3FCC5CE3 (UnityPlayer) UnityMain
+0x00007FFC3FCC76A8 (UnityPlayer) UnityMain
+0x00007FFC3FCC7949 (UnityPlayer) UnityMain
+0x00007FFC3FCC72E9 (UnityPlayer) UnityMain
+0x00007FFC3FFEE2ED (UnityPlayer) UnityMain
+0x00007FFE4EF6DDA7 (KERNEL32) BaseThreadInitThunk
+0x00007FFE512B9C5C (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/30491/AppData/Local/Temp/Dazed Games/How to Fish/Crashes

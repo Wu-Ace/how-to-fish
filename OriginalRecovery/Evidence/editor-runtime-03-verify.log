@@ -1,0 +1,354 @@
+Mono path[0] = 'E:/TT Gaming/How to fish/OriginalRecovery/Builds/EditorRebuilt/HowToFishRecovered_Data/Managed'
+Mono config path = 'E:/TT Gaming/How to fish/OriginalRecovery/Builds/EditorRebuilt/MonoBleedingEdge/etc'
+Found 2 interfaces on host : 0) 172.18.0.1 1) 192.168.71.68
+Player connection [70684]  Target information:
+
+Player connection [70684]  * "[IP] 172.18.0.1 [Port] 55001 [Flags] 2 [Guid] 16762885 [EditorId] 3650416579 [Version] 1048832 [Id] WindowsPlayer(2,splashed_white) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] How to Fish Recovered" 
+
+Player connection [70684]  * "[IP] 192.168.71.68 [Port] 55001 [Flags] 2 [Guid] 16762885 [EditorId] 3650416579 [Version] 1048832 [Id] WindowsPlayer(2,splashed_white) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] How to Fish Recovered" 
+
+Player connection [70684] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.26f1 (de8167e7440c)
+[Subsystems] Discovering subsystems at path E:/TT Gaming/How to fish/OriginalRecovery/Builds/EditorRebuilt/HowToFishRecovered_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 3060 Laptop GPU
+[D3D12 Device Filter] Driver Version: 32.0.16.1074
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 5994 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:          NVIDIA
+    VRAM:            5994 MB
+    App VRAM Budget: 5226 MB
+    Driver:          32.0.16.1074
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.180 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+<RI> Input initialized.
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Voice Chat') is missing!
+The referenced script on this Behaviour (Game Object 'Voice Chat') is missing!
+UnloadTime: 0.782700 ms
+[Message:   BepInEx] BepInEx 5.4.23.5 - HowToFishRecovered (2026/11/18 16:22:35)
+[Info   :   BepInEx] Running under Unity v6000.3.26.14582119
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.23.5]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 1 plugin to load
+[Info   :   BepInEx] Loading [HypeMyStream How to Fish 0.2.3]
+[Info   :HypeMyStream How to Fish] Server started on http://127.0.0.1:6097/
+[Info   :HypeMyStream How to Fish] EmbeddedServer listening on http://127.0.0.1:6097/
+[Info   :HypeMyStream How to Fish] Reloading modules...
+[Info   :HypeMyStream How to Fish] How to Fish: registered 56 stream events.
+[Info   :HypeMyStream How to Fish] Loaded module: HowToFishEffects from EmbeddedServer.Mod.dll
+[Info   :HypeMyStream How to Fish] Reload complete. 1 module(s) loaded.
+[Info   :HypeMyStream How to Fish] HotReloader watching: E:\TT Gaming\How to fish\OriginalRecovery\Builds\EditorRebuilt\BepInEx\plugins\EmbeddedServer\mods
+[Info   :HypeMyStream How to Fish] HypeMyStream How to Fish v0.2.3 loaded!
+[Message:   BepInEx] Chainloader startup complete
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Invalid VFX Particle System. It is skipped.
+Steam Initialization failed, check the log for more information.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+HeathenEngineering.SteamworksIntegration.SteamworksBehaviour:HandleInitializationError (string)
+UnityEngine.Events.InvokableCall`1<string>:Invoke (string)
+UnityEngine.Events.UnityEvent`1<string>:Invoke (string)
+HeathenEngineering.SteamworksIntegration.API.App/Client:Initialize (HeathenEngineering.SteamworksIntegration.AppData)
+HeathenEngineering.SteamworksIntegration.SteamSettings:Initialize ()
+HeathenEngineering.SteamworksIntegration.SteamworksBehaviour:OnEnable ()
+
+[Steamworks.NET] Steam Initialization failed, check the log for more information
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+HeathenEngineering.SteamworksIntegration.API.App/Client:Initialize (HeathenEngineering.SteamworksIntegration.AppData)
+HeathenEngineering.SteamworksIntegration.SteamSettings:Initialize ()
+HeathenEngineering.SteamworksIntegration.SteamworksBehaviour:OnEnable ()
+
+No AudioManager in scene
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+AudioManager:PlayClip (string,UnityEngine.Vector3,single,single,bool,AudioDistance,bool,string) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/AudioManager.cs:338)
+AudioManager:PlayGlobalClip (string,bool,single,single,bool) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/AudioManager.cs:306)
+UIButton:Hover () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/UIButton.cs:66)
+UIButton:OnSelect (UnityEngine.EventSystems.BaseEventData) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/UIButton.cs:106)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.ISelectHandler,UnityEngine.EventSystems.BaseEventData)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.ISelectHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISelectHandler>)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData)
+UnityEngine.EventSystems.EventSystem:SetSelectedGameObject (UnityEngine.GameObject)
+UIButton:OnEnable () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/UIButton.cs:47)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/AudioManager.cs Line: 338)
+
+Local keyword _SKIN_TYPE_GRADIENT_NOISE doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+ShaderManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs:153)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs Line: 153)
+
+Local keyword _SKIN_TYPE_CHECKERBOARD doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+ShaderManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs:154)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs Line: 154)
+
+Local keyword _SKIN_TYPE_VORONOI doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+ShaderManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs:155)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs Line: 155)
+
+Local keyword _SKIN_AFFECTS_ONLY_METALLIC doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+ShaderManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs:156)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs Line: 156)
+
+Local keyword _SKIN_AFFECTS_ONLY_METALLIC_NOISE doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+ShaderManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs:157)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs Line: 157)
+
+Local keyword _SKIN_AFFECTS_EVERYTHING doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+ShaderManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs:158)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs Line: 158)
+
+Local keyword _SKIN_TYPE_GRADIENT_NOISE doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+ShaderManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs:159)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs Line: 159)
+
+Local keyword _SKIN_TYPE_CHECKERBOARD doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+ShaderManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs:160)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs Line: 160)
+
+Local keyword _SKIN_TYPE_VORONOI doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+ShaderManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs:161)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs Line: 161)
+
+Local keyword _SKIN_AFFECTS_ONLY_METALLIC doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+ShaderManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs:162)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs Line: 162)
+
+Local keyword _SKIN_AFFECTS_ONLY_METALLIC_NOISE doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+ShaderManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs:163)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs Line: 163)
+
+Local keyword _SKIN_AFFECTS_EVERYTHING doesn't exist in the shader.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogErrorFormat (string,object[])
+UnityEngine.Rendering.LocalKeyword:.ctor (UnityEngine.Shader,string)
+ShaderManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs:164)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/ShaderManager.cs Line: 164)
+
+Version: 1.0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.MonoBehaviour:print (object)
+SaveManager:Awake () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SaveManager.cs:131)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Scripts/Assembly-CSharp/SaveManager.cs Line: 131)
+
+[Recovery] Loaded original scene Game
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:OnSceneLoaded (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode) (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:23)
+RecoveryGiftPanel:Install () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:22)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 23)
+
+[Recovery] Original gameplay with isolated recovery extension; saves=E:\TT Gaming\How to fish\OriginalRecovery\LocalSaves
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RecoveryGiftPanel:Install () (at E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs:22)
+
+(Filename: E:/TT Gaming/How to fish/OriginalRecovery/RecoveredProject/ExportedProject/Assets/Recovery/RecoveryGiftPanel.cs Line: 22)
+
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+AssetBundle.Unload was called while the asset bundle had an async load operation in progress. The main thread will wait for the async load operation to complete.
+AssetBundle.Unload could not complete because the asset bundle still has an async load operation in progress.
+[Info   :HypeMyStream How to Fish] How to Fish effects shut down and restored timed state.
+[Info   :HypeMyStream How to Fish] ListenLoop exited. running=False
+[Info   :HypeMyStream How to Fish] Server stopped.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Deallocated serialized file cache memory but there are still active readers. This can occur when there are Assetbundles that are still loaded.
+debugger-agent: Unable to listen on 1244
+PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794992835355,"processId":63432,"allocatedMemory":194459,"memoryLabels":[{"Default":136},{"NewDelete":1624},{"Thread":7616},{"Manager":15331},{"GfxDevice":2128},{"Audio":752},{"Serialization":27400},{"JobScheduler":32768},{"File":53088},{"String":416},{"HashMap":50688},{"PoolAlloc":240},{"CloudService":144},{"VR":1872},{"Video":144},{"Subsystems":96},{"CoreBusinessMetrics":120}]}

@@ -1,0 +1,3975 @@
+{
+  "summary": {
+    "utc": "2026-11-18T08:52:00.659050+00:00",
+    "originalRoot": "E:\\SteamLibrary\\steamapps\\common\\How to Fish\\How to Fish",
+    "runtimeRoot": "E:\\TT Gaming\\How to fish\\OriginalRecovery\\Builds\\OriginalRuntime",
+    "editorVersion": "6000.3.26f1",
+    "originalEngineVersion": "6000.4.4f1",
+    "dataFilesCompared": 319,
+    "identicalDataFiles": 315,
+    "adaptedDataFiles": [
+      "How to Fish_Data/globalgamemanagers",
+      "How to Fish_Data/RuntimeInitializeOnLoads.json",
+      "How to Fish_Data/ScriptingAssemblies.json",
+      "How to Fish_Data/Managed/Assembly-CSharp.dll"
+    ],
+    "unexpectedDifferences": [],
+    "missing": [],
+    "scenes": 12,
+    "prefabs": 182,
+    "sourceFiles": 329,
+    "plugins": [
+      {
+        "path": "BepInEx/plugins/EmbeddedServer/EmbeddedServer.dll",
+        "identical": true,
+        "sha256": "333a02e83b9caa0a6e16d181e5bd4474555e9ed1183be74907657d43a5327dc8"
+      },
+      {
+        "path": "BepInEx/plugins/EmbeddedServer/EmbeddedServerPlugin.dll",
+        "identical": true,
+        "sha256": "9955732e3be3b3fdac011ef73d3879fc7f6be3a8e31fd1ca5c1a94abcf6bbc57"
+      },
+      {
+        "path": "BepInEx/plugins/EmbeddedServer/mods/EmbeddedServer.Mod.dll",
+        "identical": true,
+        "sha256": "8071b2bc4f70deb517c7fa5b4bec0cad418072eec36be351c5b1e11aeefd0fee"
+      }
+    ]
+  },
+  "originalData": [
+    {
+      "path": "How to Fish_Data/app.info",
+      "bytes": 23,
+      "originalSha256": "d876e74ed6bc62175c53b0097fb2f85dece943c122b866ad8336ae88d95868e1",
+      "runtimeSha256": "d876e74ed6bc62175c53b0097fb2f85dece943c122b866ad8336ae88d95868e1",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/boot.config",
+      "bytes": 136,
+      "originalSha256": "78471ce9a11cae8ed31a653c06d527945d54105f62e1fca16472ee2635781d1a",
+      "runtimeSha256": "78471ce9a11cae8ed31a653c06d527945d54105f62e1fca16472ee2635781d1a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/globalgamemanagers",
+      "bytes": 1313252,
+      "originalSha256": "f36e32cf6690200dbb5a53f28f2a09df8bc83ae8362af78391f3319233921b35",
+      "runtimeSha256": "524ad4cfe7043bf45b27863cdb5960f3313dcfeb3b98f84293de5870dfb4c1fb",
+      "identical": false,
+      "expectedAdaptation": true
+    },
+    {
+      "path": "How to Fish_Data/globalgamemanagers.assets",
+      "bytes": 2279316,
+      "originalSha256": "3f29f8a7279289f2d4a4f3b8f26b49189016ec696413d238a5aaf4ec99cfb3e9",
+      "runtimeSha256": "3f29f8a7279289f2d4a4f3b8f26b49189016ec696413d238a5aaf4ec99cfb3e9",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/globalgamemanagers.assets.resS",
+      "bytes": 3269488,
+      "originalSha256": "4d75b4d6842aae0408451812012e89d47a27ea765977ef7f97be9aa023e2f3de",
+      "runtimeSha256": "4d75b4d6842aae0408451812012e89d47a27ea765977ef7f97be9aa023e2f3de",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level0",
+      "bytes": 1368312,
+      "originalSha256": "d431069256b76660f1751691682f4dffe615e339fa550083791572867e739966",
+      "runtimeSha256": "d431069256b76660f1751691682f4dffe615e339fa550083791572867e739966",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level1",
+      "bytes": 212360,
+      "originalSha256": "de291734e4ae2b2ecbe6e4694a1239ff903d2a64c27d3ced5de30ecd4cc90c73",
+      "runtimeSha256": "de291734e4ae2b2ecbe6e4694a1239ff903d2a64c27d3ced5de30ecd4cc90c73",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level1.resS",
+      "bytes": 1258976,
+      "originalSha256": "613d80250baada1aa5ee435bc4e67d7993f469217e50a5fcf0642773969760aa",
+      "runtimeSha256": "613d80250baada1aa5ee435bc4e67d7993f469217e50a5fcf0642773969760aa",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level10",
+      "bytes": 19516,
+      "originalSha256": "f930064257c9eccb9806596130528eb5f4d7326bdeaddbe4877f7be166a4a48a",
+      "runtimeSha256": "f930064257c9eccb9806596130528eb5f4d7326bdeaddbe4877f7be166a4a48a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level11",
+      "bytes": 14028,
+      "originalSha256": "ff91caefe6743c6a0ae0de92f4ccbbf761812fdc1a268ac04b477b24169962b9",
+      "runtimeSha256": "ff91caefe6743c6a0ae0de92f4ccbbf761812fdc1a268ac04b477b24169962b9",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level2",
+      "bytes": 767480,
+      "originalSha256": "b9b2f7d51ab22da78e87bbbbf2134a5e1c5138406db79364b758ebdee0687db7",
+      "runtimeSha256": "b9b2f7d51ab22da78e87bbbbf2134a5e1c5138406db79364b758ebdee0687db7",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level2.resS",
+      "bytes": 8310080,
+      "originalSha256": "9f39e0007b3d4a0fe91b2b9fa7e9b89a2d6e3ca3c0c7603b31d22514ef7b91d5",
+      "runtimeSha256": "9f39e0007b3d4a0fe91b2b9fa7e9b89a2d6e3ca3c0c7603b31d22514ef7b91d5",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level3",
+      "bytes": 492328,
+      "originalSha256": "28186fa4751aee13201dbf48090c4b6329e30692407c2f88120986dec3571323",
+      "runtimeSha256": "28186fa4751aee13201dbf48090c4b6329e30692407c2f88120986dec3571323",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level3.resS",
+      "bytes": 3079040,
+      "originalSha256": "43ba8c46fb25f9568376a99df27213d12cd40959b796baff5c70f146d216cbab",
+      "runtimeSha256": "43ba8c46fb25f9568376a99df27213d12cd40959b796baff5c70f146d216cbab",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level4",
+      "bytes": 702520,
+      "originalSha256": "050a5ae985564c343673dcb64e7a3fc5ee48f9cdc72caa68b4db077e098531dd",
+      "runtimeSha256": "050a5ae985564c343673dcb64e7a3fc5ee48f9cdc72caa68b4db077e098531dd",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level4.resS",
+      "bytes": 4991776,
+      "originalSha256": "a3a15def7c381316e13cbcf866b1519a22b8778f0b72aa772c41d62072813005",
+      "runtimeSha256": "a3a15def7c381316e13cbcf866b1519a22b8778f0b72aa772c41d62072813005",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level5",
+      "bytes": 427768,
+      "originalSha256": "2fdc8fc677fd4d72934383b4c026db23e7cae64d10a36d43572e567b258a0a54",
+      "runtimeSha256": "2fdc8fc677fd4d72934383b4c026db23e7cae64d10a36d43572e567b258a0a54",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level5.resS",
+      "bytes": 1945952,
+      "originalSha256": "a2cb12e96846562ee3ed224fd62d3cd3a41626a6e1bf10a8837fd2263a7b3f5a",
+      "runtimeSha256": "a2cb12e96846562ee3ed224fd62d3cd3a41626a6e1bf10a8837fd2263a7b3f5a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level6",
+      "bytes": 1078488,
+      "originalSha256": "a2ba1c764c92091ac77674028e6faa9f7a3e8f7c3fa8a472c2a4088c188a0f80",
+      "runtimeSha256": "a2ba1c764c92091ac77674028e6faa9f7a3e8f7c3fa8a472c2a4088c188a0f80",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level6.resS",
+      "bytes": 8065568,
+      "originalSha256": "c0c8f5a1e238f57dff2f90176075b6db1ba7fb26d8a80a5f2239c78c2ba62b5e",
+      "runtimeSha256": "c0c8f5a1e238f57dff2f90176075b6db1ba7fb26d8a80a5f2239c78c2ba62b5e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level7",
+      "bytes": 96328,
+      "originalSha256": "f5c1a04263dd8a8c87cbc8d2c4915c97b43e1405a4e3ecb5bae582eb7da3c7de",
+      "runtimeSha256": "f5c1a04263dd8a8c87cbc8d2c4915c97b43e1405a4e3ecb5bae582eb7da3c7de",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level7.resS",
+      "bytes": 75200,
+      "originalSha256": "203f5ebdcad22923974c2fd72561adcc9e138bc04fb85d437e8946c00f52b9fc",
+      "runtimeSha256": "203f5ebdcad22923974c2fd72561adcc9e138bc04fb85d437e8946c00f52b9fc",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level8",
+      "bytes": 14652,
+      "originalSha256": "04ff635cd1eea199ac628c378e70c7a114456df738f5c5fdba05ae10a60faf52",
+      "runtimeSha256": "04ff635cd1eea199ac628c378e70c7a114456df738f5c5fdba05ae10a60faf52",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/level9",
+      "bytes": 17532,
+      "originalSha256": "aa972e6849d4da678c3d337bc0461071916a0fd74e4ecdbceac56698bb7dfa93",
+      "runtimeSha256": "aa972e6849d4da678c3d337bc0461071916a0fd74e4ecdbceac56698bb7dfa93",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/resources.assets",
+      "bytes": 2656568,
+      "originalSha256": "91ccab3c0d8a194a332b8e30f27b9e80e3112766cb605d977e54c37c0c8a0cee",
+      "runtimeSha256": "91ccab3c0d8a194a332b8e30f27b9e80e3112766cb605d977e54c37c0c8a0cee",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/resources.assets.resS",
+      "bytes": 9794496,
+      "originalSha256": "7115d0114f48b1289385996484df3f6b7f5ac47eb6700e47f457865c82f274d5",
+      "runtimeSha256": "7115d0114f48b1289385996484df3f6b7f5ac47eb6700e47f457865c82f274d5",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/RuntimeInitializeOnLoads.json",
+      "bytes": 8744,
+      "originalSha256": "d1dedbe1392ebd6e62a43e9bfd81508c11a819bba75da3e2e28063426cd1cbef",
+      "runtimeSha256": "c18346a77f2c984058cfebbf4c5808fb59fb1ed9e8d6a38f07a8cc1840b45861",
+      "identical": false,
+      "expectedAdaptation": true
+    },
+    {
+      "path": "How to Fish_Data/ScriptingAssemblies.json",
+      "bytes": 5626,
+      "originalSha256": "fb8e8c3b38485d8712fbc57dbd4f3c1dd5b6ee5efa7be621418bfd951a61e46a",
+      "runtimeSha256": "dd646ff8c293e9e66f6852f1731c554c23818ef344503bf8378acd8a60f6a3e3",
+      "identical": false,
+      "expectedAdaptation": true
+    },
+    {
+      "path": "How to Fish_Data/sharedassets0.assets",
+      "bytes": 98164524,
+      "originalSha256": "bf8b3af279fcb290532259619672f56d3ba397fb40b7700c9d4c2ac000d9f77c",
+      "runtimeSha256": "bf8b3af279fcb290532259619672f56d3ba397fb40b7700c9d4c2ac000d9f77c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets0.assets.resS",
+      "bytes": 15288080,
+      "originalSha256": "3e3ac39d2901fb61d85333565afdc5c706fbe1c477f98c047b23212f2290bfd8",
+      "runtimeSha256": "3e3ac39d2901fb61d85333565afdc5c706fbe1c477f98c047b23212f2290bfd8",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets0.resource",
+      "bytes": 192675712,
+      "originalSha256": "53d3c0d8b6a318838b4e986d6bdb4b1f87fc07e4a352d58ca94f7e534011bb30",
+      "runtimeSha256": "53d3c0d8b6a318838b4e986d6bdb4b1f87fc07e4a352d58ca94f7e534011bb30",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets1.assets",
+      "bytes": 342096,
+      "originalSha256": "8eb68ba00b51fc878cb03730a601313049d98516b19bf3a697a9300c1057b93b",
+      "runtimeSha256": "8eb68ba00b51fc878cb03730a601313049d98516b19bf3a697a9300c1057b93b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets1.assets.resS",
+      "bytes": 12791712,
+      "originalSha256": "975d9fc46eeb1fde00a3ff688e1e9bf348ea64be7a1647e30bf97baa7901085c",
+      "runtimeSha256": "975d9fc46eeb1fde00a3ff688e1e9bf348ea64be7a1647e30bf97baa7901085c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets10.assets",
+      "bytes": 319468,
+      "originalSha256": "dac9251f373c4409b25d7839689b90f3069e8a2a8c01fe9cc5285caccf30caf5",
+      "runtimeSha256": "dac9251f373c4409b25d7839689b90f3069e8a2a8c01fe9cc5285caccf30caf5",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets10.assets.resS",
+      "bytes": 10298192,
+      "originalSha256": "0cfd40a35d05815371918738c79d6cb455ff8da68fd33496a55769ca817f599e",
+      "runtimeSha256": "0cfd40a35d05815371918738c79d6cb455ff8da68fd33496a55769ca817f599e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets11.assets",
+      "bytes": 40652,
+      "originalSha256": "dd2340cf54ff1c78a65895300498d0f2e93214b8373c689e016960af83357c36",
+      "runtimeSha256": "dd2340cf54ff1c78a65895300498d0f2e93214b8373c689e016960af83357c36",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets11.assets.resS",
+      "bytes": 3183248,
+      "originalSha256": "87307f870e4a0c32cb63f92cb79c2d2ea445846d062de75a929d9065b6e7a61c",
+      "runtimeSha256": "87307f870e4a0c32cb63f92cb79c2d2ea445846d062de75a929d9065b6e7a61c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets2.assets",
+      "bytes": 183776,
+      "originalSha256": "3a3d4574d3e430f40ca010569bdf319640c7a9a9a1649cb61b8e1d47d9001f79",
+      "runtimeSha256": "3a3d4574d3e430f40ca010569bdf319640c7a9a9a1649cb61b8e1d47d9001f79",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets2.assets.resS",
+      "bytes": 7500048,
+      "originalSha256": "bedf57a1061242fea0598bff01fb2b781f8554ddd34efb0264abac1df6a8b82e",
+      "runtimeSha256": "bedf57a1061242fea0598bff01fb2b781f8554ddd34efb0264abac1df6a8b82e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets3.assets",
+      "bytes": 379712,
+      "originalSha256": "d4f610f44845058acbf292a73fbf679fa664dc5e1106c3486f35f55cf35f7756",
+      "runtimeSha256": "d4f610f44845058acbf292a73fbf679fa664dc5e1106c3486f35f55cf35f7756",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets3.assets.resS",
+      "bytes": 9189104,
+      "originalSha256": "8de1c0ccb1a02ecc669101117fc30aa4accff833d6897e060a0a3522c1a4630f",
+      "runtimeSha256": "8de1c0ccb1a02ecc669101117fc30aa4accff833d6897e060a0a3522c1a4630f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets4.assets",
+      "bytes": 1040928,
+      "originalSha256": "c67d3d7ec51329d79eeb0afece83f3506a0f4aeaf6eff51bf102cd417085f07d",
+      "runtimeSha256": "c67d3d7ec51329d79eeb0afece83f3506a0f4aeaf6eff51bf102cd417085f07d",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets4.assets.resS",
+      "bytes": 40117760,
+      "originalSha256": "689a88d55f362dd8382e8b035c388c57294cb9d4f04fca8f302c0a3919e5d8a8",
+      "runtimeSha256": "689a88d55f362dd8382e8b035c388c57294cb9d4f04fca8f302c0a3919e5d8a8",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets5.assets",
+      "bytes": 1140272,
+      "originalSha256": "1bb5a0e1a9104df55b0458e896a8e7f66ab3561277f347e4236f637638e37571",
+      "runtimeSha256": "1bb5a0e1a9104df55b0458e896a8e7f66ab3561277f347e4236f637638e37571",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets5.assets.resS",
+      "bytes": 21504624,
+      "originalSha256": "9593ebcccb3aa9330e0a2f1cda6d9463729859705c5c5e9905643095b842d017",
+      "runtimeSha256": "9593ebcccb3aa9330e0a2f1cda6d9463729859705c5c5e9905643095b842d017",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets6.assets",
+      "bytes": 264608,
+      "originalSha256": "a9d75af2b70555c47297f0fa05269c4d38576e326b4aa78cd3be04302ddfff75",
+      "runtimeSha256": "a9d75af2b70555c47297f0fa05269c4d38576e326b4aa78cd3be04302ddfff75",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets6.assets.resS",
+      "bytes": 8790496,
+      "originalSha256": "6aa529a976b17e26f5326b7dda279cea4562f0aafbe5223bec2af0826ecd8f40",
+      "runtimeSha256": "6aa529a976b17e26f5326b7dda279cea4562f0aafbe5223bec2af0826ecd8f40",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets7.assets",
+      "bytes": 156812,
+      "originalSha256": "0331ef26e3c1febf29ab627e5d7c68d278adf9204aa93d979c83094beb6178f0",
+      "runtimeSha256": "0331ef26e3c1febf29ab627e5d7c68d278adf9204aa93d979c83094beb6178f0",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets7.assets.resS",
+      "bytes": 7429120,
+      "originalSha256": "df97e0a87b2d16822929c87f6bd7b6dd5f5427ef7aa1e7a3678dbc8076f4514b",
+      "runtimeSha256": "df97e0a87b2d16822929c87f6bd7b6dd5f5427ef7aa1e7a3678dbc8076f4514b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets8.assets",
+      "bytes": 161868,
+      "originalSha256": "2c46cddb851c032df91d4821be20a16ab510cd4828a5fba255d2ae43a2205376",
+      "runtimeSha256": "2c46cddb851c032df91d4821be20a16ab510cd4828a5fba255d2ae43a2205376",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets8.assets.resS",
+      "bytes": 4466960,
+      "originalSha256": "6f6738b671024dbc29d4044f9704b13f638f40ab3848de75ca07d0c406702519",
+      "runtimeSha256": "6f6738b671024dbc29d4044f9704b13f638f40ab3848de75ca07d0c406702519",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets9.assets",
+      "bytes": 109604,
+      "originalSha256": "e9d4c836e9307010ea6056aaef7bef121abadbc428d890d128259319933c794c",
+      "runtimeSha256": "e9d4c836e9307010ea6056aaef7bef121abadbc428d890d128259319933c794c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/sharedassets9.assets.resS",
+      "bytes": 3905168,
+      "originalSha256": "fe588dde0017a4358f6a34dec65cd9d45fabc2e8ddf4282a2947268c09370b8e",
+      "runtimeSha256": "fe588dde0017a4358f6a34dec65cd9d45fabc2e8ddf4282a2947268c09370b8e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Adrenak.RNNoise4Unity.Runtime.dll",
+      "bytes": 7168,
+      "originalSha256": "ebf8913d247f94283da97971f45feae417de60b657d15e7f5c9a19f6ee0ba801",
+      "runtimeSha256": "ebf8913d247f94283da97971f45feae417de60b657d15e7f5c9a19f6ee0ba801",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Assembly-CSharp-firstpass.dll",
+      "bytes": 132096,
+      "originalSha256": "c83eca316187944582e5eee59cebc4c3c8a49ce4256d4273a288016c84cf1733",
+      "runtimeSha256": "c83eca316187944582e5eee59cebc4c3c8a49ce4256d4273a288016c84cf1733",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Assembly-CSharp.dll",
+      "bytes": 910848,
+      "originalSha256": "e3ec0befacc5269efdecb279f0ae72155fcde3ebaeed07e361aa15e6f7fc84b1",
+      "runtimeSha256": "c46f0c36da9024b641c7504b2d4be4cad0eabba457afc062ff0356fa17700bf6",
+      "identical": false,
+      "expectedAdaptation": true
+    },
+    {
+      "path": "How to Fish_Data/Managed/com.rlabrecque.steamworks.net.dll",
+      "bytes": 419840,
+      "originalSha256": "6d654e0d82c563dc1af3342022aa61830727055f010e16a93762cf74b71be7c9",
+      "runtimeSha256": "6d654e0d82c563dc1af3342022aa61830727055f010e16a93762cf74b71be7c9",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Concentus.dll",
+      "bytes": 392192,
+      "originalSha256": "11a6de9cbf2ccf27fe359c4847ba63d8ed593284b97ef884e0dc2e9dc7583a01",
+      "runtimeSha256": "11a6de9cbf2ccf27fe359c4847ba63d8ed593284b97ef884e0dc2e9dc7583a01",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/FishNet.CodeAnalysis.dll",
+      "bytes": 5120,
+      "originalSha256": "e56a24a6fe023c324d65dfc4c79b19492f052d011e8bbd45051846be6e05092f",
+      "runtimeSha256": "e56a24a6fe023c324d65dfc4c79b19492f052d011e8bbd45051846be6e05092f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/FishNet.Runtime.dll",
+      "bytes": 801792,
+      "originalSha256": "71ac44a95c7af0cd9333c851f41792ef342b373af26e10f69795e02c9550c61a",
+      "runtimeSha256": "71ac44a95c7af0cd9333c851f41792ef342b373af26e10f69795e02c9550c61a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/FishyUnityTransport.dll",
+      "bytes": 40448,
+      "originalSha256": "fe917e3775af2e7d5ba1f6588f6e0a4da3d359f599b14e8dba7d328f0ce534fb",
+      "runtimeSha256": "fe917e3775af2e7d5ba1f6588f6e0a4da3d359f599b14e8dba7d328f0ce534fb",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/GameKit.Dependencies.dll",
+      "bytes": 78848,
+      "originalSha256": "b88e9339e57e311d748bb4979219cc66cd3656d3122eaf40861923489bed3f01",
+      "runtimeSha256": "b88e9339e57e311d748bb4979219cc66cd3656d3122eaf40861923489bed3f01",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Heathen.Core.dll",
+      "bytes": 129536,
+      "originalSha256": "6986b8c2e9c26fdf6714e5d677dbfbba7162c3c7618e1ebd135a13d42ec91f9b",
+      "runtimeSha256": "6986b8c2e9c26fdf6714e5d677dbfbba7162c3c7618e1ebd135a13d42ec91f9b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Heathen.Steamworks.dll",
+      "bytes": 148480,
+      "originalSha256": "abcd809fe525824875b7f5784830afd909fee1f0aa14aabdbdd2130106341d64",
+      "runtimeSha256": "abcd809fe525824875b7f5784830afd909fee1f0aa14aabdbdd2130106341d64",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Mono.Security.dll",
+      "bytes": 241152,
+      "originalSha256": "9838776992dc44ebe2aff2e9ec52c292024f5464542897aa5d29429a921437b9",
+      "runtimeSha256": "9838776992dc44ebe2aff2e9ec52c292024f5464542897aa5d29429a921437b9",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/mscorlib.dll",
+      "bytes": 4632064,
+      "originalSha256": "eaf6b07fd716403e8fedc054bdd1650142d1dc95d34c01d9485de97b5a0dd84b",
+      "runtimeSha256": "eaf6b07fd716403e8fedc054bdd1650142d1dc95d34c01d9485de97b5a0dd84b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/netstandard.dll",
+      "bytes": 90112,
+      "originalSha256": "6ae62e082dc494a2433984177f60ca4db5fae69b1f360a8b33754172b310b8c5",
+      "runtimeSha256": "6ae62e082dc494a2433984177f60ca4db5fae69b1f360a8b33754172b310b8c5",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Newtonsoft.Json.dll",
+      "bytes": 691712,
+      "originalSha256": "a56146202232958f46bd6a28b5a7da166aea123ee0d646735a46e5c341dfbf1f",
+      "runtimeSha256": "a56146202232958f46bd6a28b5a7da166aea123ee0d646735a46e5c341dfbf1f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.ComponentModel.Composition.dll",
+      "bytes": 257024,
+      "originalSha256": "a30fdde214493b540a5a169aa1729ff494d46f519d9c9a036746967c0845e764",
+      "runtimeSha256": "a30fdde214493b540a5a169aa1729ff494d46f519d9c9a036746967c0845e764",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Configuration.dll",
+      "bytes": 124928,
+      "originalSha256": "223a6629bb9debb0327082da3e525860e734f231274d0f6bb83a164df778b779",
+      "runtimeSha256": "223a6629bb9debb0327082da3e525860e734f231274d0f6bb83a164df778b779",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Core.dll",
+      "bytes": 1113088,
+      "originalSha256": "db725196b862d96beefb95bbb6693f892a12dc401b5c044660d13789e45c255d",
+      "runtimeSha256": "db725196b862d96beefb95bbb6693f892a12dc401b5c044660d13789e45c255d",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Data.DataSetExtensions.dll",
+      "bytes": 29696,
+      "originalSha256": "1d6f66f38cabd57b3d099804593ce5144e22921871dfdf0d6487a4bc725b9c8b",
+      "runtimeSha256": "1d6f66f38cabd57b3d099804593ce5144e22921871dfdf0d6487a4bc725b9c8b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Data.dll",
+      "bytes": 2125312,
+      "originalSha256": "f1e0909723a04b1b8ba3630593893e1a4683b391349b79697b8958d7e897a68f",
+      "runtimeSha256": "f1e0909723a04b1b8ba3630593893e1a4683b391349b79697b8958d7e897a68f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.dll",
+      "bytes": 2641920,
+      "originalSha256": "c3c900393effd00a0d36f1dfd317ffe0f19744aad0c3d9c0b10e5f4d5a00bdd7",
+      "runtimeSha256": "c3c900393effd00a0d36f1dfd317ffe0f19744aad0c3d9c0b10e5f4d5a00bdd7",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Drawing.dll",
+      "bytes": 489984,
+      "originalSha256": "630aeba7b15de154e6faf86270eaaf6921ab2b5e9dd2273382e3a0df8ed918ad",
+      "runtimeSha256": "630aeba7b15de154e6faf86270eaaf6921ab2b5e9dd2273382e3a0df8ed918ad",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.EnterpriseServices.dll",
+      "bytes": 44544,
+      "originalSha256": "e0bd4c9aa95b3264e2bc5c43404637447de098829be95d5364a50c286651ede1",
+      "runtimeSha256": "e0bd4c9aa95b3264e2bc5c43404637447de098829be95d5364a50c286651ede1",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.IO.Compression.dll",
+      "bytes": 114688,
+      "originalSha256": "11877b20d2c14bb0eb208f3e20f102ddd3c78b8c5d18edcea935dd5960e48449",
+      "runtimeSha256": "11877b20d2c14bb0eb208f3e20f102ddd3c78b8c5d18edcea935dd5960e48449",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "bytes": 18432,
+      "originalSha256": "738c6ea02bb89c69473f8e128f077cb6f7d62b04e7928e0e244ea7a991e65853",
+      "runtimeSha256": "738c6ea02bb89c69473f8e128f077cb6f7d62b04e7928e0e244ea7a991e65853",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.IO.Hashing.dll",
+      "bytes": 50488,
+      "originalSha256": "ac7ac3e83805b0b621c48b90543dc733c9a89106835278618357d6187e3da74e",
+      "runtimeSha256": "ac7ac3e83805b0b621c48b90543dc733c9a89106835278618357d6187e3da74e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Memory.dll",
+      "bytes": 4608,
+      "originalSha256": "c4f030a2cba7da7cdcf493257c24560e203d355904aee490d645a935842f834a",
+      "runtimeSha256": "c4f030a2cba7da7cdcf493257c24560e203d355904aee490d645a935842f834a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Net.Http.dll",
+      "bytes": 122880,
+      "originalSha256": "31dd2ec15094027cb78457421633e24f8272a5d83792bd02f5c483339fdc948a",
+      "runtimeSha256": "31dd2ec15094027cb78457421633e24f8272a5d83792bd02f5c483339fdc948a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Numerics.dll",
+      "bytes": 119296,
+      "originalSha256": "5ac2ed1d8235e6e27a7527fc159a852b1391854e35589746276377847228eb62",
+      "runtimeSha256": "5ac2ed1d8235e6e27a7527fc159a852b1391854e35589746276377847228eb62",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Numerics.Vectors.dll",
+      "bytes": 12288,
+      "originalSha256": "531308f91ecfcd854b96a0ee5e5ad3465df30781949e7f6308ce2914869f0dd8",
+      "runtimeSha256": "531308f91ecfcd854b96a0ee5e5ad3465df30781949e7f6308ce2914869f0dd8",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll",
+      "bytes": 18024,
+      "originalSha256": "01748200f2400c742aa689f1f5101bd6298efdfd92c00c18f4fa473847235ba9",
+      "runtimeSha256": "01748200f2400c742aa689f1f5101bd6298efdfd92c00c18f4fa473847235ba9",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Runtime.dll",
+      "bytes": 12288,
+      "originalSha256": "e0a7334b7ba419aaab6bd3bb6992d693e689341a9178172c9bf99c2aa6a085bd",
+      "runtimeSha256": "e0a7334b7ba419aaab6bd3bb6992d693e689341a9178172c9bf99c2aa6a085bd",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Runtime.Serialization.dll",
+      "bytes": 934400,
+      "originalSha256": "5b7219b02b2724941f532f6806cc6402b7b413be0161f8994364ebb80b045330",
+      "runtimeSha256": "5b7219b02b2724941f532f6806cc6402b7b413be0161f8994364ebb80b045330",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Security.dll",
+      "bytes": 320000,
+      "originalSha256": "a51236aca52e7f43a5d236667aeee4c29b74f05e70ed4e66f23bd01f1219471d",
+      "runtimeSha256": "a51236aca52e7f43a5d236667aeee4c29b74f05e70ed4e66f23bd01f1219471d",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.ServiceModel.Internals.dll",
+      "bytes": 215040,
+      "originalSha256": "10362190426d7f2feb552223ebcec5dea0fb33c2ec2e4b512832ddbad2d3fbea",
+      "runtimeSha256": "10362190426d7f2feb552223ebcec5dea0fb33c2ec2e4b512832ddbad2d3fbea",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Transactions.dll",
+      "bytes": 35328,
+      "originalSha256": "8a962b8b8a99a111bd765d090cf27605f0e84911354d7b272cd2ef484bd117c7",
+      "runtimeSha256": "8a962b8b8a99a111bd765d090cf27605f0e84911354d7b272cd2ef484bd117c7",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Xml.dll",
+      "bytes": 3160064,
+      "originalSha256": "22362d813e444a18592ec32a56731dd4265362bc8b2c2aab76a1816f2d7d679e",
+      "runtimeSha256": "22362d813e444a18592ec32a56731dd4265362bc8b2c2aab76a1816f2d7d679e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/System.Xml.Linq.dll",
+      "bytes": 136704,
+      "originalSha256": "eee68bc1879f7a5007752aa31db5640a6ec8f5f18aecd40c92d38989758f795b",
+      "runtimeSha256": "eee68bc1879f7a5007752aa31db5640a6ec8f5f18aecd40c92d38989758f795b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unified.Universal.Blur.dll",
+      "bytes": 16384,
+      "originalSha256": "9fa7162cf650e18add8d58a7b702a5c0741fb9a03298ffaa70fdbf8bd77bdd46",
+      "runtimeSha256": "9fa7162cf650e18add8d58a7b702a5c0741fb9a03298ffaa70fdbf8bd77bdd46",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Addressables.dll",
+      "bytes": 116736,
+      "originalSha256": "339de44cbc20b4973ec6a49e3ace75cf926dd420139a8f9069efd5a717f36e85",
+      "runtimeSha256": "339de44cbc20b4973ec6a49e3ace75cf926dd420139a8f9069efd5a717f36e85",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.AI.Navigation.dll",
+      "bytes": 24064,
+      "originalSha256": "5370b302ec28037cd1723f5fddf27ca3dca7d0b67bcb763a39da8803ca498a81",
+      "runtimeSha256": "5370b302ec28037cd1723f5fddf27ca3dca7d0b67bcb763a39da8803ca498a81",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Animation.Rigging.dll",
+      "bytes": 114176,
+      "originalSha256": "1f1764e77963602b8a47144e6e747d21a05420b2a4875b5ffe52db0f4f7bb1eb",
+      "runtimeSha256": "1f1764e77963602b8a47144e6e747d21a05420b2a4875b5ffe52db0f4f7bb1eb",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll",
+      "bytes": 6144,
+      "originalSha256": "687e066bab068e7007d148e7136f61c9919bbff2a8fa9a9aacbe21d874854087",
+      "runtimeSha256": "687e066bab068e7007d148e7136f61c9919bbff2a8fa9a9aacbe21d874854087",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Burst.dll",
+      "bytes": 304640,
+      "originalSha256": "748c912d96567f470b2fff6d4184247c939536d14634d4e9a46a15a4d49bc8ec",
+      "runtimeSha256": "748c912d96567f470b2fff6d4184247c939536d14634d4e9a46a15a4d49bc8ec",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Burst.Unsafe.dll",
+      "bytes": 5632,
+      "originalSha256": "9d9c1ff52411decbee5d9f0d1cd61ebeaa222077aa77a52101ea3debafae98e2",
+      "runtimeSha256": "9d9c1ff52411decbee5d9f0d1cd61ebeaa222077aa77a52101ea3debafae98e2",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Collections.dll",
+      "bytes": 454656,
+      "originalSha256": "31d58524d3bfff69f571462a7df6e16247bc4d694b603bcbc77a0125f1ce59c4",
+      "runtimeSha256": "31d58524d3bfff69f571462a7df6e16247bc4d694b603bcbc77a0125f1ce59c4",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+      "bytes": 5120,
+      "originalSha256": "ff50383f807f9692e4913b97e47d86fefcb8faa33d6d48cd3e3fd6fc7ffb448d",
+      "runtimeSha256": "ff50383f807f9692e4913b97e47d86fefcb8faa33d6d48cd3e3fd6fc7ffb448d",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.InputSystem.dll",
+      "bytes": 1137152,
+      "originalSha256": "5484f83d5482dd1bc4a80529504286cb10e719b1558bacf61c551216be226ec6",
+      "runtimeSha256": "5484f83d5482dd1bc4a80529504286cb10e719b1558bacf61c551216be226ec6",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.InputSystem.ForUI.dll",
+      "bytes": 16384,
+      "originalSha256": "471e4b084bceaaa8b777b02ad90096d139a8b6ec9752e7e4925be49b0aaec3b1",
+      "runtimeSha256": "471e4b084bceaaa8b777b02ad90096d139a8b6ec9752e7e4925be49b0aaec3b1",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.InternalAPIEngineBridge.004.dll",
+      "bytes": 5120,
+      "originalSha256": "9bd7348969677b06a614aacb99be08602589314bc8a71f0935f1db84eedeaa59",
+      "runtimeSha256": "9bd7348969677b06a614aacb99be08602589314bc8a71f0935f1db84eedeaa59",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.InternalAPIEngineBridge.013.dll",
+      "bytes": 5632,
+      "originalSha256": "aa68b3d4015bf094d9c36f964acf9089941bd89282847a6a11b113c51d233bb5",
+      "runtimeSha256": "aa68b3d4015bf094d9c36f964acf9089941bd89282847a6a11b113c51d233bb5",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.dll",
+      "bytes": 4096,
+      "originalSha256": "b0411210cabbcc9ddda6863e0d6276e498185bafad2f4b8bd5dee99d70fc19f0",
+      "runtimeSha256": "b0411210cabbcc9ddda6863e0d6276e498185bafad2f4b8bd5dee99d70fc19f0",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Localization.dll",
+      "bytes": 324096,
+      "originalSha256": "d2a4dd5b2b3afea997b20899bc4d22af18b6472f2694593356c4bb39a9ca42ae",
+      "runtimeSha256": "d2a4dd5b2b3afea997b20899bc4d22af18b6472f2694593356c4bb39a9ca42ae",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Mathematics.dll",
+      "bytes": 752640,
+      "originalSha256": "30247bf1d90d977c9cab359d8e67cea5e3436115dcdf2c2fa92899a2bb4d7a97",
+      "runtimeSha256": "30247bf1d90d977c9cab359d8e67cea5e3436115dcdf2c2fa92899a2bb4d7a97",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Multiplayer.Center.Common.dll",
+      "bytes": 10752,
+      "originalSha256": "a9362eb688c886c6cf6c9481dd60885ab80f4cb6aa8ccb05b784a70e924b8d35",
+      "runtimeSha256": "a9362eb688c886c6cf6c9481dd60885ab80f4cb6aa8ccb05b784a70e924b8d35",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Multiplayer.Playmode.Common.Runtime.dll",
+      "bytes": 5632,
+      "originalSha256": "f5fdc1d2b8510e133a0c78b3119ef1e057ddf891c33e8a372ecfd1ed0939b54d",
+      "runtimeSha256": "f5fdc1d2b8510e133a0c78b3119ef1e057ddf891c33e8a372ecfd1ed0939b54d",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Multiplayer.Playmode.dll",
+      "bytes": 5632,
+      "originalSha256": "88ccef284e8341df9e8f35452bdf7d083c3ce2d9c3942bac6766416e41f6b70b",
+      "runtimeSha256": "88ccef284e8341df9e8f35452bdf7d083c3ce2d9c3942bac6766416e41f6b70b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Networking.Transport.dll",
+      "bytes": 242688,
+      "originalSha256": "e166aaa9dbcdefd23e5205192aa3a948be5f390c15a269bc3700fe081a7f569c",
+      "runtimeSha256": "e166aaa9dbcdefd23e5205192aa3a948be5f390c15a269bc3700fe081a7f569c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.PathTracing.Runtime.dll",
+      "bytes": 152064,
+      "originalSha256": "a94599522f8dfb837aadfdbd7dbdbdc5551ea1d661404e1217e54ae8a6344c1e",
+      "runtimeSha256": "a94599522f8dfb837aadfdbd7dbdbdc5551ea1d661404e1217e54ae8a6344c1e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Profiling.Core.dll",
+      "bytes": 10240,
+      "originalSha256": "7cf4b598ac9d394d16d127a0fed14185cef769a448ee3a5c8a78d5344955a90d",
+      "runtimeSha256": "7cf4b598ac9d394d16d127a0fed14185cef769a448ee3a5c8a78d5344955a90d",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll",
+      "bytes": 305664,
+      "originalSha256": "55269653a7cf2b8a5cf87a5e9eb90a5abbdb853fc54315857786e69bc490a386",
+      "runtimeSha256": "55269653a7cf2b8a5cf87a5e9eb90a5abbdb853fc54315857786e69bc490a386",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+      "bytes": 9216,
+      "originalSha256": "ad5fafafa6e2e2e2601115e69f03d8d57a874bfd8b278eacecb37926b85fe9e4",
+      "runtimeSha256": "ad5fafafa6e2e2e2601115e69f03d8d57a874bfd8b278eacecb37926b85fe9e4",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+      "bytes": 1207808,
+      "originalSha256": "4694cc401f45d78ad936f3113e516499df4fe3c7933156260c3697134adbfd19",
+      "runtimeSha256": "4694cc401f45d78ad936f3113e516499df4fe3c7933156260c3697134adbfd19",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+      "bytes": 5632,
+      "originalSha256": "4bfc589ec9a8c0337c101a0ec7577928f820e30769feefe4ad9431b493196f62",
+      "runtimeSha256": "4bfc589ec9a8c0337c101a0ec7577928f820e30769feefe4ad9431b493196f62",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+      "bytes": 4608,
+      "originalSha256": "dfe5c69cbc05d8012d7ea446256df1e0668eed9e342b118f87462ea4800b530a",
+      "runtimeSha256": "dfe5c69cbc05d8012d7ea446256df1e0668eed9e342b118f87462ea4800b530a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+      "bytes": 236032,
+      "originalSha256": "371f03c3f8f71f181e9c41a81ede1a948851a1b74ffc2ce5fa385356d17a4360",
+      "runtimeSha256": "371f03c3f8f71f181e9c41a81ede1a948851a1b74ffc2ce5fa385356d17a4360",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+      "bytes": 4608,
+      "originalSha256": "2dfe41c412908fd5d66e64f4463eb471b2be68f0b950166a2a3fec8418761f4b",
+      "runtimeSha256": "2dfe41c412908fd5d66e64f4463eb471b2be68f0b950166a2a3fec8418761f4b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+      "bytes": 235520,
+      "originalSha256": "055288c1be4440b71f6abbc0e8fb15c3c869445ef7148b7c23bf7c4329c5b836",
+      "runtimeSha256": "055288c1be4440b71f6abbc0e8fb15c3c869445ef7148b7c23bf7c4329c5b836",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+      "bytes": 5632,
+      "originalSha256": "782f27e51d384ba6f3a6812f96de906ff67d917043c9154059b229c10d9fc633",
+      "runtimeSha256": "782f27e51d384ba6f3a6812f96de906ff67d917043c9154059b229c10d9fc633",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+      "bytes": 770048,
+      "originalSha256": "5af8470c940b05fc09b00015074fdf3b7eb89c679165c93e2c082d18f86fc0e0",
+      "runtimeSha256": "5af8470c940b05fc09b00015074fdf3b7eb89c679165c93e2c082d18f86fc0e0",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+      "bytes": 4608,
+      "originalSha256": "e3fbfadeac9f57eec2bafb32d9659362d9d6e3eac530fc4c245ca31449d9d6bf",
+      "runtimeSha256": "e3fbfadeac9f57eec2bafb32d9659362d9d6e3eac530fc4c245ca31449d9d6bf",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.ResourceManager.dll",
+      "bytes": 143360,
+      "originalSha256": "25fdc3e42571029df916e736fefb585ab33eb0b2c88a78094e7d97f3ae92ae6f",
+      "runtimeSha256": "25fdc3e42571029df916e736fefb585ab33eb0b2c88a78094e7d97f3ae92ae6f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.ScriptableBuildPipeline.dll",
+      "bytes": 9216,
+      "originalSha256": "9812585782a0abf39fb0d77c75b1610086dae51358d041c4b5d8bfc768df38d4",
+      "runtimeSha256": "9812585782a0abf39fb0d77c75b1610086dae51358d041c4b5d8bfc768df38d4",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Scripting.dll",
+      "bytes": 74672,
+      "originalSha256": "50ca84ce5c391c40775485371c9aea29e5397735d0ebca2d4da79be07dc340b9",
+      "runtimeSha256": "50ca84ce5c391c40775485371c9aea29e5397735d0ebca2d4da79be07dc340b9",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Analytics.dll",
+      "bytes": 73728,
+      "originalSha256": "ec5bb957b2e150cc591747b5567f2e6acb488de937f18c4aa84d9e58b0709628",
+      "runtimeSha256": "ec5bb957b2e150cc591747b5567f2e6acb488de937f18c4aa84d9e58b0709628",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Authentication.dll",
+      "bytes": 146944,
+      "originalSha256": "d9be816c9cb6b06694d390006a6fb198c772e03f01ac3ff8fc9483296de1c391",
+      "runtimeSha256": "d9be816c9cb6b06694d390006a6fb198c772e03f01ac3ff8fc9483296de1c391",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Authentication.PlayerAccounts.dll",
+      "bytes": 43520,
+      "originalSha256": "26adb1e282d2db5eb993f140e42014f2a30733796d95215420305579c5a408f5",
+      "runtimeSha256": "26adb1e282d2db5eb993f140e42014f2a30733796d95215420305579c5a408f5",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.Analytics.dll",
+      "bytes": 5632,
+      "originalSha256": "c43d07a248a63d97dffa4474be731946fa7ead172e0f57cc4919f9be95219188",
+      "runtimeSha256": "c43d07a248a63d97dffa4474be731946fa7ead172e0f57cc4919f9be95219188",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.Components.dll",
+      "bytes": 10752,
+      "originalSha256": "9fbf0eee0f9fd561a6f8df2d0b79430e696284ab7ece8c574cb9f8713baeb914",
+      "runtimeSha256": "9fbf0eee0f9fd561a6f8df2d0b79430e696284ab7ece8c574cb9f8713baeb914",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.Configuration.dll",
+      "bytes": 14336,
+      "originalSha256": "8047363a3be433ed81365e93731fd0e9362180d9cdf54444a4782b5cd2abafec",
+      "runtimeSha256": "8047363a3be433ed81365e93731fd0e9362180d9cdf54444a4782b5cd2abafec",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.Device.dll",
+      "bytes": 7168,
+      "originalSha256": "f11831f496695adf2a126eb40db43928f5037a531e1073d8ccd4233445d16c56",
+      "runtimeSha256": "f11831f496695adf2a126eb40db43928f5037a531e1073d8ccd4233445d16c56",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.dll",
+      "bytes": 17920,
+      "originalSha256": "191253a85d32a17620e04c817b16ced3ff0b0bcb4c1d0570b37ae4a328823ee2",
+      "runtimeSha256": "191253a85d32a17620e04c817b16ced3ff0b0bcb4c1d0570b37ae4a328823ee2",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.Environments.dll",
+      "bytes": 5632,
+      "originalSha256": "242ca1291430146456493b94046db2cecf54df3e1674d41abd63c7c568a45009",
+      "runtimeSha256": "242ca1291430146456493b94046db2cecf54df3e1674d41abd63c7c568a45009",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.Environments.Internal.dll",
+      "bytes": 5120,
+      "originalSha256": "e3990fdd7890d80828528b944bc8835c336ced3a88a37adf9f2dcfffce387983",
+      "runtimeSha256": "e3990fdd7890d80828528b944bc8835c336ced3a88a37adf9f2dcfffce387983",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.Internal.dll",
+      "bytes": 75264,
+      "originalSha256": "3b361b2f7f3806082e0d219a0ce603e6ece704e121132fa396c35579c61e06e1",
+      "runtimeSha256": "3b361b2f7f3806082e0d219a0ce603e6ece704e121132fa396c35579c61e06e1",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.Networking.dll",
+      "bytes": 8192,
+      "originalSha256": "96d5827ead8e9d4fa70ca142af4005c632cf1defc8f093587b291b6c68a35d62",
+      "runtimeSha256": "96d5827ead8e9d4fa70ca142af4005c632cf1defc8f093587b291b6c68a35d62",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.Registration.dll",
+      "bytes": 18432,
+      "originalSha256": "4c555e12f7dba4d36c10ba3a32e28b3da08185f69b9560f6e01ca54561d01ba9",
+      "runtimeSha256": "4c555e12f7dba4d36c10ba3a32e28b3da08185f69b9560f6e01ca54561d01ba9",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.Scheduler.dll",
+      "bytes": 12800,
+      "originalSha256": "3c858b0206e11d7c02ca57d643628c1aa1432a96c6366aaceeedcafdf5b9b18c",
+      "runtimeSha256": "3c858b0206e11d7c02ca57d643628c1aa1432a96c6366aaceeedcafdf5b9b18c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.Telemetry.dll",
+      "bytes": 8704,
+      "originalSha256": "bed4017767a4a1f6d7f2a64088357e425740274d590e3e5677b2b6ffba4db492",
+      "runtimeSha256": "bed4017767a4a1f6d7f2a64088357e425740274d590e3e5677b2b6ffba4db492",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.Services.Core.Threading.dll",
+      "bytes": 7168,
+      "originalSha256": "236825fdaf5134dba474b46659e9ca07c33ff30fbd6ea613507c0338a0e2a3b5",
+      "runtimeSha256": "236825fdaf5134dba474b46659e9ca07c33ff30fbd6ea613507c0338a0e2a3b5",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.SurfaceCache.Runtime.dll",
+      "bytes": 4096,
+      "originalSha256": "05b8fbb5cb37be2e1acfaaec2ef5981afa788ca499778b376fb82bbd0a6130d6",
+      "runtimeSha256": "05b8fbb5cb37be2e1acfaaec2ef5981afa788ca499778b376fb82bbd0a6130d6",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.TextMeshPro.dll",
+      "bytes": 448000,
+      "originalSha256": "782402af5bc7a554d509ead8ede5a938979f62dac79e686db5b452ce65f914c8",
+      "runtimeSha256": "782402af5bc7a554d509ead8ede5a938979f62dac79e686db5b452ce65f914c8",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.UnifiedRayTracing.Runtime.dll",
+      "bytes": 101376,
+      "originalSha256": "7e7e64378d4cc846bf7b4097e8fe4405bf475953a1d733135e1603135d87a37e",
+      "runtimeSha256": "7e7e64378d4cc846bf7b4097e8fe4405bf475953a1d733135e1603135d87a37e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/Unity.VisualEffectGraph.Runtime.dll",
+      "bytes": 79872,
+      "originalSha256": "d7f03f1142d1cdf13927546fa3befc39d22bacb527502bd8d24261443d623510",
+      "runtimeSha256": "d7f03f1142d1cdf13927546fa3befc39d22bacb527502bd8d24261443d623510",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "bytes": 48560,
+      "originalSha256": "1bcb4bb2ced45db532b3b36b6ed4f023f9feb756fd085ecaa4cea6f7c49f089a",
+      "runtimeSha256": "1bcb4bb2ced45db532b3b36b6ed4f023f9feb756fd085ecaa4cea6f7c49f089a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll",
+      "bytes": 116136,
+      "originalSha256": "0e3196f6c9d6099ce66f944272ef101f2525479bde4ce1f17c967c18de0f2de6",
+      "runtimeSha256": "0e3196f6c9d6099ce66f944272ef101f2525479bde4ce1f17c967c18de0f2de6",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.AIModule.dll",
+      "bytes": 75696,
+      "originalSha256": "68b30ea331addb2572590e5d0fe64c22d7c9c7d20abb0db5f6eab64f3b595a1c",
+      "runtimeSha256": "68b30ea331addb2572590e5d0fe64c22d7c9c7d20abb0db5f6eab64f3b595a1c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.AMDModule.dll",
+      "bytes": 21928,
+      "originalSha256": "342d87574a91d5e0b075fe875e5ec47090e9de290816ea012b4a4820b9ca9f40",
+      "runtimeSha256": "342d87574a91d5e0b075fe875e5ec47090e9de290816ea012b4a4820b9ca9f40",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "bytes": 114608,
+      "originalSha256": "b1a403d740b005a6971b62fb1c153535762ca05e8da40a4c04100667cb14776a",
+      "runtimeSha256": "b1a403d740b005a6971b62fb1c153535762ca05e8da40a4c04100667cb14776a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.AnimationModule.dll",
+      "bytes": 216488,
+      "originalSha256": "15719d51809b11ce5377997aebb2bb0393c8c60a7e190fc0218c41f7f6f9c48c",
+      "runtimeSha256": "15719d51809b11ce5377997aebb2bb0393c8c60a7e190fc0218c41f7f6f9c48c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.ARModule.dll",
+      "bytes": 26032,
+      "originalSha256": "d7a3ed4ae062f1383783f80040366f6f433d8a5ae6f796c57a82872ef0fb6ff9",
+      "runtimeSha256": "d7a3ed4ae062f1383783f80040366f6f433d8a5ae6f796c57a82872ef0fb6ff9",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "bytes": 41392,
+      "originalSha256": "392917dae96d13b9f911386fcdee12f671cb7f1a02127de24614bc0317224e3e",
+      "runtimeSha256": "392917dae96d13b9f911386fcdee12f671cb7f1a02127de24614bc0317224e3e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.AudioModule.dll",
+      "bytes": 139184,
+      "originalSha256": "a1927eb5b8335b79b20ad8fa596eff2a6f36d8930e4c47cf1bcbc2c38ec1a821",
+      "runtimeSha256": "a1927eb5b8335b79b20ad8fa596eff2a6f36d8930e4c47cf1bcbc2c38ec1a821",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.ClothModule.dll",
+      "bytes": 36776,
+      "originalSha256": "29bfeff11ab40f78ff93ba66a329966b5f9c001d0147a9b1c7848ef83339f8d3",
+      "runtimeSha256": "29bfeff11ab40f78ff93ba66a329966b5f9c001d0147a9b1c7848ef83339f8d3",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "bytes": 28592,
+      "originalSha256": "b49516347c56ba3f247f813248cc2b5a7c93a4ca24bc248aab9f218645a013a3",
+      "runtimeSha256": "b49516347c56ba3f247f813248cc2b5a7c93a4ca24bc248aab9f218645a013a3",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "bytes": 27056,
+      "originalSha256": "87222e927dfe70fadcc77c927f15283041bf09571db26ca6c20185260d36f17b",
+      "runtimeSha256": "87222e927dfe70fadcc77c927f15283041bf09571db26ca6c20185260d36f17b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.ContentLoadModule.dll",
+      "bytes": 33704,
+      "originalSha256": "ffb5090d2db79b5b83f5a175a6b9dcd7f6b1c7b0c26c9654ddf413914b4ba315",
+      "runtimeSha256": "ffb5090d2db79b5b83f5a175a6b9dcd7f6b1c7b0c26c9654ddf413914b4ba315",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.CoreModule.dll",
+      "bytes": 1998768,
+      "originalSha256": "7fb6a9be521cd31e081e6a5a512134d236058fc8572eab5f9db998068e8fb807",
+      "runtimeSha256": "7fb6a9be521cd31e081e6a5a512134d236058fc8572eab5f9db998068e8fb807",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "bytes": 27048,
+      "originalSha256": "f000d3394403d2b66d3ef5fec99ba5c3ef690ffc6ab02ff0a15142ceb463277b",
+      "runtimeSha256": "f000d3394403d2b66d3ef5fec99ba5c3ef690ffc6ab02ff0a15142ceb463277b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.DirectorModule.dll",
+      "bytes": 41392,
+      "originalSha256": "f78a278473b3cb2c950ff7cea0f4796ecfeb36437b6b7b8e5767b94eb8d1093b",
+      "runtimeSha256": "f78a278473b3cb2c950ff7cea0f4796ecfeb36437b6b7b8e5767b94eb8d1093b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.dll",
+      "bytes": 201128,
+      "originalSha256": "421a89ead3f9481eb6b33449d529024eae9ea137c23a8704778258834bbfce52",
+      "runtimeSha256": "421a89ead3f9481eb6b33449d529024eae9ea137c23a8704778258834bbfce52",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "bytes": 32168,
+      "originalSha256": "39c179dc62772c9422e21ed6912efe5b7024cb0caecd54b1381627578cc9ac9c",
+      "runtimeSha256": "39c179dc62772c9422e21ed6912efe5b7024cb0caecd54b1381627578cc9ac9c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "bytes": 44976,
+      "originalSha256": "d54b965d81bdd67ba7503476e455959f232af025cb848c4cf919f6e93ab38225",
+      "runtimeSha256": "d54b965d81bdd67ba7503476e455959f232af025cb848c4cf919f6e93ab38225",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.GIModule.dll",
+      "bytes": 24488,
+      "originalSha256": "45b988b980b41821113fa7144b422e5ed54f54ceb0d018d9e6be5ebf65efeb80",
+      "runtimeSha256": "45b988b980b41821113fa7144b422e5ed54f54ceb0d018d9e6be5ebf65efeb80",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+      "bytes": 14256,
+      "originalSha256": "e054db02f25439b22a227768ec572c6671c2f16a66ff8e02fc50d7751328e76f",
+      "runtimeSha256": "e054db02f25439b22a227768ec572c6671c2f16a66ff8e02fc50d7751328e76f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.GridModule.dll",
+      "bytes": 30640,
+      "originalSha256": "86d63cdc7a3ae015747cac97d5af2bd46f2d5b8cac0de8f83eb62714c7ae343c",
+      "runtimeSha256": "86d63cdc7a3ae015747cac97d5af2bd46f2d5b8cac0de8f83eb62714c7ae343c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
+      "bytes": 106416,
+      "originalSha256": "e5ad36850632e25f5d54ae74aece9135bf7525ebf9aa57b0a51e6e3d3f538de2",
+      "runtimeSha256": "e5ad36850632e25f5d54ae74aece9135bf7525ebf9aa57b0a51e6e3d3f538de2",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.HierarchyModule.dll",
+      "bytes": 97704,
+      "originalSha256": "edd3a9a1419168c79128a5e645dbc6ea473a2877e9014f398b7cc6844ced5d83",
+      "runtimeSha256": "edd3a9a1419168c79128a5e645dbc6ea473a2877e9014f398b7cc6844ced5d83",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "bytes": 24488,
+      "originalSha256": "b644b794488009c2e6baed94a2cb71a64234a8e8260b45995ef40367fe189789",
+      "runtimeSha256": "b644b794488009c2e6baed94a2cb71a64234a8e8260b45995ef40367fe189789",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.IdentifiersModule.dll",
+      "bytes": 15272,
+      "originalSha256": "5914c5322454af6081ab6ddbf4af529084939aa66ca67ffb9c0ea231e2ea569a",
+      "runtimeSha256": "5914c5322454af6081ab6ddbf4af529084939aa66ca67ffb9c0ea231e2ea569a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "bytes": 31656,
+      "originalSha256": "b96861a87acab418a2fb07893726e5b9b1d54f00685534b439d4aa23da9e6177",
+      "runtimeSha256": "b96861a87acab418a2fb07893726e5b9b1d54f00685534b439d4aa23da9e6177",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "bytes": 180136,
+      "originalSha256": "4b9eb8ee3db997d9fd9e87d97d15a1b301f6c85ae8cfec26a91caa4f64c47ea8",
+      "runtimeSha256": "4b9eb8ee3db997d9fd9e87d97d15a1b301f6c85ae8cfec26a91caa4f64c47ea8",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.InputForUIModule.dll",
+      "bytes": 55728,
+      "originalSha256": "1adfde2006d86233cd8d7a454c99bf16731883acfe0aed7bccd91401afe9af84",
+      "runtimeSha256": "1adfde2006d86233cd8d7a454c99bf16731883acfe0aed7bccd91401afe9af84",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "bytes": 40872,
+      "originalSha256": "06b700b06bba8ae1ab54dfd96e8536657f87d0408a7f87e3f8f89cb8d6d0cb35",
+      "runtimeSha256": "06b700b06bba8ae1ab54dfd96e8536657f87d0408a7f87e3f8f89cb8d6d0cb35",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.InputModule.dll",
+      "bytes": 29104,
+      "originalSha256": "8a2cb9b2866815cd21ce6b63db94ce80cb664455f66800bd98ce7d45a99097bb",
+      "runtimeSha256": "8a2cb9b2866815cd21ce6b63db94ce80cb664455f66800bd98ce7d45a99097bb",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.InsightsModule.dll",
+      "bytes": 14256,
+      "originalSha256": "3ddc647f25e10ef7de7117a2626f433864064560e0b23e5d1a79162a527be3d4",
+      "runtimeSha256": "3ddc647f25e10ef7de7117a2626f433864064560e0b23e5d1a79162a527be3d4",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "bytes": 27568,
+      "originalSha256": "5b02b1556e015fc3f20f40c2b5933eb8077121a8869ce16496b0c326c3920164",
+      "runtimeSha256": "5b02b1556e015fc3f20f40c2b5933eb8077121a8869ce16496b0c326c3920164",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "bytes": 27568,
+      "originalSha256": "dd77d6e4f918407149fa1133a781b8a3a1d39a601440ec082740784a84ba8760",
+      "runtimeSha256": "dd77d6e4f918407149fa1133a781b8a3a1d39a601440ec082740784a84ba8760",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.MarshallingModule.dll",
+      "bytes": 83368,
+      "originalSha256": "7c9f9f50a10ce1534efbe597a4487961086043d060bb83d02ad1aa025a4a22db",
+      "runtimeSha256": "7c9f9f50a10ce1534efbe597a4487961086043d060bb83d02ad1aa025a4a22db",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.MultiplayerModule.dll",
+      "bytes": 18352,
+      "originalSha256": "b5510129fc947386883a8d0cf49ea04b51736b6af9114e3e36bba41873ab0ba6",
+      "runtimeSha256": "b5510129fc947386883a8d0cf49ea04b51736b6af9114e3e36bba41873ab0ba6",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.NVIDIAModule.dll",
+      "bytes": 39336,
+      "originalSha256": "200b98f33298e0a7993978bef402800c4f24a7b7a094dc1e81293213e93f5bd4",
+      "runtimeSha256": "200b98f33298e0a7993978bef402800c4f24a7b7a094dc1e81293213e93f5bd4",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "bytes": 167848,
+      "originalSha256": "bde6619c225be098f75552562dc5d7dcbd1e41cfa4299de6baec63f9e4b2fcaf",
+      "runtimeSha256": "bde6619c225be098f75552562dc5d7dcbd1e41cfa4299de6baec63f9e4b2fcaf",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "bytes": 25520,
+      "originalSha256": "e47a9ffca6962d34d6fe647d280f83d9d9b5bd3dc902d1f5b0a46c4089453359",
+      "runtimeSha256": "e47a9ffca6962d34d6fe647d280f83d9d9b5bd3dc902d1f5b0a46c4089453359",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "bytes": 588720,
+      "originalSha256": "3d6e2034411f7cabfea7c5b8aafd0a130d6e0ec177b4ce5f2047367824c0b5db",
+      "runtimeSha256": "3d6e2034411f7cabfea7c5b8aafd0a130d6e0ec177b4ce5f2047367824c0b5db",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll",
+      "bytes": 14256,
+      "originalSha256": "5b2dcfc4dfb53effb23aaa86e779777346465f04bccbf25e8634ccf5c847bbba",
+      "runtimeSha256": "5b2dcfc4dfb53effb23aaa86e779777346465f04bccbf25e8634ccf5c847bbba",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "bytes": 177064,
+      "originalSha256": "025617dc08435ca94c1bb012add4fd065ce78f809287631b71535631be1ec4f8",
+      "runtimeSha256": "025617dc08435ca94c1bb012add4fd065ce78f809287631b71535631be1ec4f8",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.PropertiesModule.dll",
+      "bytes": 124336,
+      "originalSha256": "8b620b55182ab1c15ad60310ff1ab717d7f602badcf05719876ce4ca7d114047",
+      "runtimeSha256": "8b620b55182ab1c15ad60310ff1ab717d7f602badcf05719876ce4ca7d114047",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.RenderAs2DModule.dll",
+      "bytes": 26024,
+      "originalSha256": "7fc621b023dcd3329b127f5f7b063cd4f37607fa625ca67739806de0915da143",
+      "runtimeSha256": "7fc621b023dcd3329b127f5f7b063cd4f37607fa625ca67739806de0915da143",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "bytes": 24496,
+      "originalSha256": "13113e7f10e2cd0b7995f0ddff7e86089c8d9885ec1c4bafb53d97bb08d1df86",
+      "runtimeSha256": "13113e7f10e2cd0b7995f0ddff7e86089c8d9885ec1c4bafb53d97bb08d1df86",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "bytes": 26536,
+      "originalSha256": "821ff20a4337d5d954e9657f3579586daa430b7f91dce649e0952c011afa0382",
+      "runtimeSha256": "821ff20a4337d5d954e9657f3579586daa430b7f91dce649e0952c011afa0382",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.ScriptingModule.dll",
+      "bytes": 26544,
+      "originalSha256": "a9cda78fcec460ce769d55bdba72ca03639c580201c3f072b048e5a9c37506de",
+      "runtimeSha256": "a9cda78fcec460ce769d55bdba72ca03639c580201c3f072b048e5a9c37506de",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
+      "bytes": 24496,
+      "originalSha256": "69a98b2cc4ad290b1fa79d403d57c95afd66c44e664b3fe0c6df40f6c5c26015",
+      "runtimeSha256": "69a98b2cc4ad290b1fa79d403d57c95afd66c44e664b3fe0c6df40f6c5c26015",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "bytes": 36784,
+      "originalSha256": "cf5ff12728b7d55bbaf524edecff6dc5443d9a9ed762e4278c32c8d4e32c4716",
+      "runtimeSha256": "cf5ff12728b7d55bbaf524edecff6dc5443d9a9ed762e4278c32c8d4e32c4716",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "bytes": 29104,
+      "originalSha256": "0432179af3beb65e0c0f4ca246c95e5b4f6ad73a17ba61253e54b80626aac463",
+      "runtimeSha256": "0432179af3beb65e0c0f4ca246c95e5b4f6ad73a17ba61253e54b80626aac463",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "bytes": 32688,
+      "originalSha256": "8c6ccc2013e37fbe9c178b7917a050f96ed5edd4b84bae26ac5a4938a4bd47cf",
+      "runtimeSha256": "8c6ccc2013e37fbe9c178b7917a050f96ed5edd4b84bae26ac5a4938a4bd47cf",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.StreamingModule.dll",
+      "bytes": 26536,
+      "originalSha256": "70ceaaf849547854d76e6385909ea5eb413ced03683923e251054befc498fb06",
+      "runtimeSha256": "70ceaaf849547854d76e6385909ea5eb413ced03683923e251054befc498fb06",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "bytes": 29616,
+      "originalSha256": "1a031ce68487bcdef150e77eddb353bad588e74a4339c0435577620f1037c67f",
+      "runtimeSha256": "1a031ce68487bcdef150e77eddb353bad588e74a4339c0435577620f1037c67f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "bytes": 41392,
+      "originalSha256": "d0dadf98a9b80537c80a1405e460ebd014ef481c69d05c646b3954b5c6fa614f",
+      "runtimeSha256": "d0dadf98a9b80537c80a1405e460ebd014ef481c69d05c646b3954b5c6fa614f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.TerrainModule.dll",
+      "bytes": 129448,
+      "originalSha256": "a7143ddb3ffb008ff98bf04b3a508162d579956bcab4cc03a99b4e31baa0bed4",
+      "runtimeSha256": "a7143ddb3ffb008ff98bf04b3a508162d579956bcab4cc03a99b4e31baa0bed4",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "bytes": 26024,
+      "originalSha256": "8fcec01903c8dc3cd64a942eb5d3b71cb90d432f60e71b95c8754a8a539f4e91",
+      "runtimeSha256": "8fcec01903c8dc3cd64a942eb5d3b71cb90d432f60e71b95c8754a8a539f4e91",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "bytes": 77744,
+      "originalSha256": "cbc4327d5799c9bbb71dfebdb1f83e82f9666f3425eba5c7ee4c86c6c52b85cb",
+      "runtimeSha256": "cbc4327d5799c9bbb71dfebdb1f83e82f9666f3425eba5c7ee4c86c6c52b85cb",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "bytes": 323504,
+      "originalSha256": "41f81e52de4cda3649ba36902f784dbe4363b1710819eb0901670cd55976182e",
+      "runtimeSha256": "41f81e52de4cda3649ba36902f784dbe4363b1710819eb0901670cd55976182e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "bytes": 38312,
+      "originalSha256": "0aa6b373bc81509a356327f0a14e5f113c0aa30782a0cb3fbe93ac926f8d94c9",
+      "runtimeSha256": "0aa6b373bc81509a356327f0a14e5f113c0aa30782a0cb3fbe93ac926f8d94c9",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.TilemapModule.dll",
+      "bytes": 70064,
+      "originalSha256": "929efbba2292e5df6724701b18b705c330f746f2e0f6ed809472d08e84adcc48",
+      "runtimeSha256": "929efbba2292e5df6724701b18b705c330f746f2e0f6ed809472d08e84adcc48",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.TLSModule.dll",
+      "bytes": 31656,
+      "originalSha256": "6e61e6bdaf4bbfa819186e53068958c5686a1311a217328a3c1b9c83856e3ccb",
+      "runtimeSha256": "6e61e6bdaf4bbfa819186e53068958c5686a1311a217328a3c1b9c83856e3ccb",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UI.dll",
+      "bytes": 277504,
+      "originalSha256": "1e06d7bb3d7faf4495d725be3feead4e982187476e3ddb8b986f897a36524e42",
+      "runtimeSha256": "1e06d7bb3d7faf4495d725be3feead4e982187476e3ddb8b986f897a36524e42",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "bytes": 2260400,
+      "originalSha256": "54173d02c09ef6db21fa17c5c7d5c00239c89c21be388b830e2cbdfa4341422f",
+      "runtimeSha256": "54173d02c09ef6db21fa17c5c7d5c00239c89c21be388b830e2cbdfa4341422f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UIModule.dll",
+      "bytes": 50088,
+      "originalSha256": "b492895c7a954fbc0d99ec35f1a93e609dbe33ac43316ff34f62af36d4cd3806",
+      "runtimeSha256": "b492895c7a954fbc0d99ec35f1a93e609dbe33ac43316ff34f62af36d4cd3806",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UmbraModule.dll",
+      "bytes": 24496,
+      "originalSha256": "cb784b6471de81b0a9fbbb938be9e7cefd38edc748e7521029d0ab6190cdba20",
+      "runtimeSha256": "cb784b6471de81b0a9fbbb938be9e7cefd38edc748e7521029d0ab6190cdba20",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+      "bytes": 35248,
+      "originalSha256": "297a6509f0ce9655ef243600fd87468d0bb465c3d46c02a38da82dca4687b515",
+      "runtimeSha256": "297a6509f0ce9655ef243600fd87468d0bb465c3d46c02a38da82dca4687b515",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "bytes": 59312,
+      "originalSha256": "5a1c2cc870194da7cfa7228b3bdbb245cf75dec5aebe3389509d7dd454b9aec1",
+      "runtimeSha256": "5a1c2cc870194da7cfa7228b3bdbb245cf75dec5aebe3389509d7dd454b9aec1",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "bytes": 28072,
+      "originalSha256": "d38412c44df9c34063cdc0c0b8508366940db2ded02430781253de51a7e9c71e",
+      "runtimeSha256": "d38412c44df9c34063cdc0c0b8508366940db2ded02430781253de51a7e9c71e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UnityConsentModule.dll",
+      "bytes": 16304,
+      "originalSha256": "7cf987d619fcd150d6e7a6e4821a5be961d55f5a77c13657b9879a7ee1059c9c",
+      "runtimeSha256": "7cf987d619fcd150d6e7a6e4821a5be961d55f5a77c13657b9879a7ee1059c9c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "bytes": 26536,
+      "originalSha256": "d572dd31c30482ac71b7ff2eaa7aff159c585dc5402afcdb69c56a35e1ac1ab1",
+      "runtimeSha256": "d572dd31c30482ac71b7ff2eaa7aff159c585dc5402afcdb69c56a35e1ac1ab1",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+      "bytes": 19640,
+      "originalSha256": "98dee3cb991283fb93cd178f0c8165b6d6a85548750987f89bce4d3085540434",
+      "runtimeSha256": "98dee3cb991283fb93cd178f0c8165b6d6a85548750987f89bce4d3085540434",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "bytes": 29104,
+      "originalSha256": "6110e8bb6dfb5c7eec0fb95d75fcb44f90e105b527a310afd6fa848f68665761",
+      "runtimeSha256": "6110e8bb6dfb5c7eec0fb95d75fcb44f90e105b527a310afd6fa848f68665761",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "bytes": 28584,
+      "originalSha256": "ad294e435317e313cd947105ff5e260482b1b2569f3c6993d86cc920e86b1829",
+      "runtimeSha256": "ad294e435317e313cd947105ff5e260482b1b2569f3c6993d86cc920e86b1829",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "bytes": 66984,
+      "originalSha256": "3ef52d81e217ce341c0a4c17524a0335de7187149517a92d6547d5d92494b64e",
+      "runtimeSha256": "3ef52d81e217ce341c0a4c17524a0335de7187149517a92d6547d5d92494b64e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "bytes": 28080,
+      "originalSha256": "48dff111b79190974070ee0ebdddd3044f0f8576e1d91be8dd2938977b139aae",
+      "runtimeSha256": "48dff111b79190974070ee0ebdddd3044f0f8576e1d91be8dd2938977b139aae",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "bytes": 35760,
+      "originalSha256": "c7c9180a1f1166c1156b41bb972af799698c2d5d8789b70c1042712e089928d3",
+      "runtimeSha256": "c7c9180a1f1166c1156b41bb972af799698c2d5d8789b70c1042712e089928d3",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.VectorGraphicsModule.dll",
+      "bytes": 228272,
+      "originalSha256": "050ba4a2b906c2e194d28e9b088142e33485c515a1c69df5e867d922cc22866d",
+      "runtimeSha256": "050ba4a2b906c2e194d28e9b088142e33485c515a1c69df5e867d922cc22866d",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "bytes": 31656,
+      "originalSha256": "480c15186a2c6ed67b799d02c015e59c099632a62bfe0d0a83172aaf037cd9c6",
+      "runtimeSha256": "480c15186a2c6ed67b799d02c015e59c099632a62bfe0d0a83172aaf037cd9c6",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.VFXModule.dll",
+      "bytes": 80296,
+      "originalSha256": "893da60b55e49918eceef15011cbdfef4eb082dd427fe368e62bc9585b30d40a",
+      "runtimeSha256": "893da60b55e49918eceef15011cbdfef4eb082dd427fe368e62bc9585b30d40a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.VideoModule.dll",
+      "bytes": 48552,
+      "originalSha256": "aa586a16e0f856d3ff0d3d82fc71a629ef7e2e226be1b4841ae1955c4ea96b58",
+      "runtimeSha256": "aa586a16e0f856d3ff0d3d82fc71a629ef7e2e226be1b4841ae1955c4ea96b58",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "bytes": 42408,
+      "originalSha256": "d1a2c1b73ae892daef4e59acff93aacfec00051f4b11bd0f2f5f1c8501ebfa09",
+      "runtimeSha256": "d1a2c1b73ae892daef4e59acff93aacfec00051f4b11bd0f2f5f1c8501ebfa09",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.VRModule.dll",
+      "bytes": 32168,
+      "originalSha256": "a015ee318f0514ef1c632f627ca0826afe881878fb79e6dd3263406652af4bf7",
+      "runtimeSha256": "a015ee318f0514ef1c632f627ca0826afe881878fb79e6dd3263406652af4bf7",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.WindModule.dll",
+      "bytes": 27056,
+      "originalSha256": "af79d345363e06063fa222bbd6c31f1011dd96db96d9486e49e1f744f9fcfac4",
+      "runtimeSha256": "af79d345363e06063fa222bbd6c31f1011dd96db96d9486e49e1f744f9fcfac4",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Managed/UnityEngine.XRModule.dll",
+      "bytes": 86448,
+      "originalSha256": "26c0c5f1c83f27420e284e676d18267d96e08966d2e1fc32d7517b62a65d6f02",
+      "runtimeSha256": "26c0c5f1c83f27420e284e676d18267d96e08966d2e1fc32d7517b62a65d6f02",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Plugins/Steamworks.NET.txt",
+      "bytes": 243,
+      "originalSha256": "9f2a117bb088dd7a01e8d6e1935426fed16d96f769d7e71a9791c65110f8a949",
+      "runtimeSha256": "9f2a117bb088dd7a01e8d6e1935426fed16d96f769d7e71a9791c65110f8a949",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Resources/unity default resources",
+      "bytes": 5922288,
+      "originalSha256": "96c07875f9764ceaa248eb5715503de54e55fe87166b909330a4ae209a644f70",
+      "runtimeSha256": "96c07875f9764ceaa248eb5715503de54e55fe87166b909330a4ae209a644f70",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Resources/unity_builtin_extra",
+      "bytes": 412408,
+      "originalSha256": "a5c7162d02c1ed563d69515dd11eca6df66d2e33301ba37b3c002252ce22df15",
+      "runtimeSha256": "a5c7162d02c1ed563d69515dd11eca6df66d2e33301ba37b3c002252ce22df15",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/UnityServicesProjectConfiguration.json",
+      "bytes": 1439,
+      "originalSha256": "a849dda5c4454f0653233fc070b0d109ac63f87b572fa03f82e9749a2e177fae",
+      "runtimeSha256": "a849dda5c4454f0653233fc070b0d109ac63f87b572fa03f82e9749a2e177fae",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Plugins/x86_64/libonigwrap.dll",
+      "bytes": 551336,
+      "originalSha256": "6d539f2ad6e1b58d3c8836b9c3a1d50c97cbd7a6ca0c5de25d994a7c4b1ecf42",
+      "runtimeSha256": "6d539f2ad6e1b58d3c8836b9c3a1d50c97cbd7a6ca0c5de25d994a7c4b1ecf42",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Plugins/x86_64/lib_burst_generated.dll",
+      "bytes": 1226240,
+      "originalSha256": "f95223ca2a74b9f50904e41269d8536783c6b1caa0abcd48ba9d75555232960e",
+      "runtimeSha256": "f95223ca2a74b9f50904e41269d8536783c6b1caa0abcd48ba9d75555232960e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Plugins/x86_64/meta_voice_chat_neteq.dll",
+      "bytes": 676352,
+      "originalSha256": "2881159d2359de92f2edac78df0adaf19af57148e2575a1bf31628700c77f54f",
+      "runtimeSha256": "2881159d2359de92f2edac78df0adaf19af57148e2575a1bf31628700c77f54f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Plugins/x86_64/rnnoise.dll",
+      "bytes": 140288,
+      "originalSha256": "d9d45f82de54aa10cd3499db8cae636a96015e185824dbbf6021d2044360f466",
+      "runtimeSha256": "d9d45f82de54aa10cd3499db8cae636a96015e185824dbbf6021d2044360f466",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/Plugins/x86_64/steam_api64.dll",
+      "bytes": 319584,
+      "originalSha256": "670d654aa3255c5061cf0236a1cdbb2f5076cbd5ae44f613b6f4921558e83e2d",
+      "runtimeSha256": "670d654aa3255c5061cf0236a1cdbb2f5076cbd5ae44f613b6f4921558e83e2d",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/catalog.bin",
+      "bytes": 76323,
+      "originalSha256": "16902b03657bc9a026f224968abf3df09b7b7a6289d5486c82be4307561ac4f4",
+      "runtimeSha256": "16902b03657bc9a026f224968abf3df09b7b7a6289d5486c82be4307561ac4f4",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/catalog.hash",
+      "bytes": 32,
+      "originalSha256": "35e069542070b137476c877e32ddef3e94842297402638477030b85c6c99fb5a",
+      "runtimeSha256": "35e069542070b137476c877e32ddef3e94842297402638477030b85c6c99fb5a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/settings.json",
+      "bytes": 864,
+      "originalSha256": "adeeb2d56c7cfb88c22a6aa0ff2a24a50b1f665a6e00981850a64f1985676993",
+      "runtimeSha256": "adeeb2d56c7cfb88c22a6aa0ff2a24a50b1f665a6e00981850a64f1985676993",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/AddressablesLink/link.xml",
+      "bytes": 4035,
+      "originalSha256": "d33335089dfc0c945e1eb77bfb05ca650923d79bdd9c2f09121b163ca63d3a6c",
+      "runtimeSha256": "d33335089dfc0c945e1eb77bfb05ca650923d79bdd9c2f09121b163ca63d3a6c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/53a6727ad16c9cba31c95c6a1c9fdb9a_monoscripts_b1e7bebba3a60ff844fa6b268992ff13.bundle",
+      "bytes": 1835,
+      "originalSha256": "396471a05b4e52f67e3f8f00f6eaa504f5e89009004273ab9b8ab4fb81f44f33",
+      "runtimeSha256": "396471a05b4e52f67e3f8f00f6eaa504f5e89009004273ab9b8ab4fb81f44f33",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_all_5919bff19d9689cf432a87ccb8e2b44d.bundle",
+      "bytes": 1231925,
+      "originalSha256": "31321f136a3593ec508ebf2889cf44fd7bf66cdce81e98827b59a21542d07b57",
+      "runtimeSha256": "31321f136a3593ec508ebf2889cf44fd7bf66cdce81e98827b59a21542d07b57",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/duplicateassetisolation_assets_all_82257519e713ab4957b145c432c1114b.bundle",
+      "bytes": 33180239,
+      "originalSha256": "6724f5ee9a5a6e516452f8d1b833be8b6c46cf47da191023a481e7963303fbc6",
+      "runtimeSha256": "6724f5ee9a5a6e516452f8d1b833be8b6c46cf47da191023a481e7963303fbc6",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/duplicateassetisolation_assets_all_adca1d1b1ab5c8f3158d0155197d7d6b.bundle",
+      "bytes": 33180270,
+      "originalSha256": "1bf747269692e7545aae414e10ce225cd3e7becdc636e13e18379c7a361df5f2",
+      "runtimeSha256": "1bf747269692e7545aae414e10ce225cd3e7becdc636e13e18379c7a361df5f2",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-chinese(simplified)(zh-cn)_assets_all.bundle",
+      "bytes": 2222,
+      "originalSha256": "eaf0138153391213440cbbc881fd45a500144ecb3726fe3db117f4ce01523300",
+      "runtimeSha256": "eaf0138153391213440cbbc881fd45a500144ecb3726fe3db117f4ce01523300",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-chinese(traditional)(zh-tw)_assets_all.bundle",
+      "bytes": 2239,
+      "originalSha256": "b780b89936e4f62d413f539aaaeb66d529df191e6bb6b3e30865071a8dc87aaa",
+      "runtimeSha256": "b780b89936e4f62d413f539aaaeb66d529df191e6bb6b3e30865071a8dc87aaa",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-english(en)_assets_all.bundle",
+      "bytes": 2247,
+      "originalSha256": "12280b554d450ced33f4cd79e9fc81f7908d853e5d3548d6d152fa484d5d0441",
+      "runtimeSha256": "12280b554d450ced33f4cd79e9fc81f7908d853e5d3548d6d152fa484d5d0441",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-french(fr)_assets_all.bundle",
+      "bytes": 2245,
+      "originalSha256": "01a573101589395f4e49db6492bf36c0e0822fff10d954c16bd655f8f7d4917b",
+      "runtimeSha256": "01a573101589395f4e49db6492bf36c0e0822fff10d954c16bd655f8f7d4917b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-german(de)_assets_all.bundle",
+      "bytes": 2266,
+      "originalSha256": "06db7feefa1beed21f55328944c5c5eeab8f0d7955c38b00a9334460b60adfcc",
+      "runtimeSha256": "06db7feefa1beed21f55328944c5c5eeab8f0d7955c38b00a9334460b60adfcc",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-italian(it)_assets_all.bundle",
+      "bytes": 2266,
+      "originalSha256": "f32b65db1afe98b639c310959a6ebdeb9df36d7b76b69bd3a4828dc79d773f3b",
+      "runtimeSha256": "f32b65db1afe98b639c310959a6ebdeb9df36d7b76b69bd3a4828dc79d773f3b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-japanese(ja)_assets_all.bundle",
+      "bytes": 2217,
+      "originalSha256": "70ad4e7c9440c193950c4d52d266c6abd4d3ae74b96354b7784c9e0b9e258ccb",
+      "runtimeSha256": "70ad4e7c9440c193950c4d52d266c6abd4d3ae74b96354b7784c9e0b9e258ccb",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-korean(ko)_assets_all.bundle",
+      "bytes": 2199,
+      "originalSha256": "f6537ff4d731003ff2563c2827aa0caa2f40845e4cebd7e7daec542e01521275",
+      "runtimeSha256": "f6537ff4d731003ff2563c2827aa0caa2f40845e4cebd7e7daec542e01521275",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-polish(pl)_assets_all.bundle",
+      "bytes": 2245,
+      "originalSha256": "4c9016ddbc0d46244d4e0aa3498a4265591d0fbc1bf2a5bfb8b45e9b45f7e4d5",
+      "runtimeSha256": "4c9016ddbc0d46244d4e0aa3498a4265591d0fbc1bf2a5bfb8b45e9b45f7e4d5",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-portuguese(brazil)(pt-br)_assets_all.bundle",
+      "bytes": 2251,
+      "originalSha256": "dc4f92b7410c5adaf8d477241ca6c9b3f065a22b10a767c3816e3ca738b1ee7b",
+      "runtimeSha256": "dc4f92b7410c5adaf8d477241ca6c9b3f065a22b10a767c3816e3ca738b1ee7b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-russian(ru)_assets_all.bundle",
+      "bytes": 2265,
+      "originalSha256": "329f34d6b0b8f41b521aeda6304ec03492b37e9831587081a4b931c7abebe009",
+      "runtimeSha256": "329f34d6b0b8f41b521aeda6304ec03492b37e9831587081a4b931c7abebe009",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-spanish(mexico)(es-mx)_assets_all.bundle",
+      "bytes": 2251,
+      "originalSha256": "ab3e6170b2e1dec8fb7880d60418a31184e74c6be65ce0e45a2767571e766433",
+      "runtimeSha256": "ab3e6170b2e1dec8fb7880d60418a31184e74c6be65ce0e45a2767571e766433",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-spanish(spain)(es-es)_assets_all.bundle",
+      "bytes": 2253,
+      "originalSha256": "e7de3ac88da3b8b278984c76a4ed2a45c7d8f1216a9efd45db016e2e4f6e6e7c",
+      "runtimeSha256": "e7de3ac88da3b8b278984c76a4ed2a45c7d8f1216a9efd45db016e2e4f6e6e7c",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-swedish(sv)_assets_all.bundle",
+      "bytes": 2247,
+      "originalSha256": "0ff4b4577ff55eb97dd8527f2864d7a6ace57c937e9ddff9fd2c3860dc7151d7",
+      "runtimeSha256": "0ff4b4577ff55eb97dd8527f2864d7a6ace57c937e9ddff9fd2c3860dc7151d7",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-turkish(tr)_assets_all.bundle",
+      "bytes": 2245,
+      "originalSha256": "bafae84eec5a6743893d63d0cce88d0d3b3a569e4401f308ea23391847770cac",
+      "runtimeSha256": "bafae84eec5a6743893d63d0cce88d0d3b3a569e4401f308ea23391847770cac",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-ukrainian(uk)_assets_all.bundle",
+      "bytes": 2266,
+      "originalSha256": "a9fdb55b1bfd3c3d4661b6ef30a42f79ec063634ab30d76d91efec0dade20620",
+      "runtimeSha256": "a9fdb55b1bfd3c3d4661b6ef30a42f79ec063634ab30d76d91efec0dade20620",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-chinese(simplified)(zh-cn)_assets_all.bundle",
+      "bytes": 9621,
+      "originalSha256": "dc8962d6fea83613eb44ae30e837824c9a5da4dac7e594da7a53975839b8f44f",
+      "runtimeSha256": "dc8962d6fea83613eb44ae30e837824c9a5da4dac7e594da7a53975839b8f44f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-chinese(traditional)(zh-tw)_assets_all.bundle",
+      "bytes": 8325,
+      "originalSha256": "1ab01ea6f6cfc5565fca6adafd141fe182fdee6fbd52a25c5e9350d3aec8fc33",
+      "runtimeSha256": "1ab01ea6f6cfc5565fca6adafd141fe182fdee6fbd52a25c5e9350d3aec8fc33",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-japanese(ja)_assets_all.bundle",
+      "bytes": 8268,
+      "originalSha256": "f6937f70acb0e60d6397fe8f4007f4ae5f26d86577dd10e2e51b8980c89c12fe",
+      "runtimeSha256": "f6937f70acb0e60d6397fe8f4007f4ae5f26d86577dd10e2e51b8980c89c12fe",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-korean(ko)_assets_all.bundle",
+      "bytes": 8811,
+      "originalSha256": "6cf6867cd713f196a7075b2b116c11f8d9dbb5cfe5d2642bf04a306ee737348e",
+      "runtimeSha256": "6cf6867cd713f196a7075b2b116c11f8d9dbb5cfe5d2642bf04a306ee737348e",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-shared_assets_all.bundle",
+      "bytes": 349512,
+      "originalSha256": "91a888ab6d9c18fa1c44ca9d99fa268a5a07fc52167510d64213e507e0eee918",
+      "runtimeSha256": "91a888ab6d9c18fa1c44ca9d99fa268a5a07fc52167510d64213e507e0eee918",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-locales_assets_all.bundle",
+      "bytes": 3086,
+      "originalSha256": "55903da9c49d4799b7981375fc6d99fb5a93621a75d5081d9ec90c457e9106bc",
+      "runtimeSha256": "55903da9c49d4799b7981375fc6d99fb5a93621a75d5081d9ec90c457e9106bc",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-chinese(simplified)(zh-cn)_assets_all_e67ef9ecbbde6f3bbc9e7dc785834f2c.bundle",
+      "bytes": 17192,
+      "originalSha256": "1059c7d7d8d6794442e1a828ad8a15d3450f66996404f955b829e7846dc2cf98",
+      "runtimeSha256": "1059c7d7d8d6794442e1a828ad8a15d3450f66996404f955b829e7846dc2cf98",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-chinese(traditional)(zh-tw)_assets_all_84697564ed8d3a9f0761bcbbbb01b49d.bundle",
+      "bytes": 17254,
+      "originalSha256": "9d0753c0e247212ad215fcc75e6407cd2c7e92fef863d26d5bed90beb949a0fe",
+      "runtimeSha256": "9d0753c0e247212ad215fcc75e6407cd2c7e92fef863d26d5bed90beb949a0fe",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english(en)_assets_all.bundle",
+      "bytes": 16700,
+      "originalSha256": "27c2bd8b0878f3ee159877d419512cf9d127b5b47ed9a83022caff0ffefa0d28",
+      "runtimeSha256": "27c2bd8b0878f3ee159877d419512cf9d127b5b47ed9a83022caff0ffefa0d28",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-french(fr)_assets_all.bundle",
+      "bytes": 18269,
+      "originalSha256": "cdf2f7be3ba1f0409e7748fc0fdfbfc01333feea82527026d2acaae72625abde",
+      "runtimeSha256": "cdf2f7be3ba1f0409e7748fc0fdfbfc01333feea82527026d2acaae72625abde",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-german(de)_assets_all_73d168fcc828f4275ee35d4014876b00.bundle",
+      "bytes": 17898,
+      "originalSha256": "0e4bd9dfc974db684ad25954e9bb708bf9c336b8f4b45a892bd883cffff7e539",
+      "runtimeSha256": "0e4bd9dfc974db684ad25954e9bb708bf9c336b8f4b45a892bd883cffff7e539",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-italian(it)_assets_all_97912a3dfc74ed53666b822cf8210a6b.bundle",
+      "bytes": 17766,
+      "originalSha256": "d4ce36db22dc3da467a8893d3fe0c40a64885f679b1df17790ebae449395b28f",
+      "runtimeSha256": "d4ce36db22dc3da467a8893d3fe0c40a64885f679b1df17790ebae449395b28f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-japanese(ja)_assets_all.bundle",
+      "bytes": 18411,
+      "originalSha256": "c8ea44e770f65bdffecaaac4b0f97ebf165fa86ded97949bb6500ff049519b53",
+      "runtimeSha256": "c8ea44e770f65bdffecaaac4b0f97ebf165fa86ded97949bb6500ff049519b53",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-korean(ko)_assets_all_62f1730dd5a3221d84a0fd495ae6e26f.bundle",
+      "bytes": 17200,
+      "originalSha256": "f28f4c784dd21a88141598d70a20f16158cd2599eb65dfcdb34686576741bfbb",
+      "runtimeSha256": "f28f4c784dd21a88141598d70a20f16158cd2599eb65dfcdb34686576741bfbb",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-polish(pl)_assets_all_1010a94f274b7ac6be521399dd172185.bundle",
+      "bytes": 18234,
+      "originalSha256": "5aa76101e8e9f8926e56e5662827b43a12e7e6c76ef5272d7850b3d10ea5376a",
+      "runtimeSha256": "5aa76101e8e9f8926e56e5662827b43a12e7e6c76ef5272d7850b3d10ea5376a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-portuguese(brazil)(pt-br)_assets_all_36512a76f836a37c337402b8020d1052.bundle",
+      "bytes": 17333,
+      "originalSha256": "761274b6f380151ae14bc810179c97d08276fc5f5d21c8084ebf50ebbdffbd5a",
+      "runtimeSha256": "761274b6f380151ae14bc810179c97d08276fc5f5d21c8084ebf50ebbdffbd5a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-russian(ru)_assets_all_fb698ebed3c9d1cceff566eebe90b1c7.bundle",
+      "bytes": 18668,
+      "originalSha256": "467f6fcd036ddb9e854387f05317cb1910510c48e2dce0390f89d1917e49df35",
+      "runtimeSha256": "467f6fcd036ddb9e854387f05317cb1910510c48e2dce0390f89d1917e49df35",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-spanish(mexico)(es-mx)_assets_all_1cf4c16efa857622fe46777e832f79c5.bundle",
+      "bytes": 17433,
+      "originalSha256": "69cd7cf4788e0133559f3a95452066832ee20b38acdb5f639fc2869d66bcd866",
+      "runtimeSha256": "69cd7cf4788e0133559f3a95452066832ee20b38acdb5f639fc2869d66bcd866",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-spanish(spain)(es-es)_assets_all_80751a5d26984428afd113155350e9ad.bundle",
+      "bytes": 17755,
+      "originalSha256": "141d08f5fdbdfee61da3198716bc15cbc00f61f981c8cce44fa1ec3db0b32fbf",
+      "runtimeSha256": "141d08f5fdbdfee61da3198716bc15cbc00f61f981c8cce44fa1ec3db0b32fbf",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-swedish(sv)_assets_all.bundle",
+      "bytes": 17028,
+      "originalSha256": "642dc0a3f3693775ee6ecb8d54078bb60ef61722733112bb08332e75a4602add",
+      "runtimeSha256": "642dc0a3f3693775ee6ecb8d54078bb60ef61722733112bb08332e75a4602add",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-turkish(tr)_assets_all_1b4efd1e35b0da2fb921b3982983b941.bundle",
+      "bytes": 17527,
+      "originalSha256": "fa44985ba84d57eca01992bf40e66faddbf7d235d7a2153ed6aa407a3e6b1150",
+      "runtimeSha256": "fa44985ba84d57eca01992bf40e66faddbf7d235d7a2153ed6aa407a3e6b1150",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-ukrainian(uk)_assets_all_63ed729e928951f2cd3853caff823a81.bundle",
+      "bytes": 19180,
+      "originalSha256": "ee1ac4d5dc413435f0e04996afe3678237ec357e7c8d1ec7fc40e43ae03f1636",
+      "runtimeSha256": "ee1ac4d5dc413435f0e04996afe3678237ec357e7c8d1ec7fc40e43ae03f1636",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/066ccb103768ac844b166499361d89cf/029f8580b84ba0a469124530b3bbe3d7.bytes",
+      "bytes": 32768,
+      "originalSha256": "4323d8419899a410e9ec1fc6621b376e5fc4b25a255f0b4117d6211b8773b8c6",
+      "runtimeSha256": "4323d8419899a410e9ec1fc6621b376e5fc4b25a255f0b4117d6211b8773b8c6",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/066ccb103768ac844b166499361d89cf/16537853e51e3cc4eaa965f0468106ae.bytes",
+      "bytes": 524288,
+      "originalSha256": "0c3780e56fe38998daf911d6b38f99abf1f2e155a8e15f071cb111946afb7738",
+      "runtimeSha256": "0c3780e56fe38998daf911d6b38f99abf1f2e155a8e15f071cb111946afb7738",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/066ccb103768ac844b166499361d89cf/addf4aa299838c4418e2d0fb0c1d56fe.bytes",
+      "bytes": 4944,
+      "originalSha256": "e50f2a5226fbdc0c81d3d8d7a7fd67e4088ce1050a8a465682f695ffb3d48137",
+      "runtimeSha256": "e50f2a5226fbdc0c81d3d8d7a7fd67e4088ce1050a8a465682f695ffb3d48137",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/1235f8a687d1bdb4bb4e487996bb4afe/360b418726385f54895f6f4712856e42.bytes",
+      "bytes": 1048576,
+      "originalSha256": "e2ebbf028a429560e99ab3890d95d7fe8eeccb236489538d9ca65f21a2809831",
+      "runtimeSha256": "e2ebbf028a429560e99ab3890d95d7fe8eeccb236489538d9ca65f21a2809831",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/1235f8a687d1bdb4bb4e487996bb4afe/6b0c8f9ae5c01244a96ad43eec09892a.bytes",
+      "bytes": 65536,
+      "originalSha256": "ccfc8c5fc3a70d348b72e5537bb9b271781d8e356f8ed845a1642622d0784eda",
+      "runtimeSha256": "ccfc8c5fc3a70d348b72e5537bb9b271781d8e356f8ed845a1642622d0784eda",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/1235f8a687d1bdb4bb4e487996bb4afe/e8f20d8eb820ae14b9306c2d36db1f8a.bytes",
+      "bytes": 3888,
+      "originalSha256": "618a16d1e9ef6f989d853e69c9a9fc1376b38d2d9fe6a3fb4da01587b50d2e54",
+      "runtimeSha256": "618a16d1e9ef6f989d853e69c9a9fc1376b38d2d9fe6a3fb4da01587b50d2e54",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/2642aa2709f487e48baec2c5a66dd8b2/49f49ca28b32ddd4b9d3aea09ff19761.bytes",
+      "bytes": 65536,
+      "originalSha256": "b8c76152308ddc7c0173e7a5c32482d1889708679da2a91662f6278bd3c66977",
+      "runtimeSha256": "b8c76152308ddc7c0173e7a5c32482d1889708679da2a91662f6278bd3c66977",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/2642aa2709f487e48baec2c5a66dd8b2/781b894edff72d642afccb65a06b2264.bytes",
+      "bytes": 1536,
+      "originalSha256": "155063cd05055a226ba5c985b518f0df7d0c239bdfe2c4b8f6e4d7319f1566a0",
+      "runtimeSha256": "155063cd05055a226ba5c985b518f0df7d0c239bdfe2c4b8f6e4d7319f1566a0",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/2642aa2709f487e48baec2c5a66dd8b2/a6b1416e87583e34693116e312306659.bytes",
+      "bytes": 1048576,
+      "originalSha256": "db534ed046307a8fb021ae408d72867bc2d4e5687bdc44ada44d8ef127748b3f",
+      "runtimeSha256": "db534ed046307a8fb021ae408d72867bc2d4e5687bdc44ada44d8ef127748b3f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/468e04a6eae07cd4aac06590438f7eca/60bbafdf620ff0e43885725a07ce4e1b.bytes",
+      "bytes": 1048576,
+      "originalSha256": "36be64fe4d8d3d821d89dc7a9269dc872492af7292f6ef728990361ab9cd39cb",
+      "runtimeSha256": "36be64fe4d8d3d821d89dc7a9269dc872492af7292f6ef728990361ab9cd39cb",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/468e04a6eae07cd4aac06590438f7eca/6b9da25e6f44a894bb2aaa355311bc21.bytes",
+      "bytes": 65536,
+      "originalSha256": "c80dd9eab7631d58c25fdeca7ab7b9258a5e5363f495e60a5d79cd3705ccc869",
+      "runtimeSha256": "c80dd9eab7631d58c25fdeca7ab7b9258a5e5363f495e60a5d79cd3705ccc869",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/468e04a6eae07cd4aac06590438f7eca/d8b248fd9e889184a8ff97ef42eeeed4.bytes",
+      "bytes": 10336,
+      "originalSha256": "67c283f3e23cde0a99b97ab43308fd47a7d3d612c4c6fee5b8f22c3b6163fa21",
+      "runtimeSha256": "67c283f3e23cde0a99b97ab43308fd47a7d3d612c4c6fee5b8f22c3b6163fa21",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/7ee3e8ac6c66c144cb81f7bfbb6bec26/2362ab4825a10f34ab2f74133bbf70c5.bytes",
+      "bytes": 5888,
+      "originalSha256": "2c7f2c44493fe5e3505ddce4fe038d01422b546b030c4f4d0f77e2b1195f2f25",
+      "runtimeSha256": "2c7f2c44493fe5e3505ddce4fe038d01422b546b030c4f4d0f77e2b1195f2f25",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/7ee3e8ac6c66c144cb81f7bfbb6bec26/7eaf1189ae83d6f4c8d9e16bb4889c15.bytes",
+      "bytes": 65536,
+      "originalSha256": "5b5dbc35b51415840f37b406848fe1aec87ffa1601b3b6265ecc1f4c78804f66",
+      "runtimeSha256": "5b5dbc35b51415840f37b406848fe1aec87ffa1601b3b6265ecc1f4c78804f66",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/7ee3e8ac6c66c144cb81f7bfbb6bec26/ebbc282fbf7ef7e4bb1561f9f9b5fe2e.bytes",
+      "bytes": 1048576,
+      "originalSha256": "4a64c9ee91923c208df28ff8c89448569390a517c663c53af693db9ca76f33a1",
+      "runtimeSha256": "4a64c9ee91923c208df28ff8c89448569390a517c663c53af693db9ca76f33a1",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/9b043f2df7ff2934087f11dd0077457c/0efa795a9fa3abf4f8a840db344eb4c8.bytes",
+      "bytes": 262144,
+      "originalSha256": "ecd81f2d9b37efb7c26971947f7546e6aba84c7c121663edcf902976043abb29",
+      "runtimeSha256": "ecd81f2d9b37efb7c26971947f7546e6aba84c7c121663edcf902976043abb29",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/9b043f2df7ff2934087f11dd0077457c/657c59202fb52f74c89a3319de1da427.bytes",
+      "bytes": 3776,
+      "originalSha256": "cb0bc5f4677ffde5c2e98451c11b49ea48e866967a40861df80c64d4d820493d",
+      "runtimeSha256": "cb0bc5f4677ffde5c2e98451c11b49ea48e866967a40861df80c64d4d820493d",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/9b043f2df7ff2934087f11dd0077457c/e043e452be7dafb448e46c644f827575.bytes",
+      "bytes": 16384,
+      "originalSha256": "3cab583791f95a0a6b91af37ef27012c072ebad60ca9bed751c34a9f0e181486",
+      "runtimeSha256": "3cab583791f95a0a6b91af37ef27012c072ebad60ca9bed751c34a9f0e181486",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/ab6b0eca19bfc7b4d8078306befca897/6ad5c5c35da46604590b7ae2f2d9e58e.bytes",
+      "bytes": 6336,
+      "originalSha256": "b494e92bccb8ad51a6a55636712997bc7090f4f478dc451022e70badd7af8e50",
+      "runtimeSha256": "b494e92bccb8ad51a6a55636712997bc7090f4f478dc451022e70badd7af8e50",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/ab6b0eca19bfc7b4d8078306befca897/c471898e7ab040a40816b729221f4c4c.bytes",
+      "bytes": 40960,
+      "originalSha256": "7403642b826e7def3884109875844fcdbaa286b0a99a85a8ef0ec2fd5a9326ea",
+      "runtimeSha256": "7403642b826e7def3884109875844fcdbaa286b0a99a85a8ef0ec2fd5a9326ea",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/ab6b0eca19bfc7b4d8078306befca897/ed45b8c011463e8428f4a7d10d44d129.bytes",
+      "bytes": 655360,
+      "originalSha256": "feda1daef9a4ded29f93743c0b3b94e29200433ea6770f980634a0e23605c8f7",
+      "runtimeSha256": "feda1daef9a4ded29f93743c0b3b94e29200433ea6770f980634a0e23605c8f7",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/b42e26eb58a35d944b2f0beffba3f074/4f3aa46ae081b7a4aa2c5e7dc048851a.bytes",
+      "bytes": 253952,
+      "originalSha256": "ba5c4cbb67c0853f2c1acfd13bfae44d52965fc1ad07456b62c6226a4568f98f",
+      "runtimeSha256": "ba5c4cbb67c0853f2c1acfd13bfae44d52965fc1ad07456b62c6226a4568f98f",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/b42e26eb58a35d944b2f0beffba3f074/50a5dc555b333284cb87a40891f56ea9.bytes",
+      "bytes": 4063232,
+      "originalSha256": "3be596a6d4507c45907416c9c37011f4ce901b0357fa5645a57f37aad212e81b",
+      "runtimeSha256": "3be596a6d4507c45907416c9c37011f4ce901b0357fa5645a57f37aad212e81b",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/b42e26eb58a35d944b2f0beffba3f074/fba39aa98750cd640bc2ff764ac01e5e.bytes",
+      "bytes": 58304,
+      "originalSha256": "df29040ea31f15979040ca392b1f4f1becb37b7927c7ef14d562b852a42d9b89",
+      "runtimeSha256": "df29040ea31f15979040ca392b1f4f1becb37b7927c7ef14d562b852a42d9b89",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/dfca24c1f1c84ed4a91ecac4b2ae0962/167d9e60a675bd44aad4bd941deca603.bytes",
+      "bytes": 917504,
+      "originalSha256": "40777a6e8ddca169ccde7aafaac4929f576adae700fdc4e71e1245be5a643e68",
+      "runtimeSha256": "40777a6e8ddca169ccde7aafaac4929f576adae700fdc4e71e1245be5a643e68",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/dfca24c1f1c84ed4a91ecac4b2ae0962/8ccf51360a597014a9c3de4d10e0e411.bytes",
+      "bytes": 2560,
+      "originalSha256": "246559bdb63da14e7509b5321f5980e02c347fc0f190e0d040677448878db647",
+      "runtimeSha256": "246559bdb63da14e7509b5321f5980e02c347fc0f190e0d040677448878db647",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/dfca24c1f1c84ed4a91ecac4b2ae0962/f9a06e62a0de1ab4c9b3bdbda37ffe8d.bytes",
+      "bytes": 57344,
+      "originalSha256": "de0d03b91cfc32d6848365c702a403746694229eefcffbc6c9532d70ba02cc04",
+      "runtimeSha256": "de0d03b91cfc32d6848365c702a403746694229eefcffbc6c9532d70ba02cc04",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/e46d014bb7bb4394d840b9f75f8bb6d6/0b3f7a65a6f4738499c07b0353bb38eb.bytes",
+      "bytes": 63568,
+      "originalSha256": "84fda9b1eb6fea2a87469bd56c875280a94484e52784d7a8586c15479822c106",
+      "runtimeSha256": "84fda9b1eb6fea2a87469bd56c875280a94484e52784d7a8586c15479822c106",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/e46d014bb7bb4394d840b9f75f8bb6d6/397c517e30e0fa847990d8ea9d6cbcec.bytes",
+      "bytes": 5373952,
+      "originalSha256": "71e9b88287d7197aecbf5e72a420cc432285d7518b90c0f7317208f4f7b71553",
+      "runtimeSha256": "71e9b88287d7197aecbf5e72a420cc432285d7518b90c0f7317208f4f7b71553",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/e46d014bb7bb4394d840b9f75f8bb6d6/451c145a90985b642aa63cede207febd.bytes",
+      "bytes": 335872,
+      "originalSha256": "ec89680914d6568f326a6119cc9c75e62f7279b34bc1ea232f6ab065a4a4e3e7",
+      "runtimeSha256": "ec89680914d6568f326a6119cc9c75e62f7279b34bc1ea232f6ab065a4a4e3e7",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/f4dcec8b1967a5d4297f955a2ef1004a/1f61434ad8f45aa4591d621b8f9c8168.bytes",
+      "bytes": 2592,
+      "originalSha256": "11780a4a43b49032f1135d2b785af34830d711c8e9fdfbde0e23e3224056cd4a",
+      "runtimeSha256": "11780a4a43b49032f1135d2b785af34830d711c8e9fdfbde0e23e3224056cd4a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/f4dcec8b1967a5d4297f955a2ef1004a/56359b59d39a79544877a5dfdf9a2b65.bytes",
+      "bytes": 65536,
+      "originalSha256": "ca1ac90feaf7eda87028a75e87e337ea95e886c91ff0c6c656576833b95dfe8a",
+      "runtimeSha256": "ca1ac90feaf7eda87028a75e87e337ea95e886c91ff0c6c656576833b95dfe8a",
+      "identical": true,
+      "expectedAdaptation": false
+    },
+    {
+      "path": "How to Fish_Data/StreamingAssets/APVStreamingAssets/f4dcec8b1967a5d4297f955a2ef1004a/e382edee8a86e9f42a56408143fe0d13.bytes",
+      "bytes": 1048576,
+      "originalSha256": "dd96d0e50e8dbcbc962708658b718e92f6332995de601a5c3a456f9326e5f2e0",
+      "runtimeSha256": "dd96d0e50e8dbcbc962708658b718e92f6332995de601a5c3a456f9326e5f2e0",
+      "identical": true,
+      "expectedAdaptation": false
+    }
+  ],
+  "sourceManifest": [
+    {
+      "path": "RecoverySource/GiftCatalog.cs",
+      "sha256": "d72890583c396fea7662f368c4eac800210949a11f1d3f41877a4d184ebb1b02"
+    },
+    {
+      "path": "RecoverySource/RecoveryFishingVerification.cs",
+      "sha256": "17fc612bbc42c7a13082db6245b7c5fed3c5ed904dc6a1d45cdb9a1b95ac15c8"
+    },
+    {
+      "path": "RecoverySource/RecoveryGiftPanel.cs",
+      "sha256": "62c45d7902594c7671d3ba28f18e76bd4fc38524719039822043703be143a854"
+    },
+    {
+      "path": "RecoverySource/RecoveryIsolation.cs",
+      "sha256": "6d9275fa8c6d1f9d1e04c157220a7cd45ddb3e0cc0804e6a619f18d896d4dcfc"
+    },
+    {
+      "path": "RecoverySource/RecoveryPlatform.cs",
+      "sha256": "ff03d6996d664fef6b30b174b997f0b78ac813a425505f6707ce5bf9a3f91cd8"
+    },
+    {
+      "path": "RecoverySource/RecoveryVerification.cs",
+      "sha256": "014f6edb8702ad9ab4ee5704aad6a48e83f085248b66fd7a33008d0b9fc356f0"
+    },
+    {
+      "path": "GameSource/AchievementManager.cs",
+      "sha256": "4dc3efa15877822b25a25115e8485ae20492f3c227f341d7131cb4467a3ec341"
+    },
+    {
+      "path": "GameSource/Albatross.cs",
+      "sha256": "fa59ea0ae0b329e78ce8f0cbe8523c2be595957d802bd63e2003725a64edd9f8"
+    },
+    {
+      "path": "GameSource/AlbatrossSpawner.cs",
+      "sha256": "447c2bf74ca8012ff335528d5f7802aa48fda908276ca398478dd7de921280d5"
+    },
+    {
+      "path": "GameSource/Attachment.cs",
+      "sha256": "e635c873806f102f2510e85155fac4a0fb38013ac0cc58d5c69eb17983f8921f"
+    },
+    {
+      "path": "GameSource/AttachmentInfo.cs",
+      "sha256": "487fa361f72f23e38734d47e6f525ff3e21a9f0b60a006e0af8b4d76810b6a45"
+    },
+    {
+      "path": "GameSource/AttachmentPurchasable.cs",
+      "sha256": "0f814d343a1782030040f3384adae025d5b21d0657011e204a367358a314be6c"
+    },
+    {
+      "path": "GameSource/Attachments.cs",
+      "sha256": "a9507f2b498ae95b27bc4ca8f3b3dadadc8223f698dfc4b0b58545253a021ca7"
+    },
+    {
+      "path": "GameSource/AttackingFish.cs",
+      "sha256": "5e786427756993a159e1c1942e4bec7a709f71127f32e49093cb2b1fa3e66a0f"
+    },
+    {
+      "path": "GameSource/AudioDistance.cs",
+      "sha256": "5a8de73f1756d87c667899b50127025469a18573e4db4c510e88c8112edf2f9d"
+    },
+    {
+      "path": "GameSource/AudioGainFilter.cs",
+      "sha256": "2f42238444c7d9aae9dd04807c3f9560ef5c89fd267af8eaa618f3cb5a25feb9"
+    },
+    {
+      "path": "GameSource/AudioImpactManager.cs",
+      "sha256": "9a09b0d27eba1752753c04f2100d413d1f951e6f22920e339137bd1ca9b94e0e"
+    },
+    {
+      "path": "GameSource/AudioInputTypeFilter.cs",
+      "sha256": "b249812cf53691294b1ce9214f58a48649f585efd04f7dc98863e3146e780f0f"
+    },
+    {
+      "path": "GameSource/AudioManager.cs",
+      "sha256": "65f35c54f00d127cf95e8b3471fc2e70819543eeee38fbf93f44eff321754283"
+    },
+    {
+      "path": "GameSource/AudioSequence.cs",
+      "sha256": "65a597bb986745a588efd07f1879c044f57e69e88f5b78416a9d0e6aed0a96e5"
+    },
+    {
+      "path": "GameSource/AudioSequenceManager.cs",
+      "sha256": "7caf0e086f5013552d8fa8638a0e36432d3b924a931f968f5d38e9d17fb73f2b"
+    },
+    {
+      "path": "GameSource/AudioSequenceStep.cs",
+      "sha256": "c8027b6d055f60e9ac5f3057c4bc532cf69fbb7aff3a8be6e6c2cc28f648a2ab"
+    },
+    {
+      "path": "GameSource/AutoSaver.cs",
+      "sha256": "dc519ed63f875bcf64f1221928e267227d1948def72315d5d8d274d96217104e"
+    },
+    {
+      "path": "GameSource/Bait.cs",
+      "sha256": "aa777f0055c04e24ef9f4d41c486bf76693be63050634b84c9ed01ae7620cfd5"
+    },
+    {
+      "path": "GameSource/BaitInfo.cs",
+      "sha256": "4db834d15150da6af51b7b08d095faab26292e7c717f1ad3ce400e630950f6e6"
+    },
+    {
+      "path": "GameSource/BaitPurchasable.cs",
+      "sha256": "73cbd005a0b5a7301a73a12334e5d5bf4a2a38482364c015e8013494d4103ac8"
+    },
+    {
+      "path": "GameSource/BaitSlot.cs",
+      "sha256": "22fb4c89edad857bef436970807416bf9575e4fe8a0f1e873de06e99b8a6b556"
+    },
+    {
+      "path": "GameSource/Barrel.cs",
+      "sha256": "bf9caceda69ce88a7e8426a903862786b6a8f670080a5f8d36940773cec8e18d"
+    },
+    {
+      "path": "GameSource/BarrelAttachment.cs",
+      "sha256": "08e36791073994163dde8ad3a85915349c3c0beef67d7e5fee4d39f22287b379"
+    },
+    {
+      "path": "GameSource/BetButton.cs",
+      "sha256": "97508ce372f5b642dfb999d1bc0956881616fb8df5f833d1e95e2e0be5f17cf1"
+    },
+    {
+      "path": "GameSource/BetColor.cs",
+      "sha256": "9fda3a5132ea08c5a748d8d02721b13773c8f8342a1c3f598d06948592e99ea2"
+    },
+    {
+      "path": "GameSource/Bird.cs",
+      "sha256": "f552013fae811962dd0ba2d611ffec28b1fb120949830bcfa22c6a86e7f08270"
+    },
+    {
+      "path": "GameSource/BirdManager.cs",
+      "sha256": "f70db15cd14fac287a47405d8fb5e99d25b4bc8bab34c980329fc59fed020c35"
+    },
+    {
+      "path": "GameSource/Boat.cs",
+      "sha256": "26e156d1f4cca65542d7cd3372e595a21d42013c0f702bc9e6166ca92b985dc4"
+    },
+    {
+      "path": "GameSource/BoatInteractable.cs",
+      "sha256": "2a07d6c257299db5bd1aabe5183ebfc216a6b1f448536c2babf4ff6d8b9c5b87"
+    },
+    {
+      "path": "GameSource/BoatManager.cs",
+      "sha256": "8bbc363e93c31646f250c3808014931a7a40cca804041cf242d7f21d9632f6ef"
+    },
+    {
+      "path": "GameSource/BoatMotor.cs",
+      "sha256": "5ad9297e6ce516a4294cdcb4598c305f9e85843330b09a5cb9e8b8d2bd9793d6"
+    },
+    {
+      "path": "GameSource/BoatRadarPurchasable.cs",
+      "sha256": "3fac6ff83f6c7c90fd417db0b5f95bc0734914a909242fe45f7761f0b3a8003a"
+    },
+    {
+      "path": "GameSource/BoatTrigger.cs",
+      "sha256": "9295562a5bd7fa346410a074b3da55fbb20ba844f2274682674e2d0547026f85"
+    },
+    {
+      "path": "GameSource/BobbleManager.cs",
+      "sha256": "8d51249f85b70c3c077d9978f2cafc377acce5356516183eca298e91b7ac5bd9"
+    },
+    {
+      "path": "GameSource/Bonus.cs",
+      "sha256": "1d81ba742ff6f38f37d217846c47d3a19655e8263a00fb408ca58295a83cd126"
+    },
+    {
+      "path": "GameSource/BonusScoreRow.cs",
+      "sha256": "2658d78db3bea4580dc2da10d8f76a784163f2d4131de7ab06ca1eec3682fed2"
+    },
+    {
+      "path": "GameSource/BossManager.cs",
+      "sha256": "a1870025cf47e041c36cf5a33e9abb3d6c69328837b29c58028bae629410251d"
+    },
+    {
+      "path": "GameSource/BossType.cs",
+      "sha256": "e5cbd7c88e8f636566e79f90abc3d234bea313310e5f75e9358a37d990be0e2b"
+    },
+    {
+      "path": "GameSource/BossUI.cs",
+      "sha256": "43772db7ca7150ca07746324ab8c05ebad3dbe52c185933c92768f66fd300174"
+    },
+    {
+      "path": "GameSource/Bottle.cs",
+      "sha256": "f6334bf67ef048a63ef3e2d459c6292e69508c485e3c7b923f0a2ae21df8a0fa"
+    },
+    {
+      "path": "GameSource/Bow.cs",
+      "sha256": "c7e2c3b5f329f623d580b89748b9b89bf8618cdb197194c7c52fdd8850cae5d8"
+    },
+    {
+      "path": "GameSource/BowheadWhale.cs",
+      "sha256": "1ad575cc406605fec54b0a47d29c0f476638354eb5ba60e844dbb39d6d172a8b"
+    },
+    {
+      "path": "GameSource/BulletPurchasable.cs",
+      "sha256": "83beab88a26c79acde6528aebaf127b6f773a93d0f8e4cb6c237bd3649b3b06f"
+    },
+    {
+      "path": "GameSource/BulletUpgrade.cs",
+      "sha256": "290c6bb00af2f73bbf8db393b2e58c545853b9e2b4ba00e077236f70014bfea6"
+    },
+    {
+      "path": "GameSource/ButtonManager.cs",
+      "sha256": "1313df7aff5be01ce29d1392dd70821cb9ab0ab5173bf864de3b49306fe6c927"
+    },
+    {
+      "path": "GameSource/CanvasManager.cs",
+      "sha256": "7b99bc1e9c1603b19d53d90742680fe0f8052f0902eedf0ecb2df44e357ee7fa"
+    },
+    {
+      "path": "GameSource/CasinoBox.cs",
+      "sha256": "784b6888dddcd8b68b34efe6f745dd7c66ecf1dfaa5c1c9a2a3dc5cb642e568c"
+    },
+    {
+      "path": "GameSource/CasinoManager.cs",
+      "sha256": "36ed08d1f763dd20c9c70e6b6b6ae781682cea3949d44d515b5fefb0f797e579"
+    },
+    {
+      "path": "GameSource/ChatManager.cs",
+      "sha256": "66d9c4c9f18874406f9b3e2638f5896d3472d6cf697e1099fa8ca2c6b4cbfbe5"
+    },
+    {
+      "path": "GameSource/Client.cs",
+      "sha256": "f237a8cc82dc98600c5e3ceecfcf7552163822d3196e77d2f95b37090f4f2a40"
+    },
+    {
+      "path": "GameSource/ClientCommands.cs",
+      "sha256": "8283e8062e750fdf14cf87c500d0bfccb8649997419d87555661626d990bef61"
+    },
+    {
+      "path": "GameSource/ClientSettings.cs",
+      "sha256": "80d286015abec7c859770a6dcd004226272a260d299af0da1317823b8285639f"
+    },
+    {
+      "path": "GameSource/CloseItemsUI.cs",
+      "sha256": "b3656b221beaa0bebfd30817e335cc5d73aafbc2a63bcdbf4e6e43837538aaef"
+    },
+    {
+      "path": "GameSource/Clothes.cs",
+      "sha256": "b23629529bc89f434261ddccdc144596967b419c5120c60062cd1e4b5447dab0"
+    },
+    {
+      "path": "GameSource/ColoringPart.cs",
+      "sha256": "2d2c3d4ce933e5603a0d85b614420a2aba20b65ad0ffffe7e0d513b5af5a224d"
+    },
+    {
+      "path": "GameSource/ColorPicker.cs",
+      "sha256": "43debaea7d3aa0fc8ec32da27fd19655de731076a1bafc47721328b8948a26a6"
+    },
+    {
+      "path": "GameSource/ConnectionManager.cs",
+      "sha256": "4c46338e1828557436d3b5744491d6923218f6fb448c16e9bbf6359efeda82f4"
+    },
+    {
+      "path": "GameSource/ControllerType.cs",
+      "sha256": "4cc433cf149c487d8a33008280adb19f974e07c41ed018c0f3775bccda437706"
+    },
+    {
+      "path": "GameSource/Crab.cs",
+      "sha256": "f7183cd106342636799287b3134d4e1102339bbad350bc54edd086972ae038c3"
+    },
+    {
+      "path": "GameSource/CrabArms.cs",
+      "sha256": "339823e2fb7232366117aeeb72f93700a181316cad72f8086792560dd4f4187c"
+    },
+    {
+      "path": "GameSource/CrabLegs.cs",
+      "sha256": "2666def992c6aa68a6d0d6de8ecc7138c8cc4debf7e063c9889ba805792d1fe9"
+    },
+    {
+      "path": "GameSource/CrabState.cs",
+      "sha256": "c4e663d70ef96484af742dba268d2aa4482d72615577ce2593df68b908105287"
+    },
+    {
+      "path": "GameSource/Creature.cs",
+      "sha256": "ae5e1b7d2619061f9a47fb078fb112613ea25476d293d012a34ad19e45502e64"
+    },
+    {
+      "path": "GameSource/CreatureManager.cs",
+      "sha256": "5fe0b14a18ea8513ba765f80a07d16b6967420f482bf072415a8958d20d1d22a"
+    },
+    {
+      "path": "GameSource/CreatureUtils.cs",
+      "sha256": "94694e1a5e4a37582fa625c0570f8d7231acf50b3b15cf0bbad4cdc0efa06e83"
+    },
+    {
+      "path": "GameSource/CreditsScroll.cs",
+      "sha256": "c028fe37c758843b33df9cb50f9271247d9d49538a22d41a9d05dd58e33ea647"
+    },
+    {
+      "path": "GameSource/CreditsTitle.cs",
+      "sha256": "a5b279d7369432f3f5cc8c8c1c56d0f8bb3d4460a97cc3e3f340202ab1209cd6"
+    },
+    {
+      "path": "GameSource/Currency.cs",
+      "sha256": "942923e432eb76889b372bd4ac579df7265bc6785f5a1fd07814da6d16c5cfd7"
+    },
+    {
+      "path": "GameSource/DamageType.cs",
+      "sha256": "79a64cb831fa03e93bd269380f511276be7b75da6809254b78db8e5e395e16d2"
+    },
+    {
+      "path": "GameSource/DazedCommands.cs",
+      "sha256": "779442f36026a4f05634236677dbdf8dd6d9f5d5ac6b2473a4602254d4755fc3"
+    },
+    {
+      "path": "GameSource/DazedUtils.cs",
+      "sha256": "c81288d5d4d5770715e93927da21a734d4b5dd6dc074f177a89257194b877531"
+    },
+    {
+      "path": "GameSource/DeadPlayer.cs",
+      "sha256": "1a480cb2d07dc24fba637488ef4084b1858962652c7a2b1d071f6eb85dd756ea"
+    },
+    {
+      "path": "GameSource/DeathUI.cs",
+      "sha256": "1e7c5ae2adcf60031d22850083668ea2ac0e0b94f1e729bc268ed390b97d08f4"
+    },
+    {
+      "path": "GameSource/DecalInfo.cs",
+      "sha256": "e4578febd6b5d7ecc2fb618ac7084204f29340ec9eb57082d384df0522f6c87b"
+    },
+    {
+      "path": "GameSource/DecalManager.cs",
+      "sha256": "f31a66d540613779bcb41bab38ef1935bc61dd00d1fa9aa0398c3c41428d9548"
+    },
+    {
+      "path": "GameSource/DecorationManager.cs",
+      "sha256": "7ebc855db2653ba7eb5a13f982d9cdcf6eb20b5e1c3a3750d6622c264f1e8b52"
+    },
+    {
+      "path": "GameSource/DestroyReason.cs",
+      "sha256": "7747e4f21c92d3b5922418a3ebb6873baaf223f375aa1ba5a11e79d8f43d0235"
+    },
+    {
+      "path": "GameSource/Difficulty.cs",
+      "sha256": "f8711be43fa0e005f1b6f90cb4ea84408274c0a5fa0814098558043800680c9e"
+    },
+    {
+      "path": "GameSource/Disc.cs",
+      "sha256": "6ace64e45e762412214fe190c7dc1dc4b2de25c725cab865cb62b2abd0a38f91"
+    },
+    {
+      "path": "GameSource/DisconnectReason.cs",
+      "sha256": "f3a3b7878d55bd5dd3d3466eef130953b8860a3ce12914224dd3551a2b257e5c"
+    },
+    {
+      "path": "GameSource/DripText.cs",
+      "sha256": "eaf16611ea317058bd87b7360436173417cb6990b4a3da76f735e702b1080cf8"
+    },
+    {
+      "path": "GameSource/EndGameEffects.cs",
+      "sha256": "ac23ec3b456fe48c8721ce58ffc27b4552d1081482f5b7afb9121c2a1d07ae90"
+    },
+    {
+      "path": "GameSource/EndGameInteractable.cs",
+      "sha256": "70f8a2ca43d8905286ff4fc377c211185a7eb671f0e03dc2722d98ac593a6fbe"
+    },
+    {
+      "path": "GameSource/EndGameManager.cs",
+      "sha256": "a881349ca46359177c6c73a811d8a6b449dc501331c7657faebacfed71deabc1"
+    },
+    {
+      "path": "GameSource/EndGameToggles.cs",
+      "sha256": "1bda1a7b5153561dd0438866ed6cdec8fdc556d6e8e5593b53e3648f1b45b6f8"
+    },
+    {
+      "path": "GameSource/EndGameUI.cs",
+      "sha256": "5d06f32eb6c17eac013f879e97c71d3c9c2fb817cb72e3580a8933994c553d6d"
+    },
+    {
+      "path": "GameSource/Explosion.cs",
+      "sha256": "2364093f7d2fe432f4ce4759f8790bd337fade5f0eadf7169abbeb79f311b847"
+    },
+    {
+      "path": "GameSource/ExplosionInfo.cs",
+      "sha256": "f649bed582e4ef283ed2de6858792743265a164c07b4b6bc79a866b74bc5dfea"
+    },
+    {
+      "path": "GameSource/ExplosionManager.cs",
+      "sha256": "119e4a9db845d8ce66f6ac8884f72e04eb9d0eac28cf7d8035133d68abc49994"
+    },
+    {
+      "path": "GameSource/Explosive.cs",
+      "sha256": "8ff288082a3cb679ee8a9e92cb88885f03413332a0f067e78e11c9d673178da3"
+    },
+    {
+      "path": "GameSource/ExtraLava.cs",
+      "sha256": "3c0446dcc450527de333bb0ced809b823e0379cbbb0c811318317d689a030edd"
+    },
+    {
+      "path": "GameSource/Fish.cs",
+      "sha256": "16c0079f9289c47759f3970e6cb0c6178e242d968181b8fdef4c2b21297b8823"
+    },
+    {
+      "path": "GameSource/Fishable.cs",
+      "sha256": "f6c8312c5e0aa85c2ec54a659d7b97c949634509d85be06680d8a349b93c53d3"
+    },
+    {
+      "path": "GameSource/FishingRod.cs",
+      "sha256": "0349bb9c1e95b6673ff1adc4383755c7bb21fa8f60d5682d4bc98d4392dc45b5"
+    },
+    {
+      "path": "GameSource/FishingRodCast.cs",
+      "sha256": "a320dddefa319505c0ee7ddc40b8d448646f1cb60ca6ca2e9aabab09aaa5a55c"
+    },
+    {
+      "path": "GameSource/FishingRodCrab.cs",
+      "sha256": "14a395e916a29430b31500ad11a08528357cc6f94b64a3653361e49e2594b9ba"
+    },
+    {
+      "path": "GameSource/FishingUI.cs",
+      "sha256": "4b4431600ca0c39173c85f2454e262ad36eff86bbcc696862b7b79ce29f3befc"
+    },
+    {
+      "path": "GameSource/FishType.cs",
+      "sha256": "1d6e0119ca396889bc9554d7782b0df4278b714dc801581cb2a6cd3b239dc5ac"
+    },
+    {
+      "path": "GameSource/FloatInfo.cs",
+      "sha256": "c39790b2364dabd3999028d4175c7b30ff2268575fa8b3adf2350945e46501dc"
+    },
+    {
+      "path": "GameSource/FogState.cs",
+      "sha256": "158419bde7b0643c9dcbbe2f93210b01a14a13e5d29445e8e570de16b7336c94"
+    },
+    {
+      "path": "GameSource/GameInfo.cs",
+      "sha256": "b29692904930df93b6edb482a560f6913a7315e122413bfbe6843a07d5b4bbdf"
+    },
+    {
+      "path": "GameSource/GrillBox.cs",
+      "sha256": "c1e8989214b663ae7885fea0d105ff59c95bb0d553d21aed475ff2018b4337be"
+    },
+    {
+      "path": "GameSource/GroundBait.cs",
+      "sha256": "00be1413b8503f3c192c21a72d6f5025b4bea3ffc9f9b35722eccf0921d62c87"
+    },
+    {
+      "path": "GameSource/HandTransforms.cs",
+      "sha256": "a459cb145a3297ffe1494a8f9df015767486fc405034d75ff9b053b7ea015608"
+    },
+    {
+      "path": "GameSource/HeldInfo.cs",
+      "sha256": "19e67dd09502b592f1255c619defd601efb6452998bcf4411f89ec8f8a340b83"
+    },
+    {
+      "path": "GameSource/HitMarker.cs",
+      "sha256": "e368fc3871b2fe735d8f9d9c653437883585866b9636699a3c76460d39afed00"
+    },
+    {
+      "path": "GameSource/HitmarkerManager.cs",
+      "sha256": "2e1bab9601e6c4132d1e847f7ea6a038516582a8f42c03ee3a66a62d0d11f0c1"
+    },
+    {
+      "path": "GameSource/HoopTrigger.cs",
+      "sha256": "231d6a819bfb4e1d984fef15679c7e445c2ebbc65ba4a91ed69490af32d15092"
+    },
+    {
+      "path": "GameSource/IK.cs",
+      "sha256": "42433687d9584c94939da622ab4958ddf724d0f7926b2a2e81018a5cdef75130"
+    },
+    {
+      "path": "GameSource/ImpactSoundType.cs",
+      "sha256": "888c47a98d19ba7941f9d1e191f8c7151edb99ba2532d37eb64ef8c873cf7c54"
+    },
+    {
+      "path": "GameSource/InputSchemeSelection.cs",
+      "sha256": "7cc28522d9b2e5bd7f1647c81169db462fd9801a0b83aae97a22d1b9c938b499"
+    },
+    {
+      "path": "GameSource/InstanceManager.cs",
+      "sha256": "786f2c8821cbeda536f206f34932cb89dde4b99189f5b493034932433e297bb4"
+    },
+    {
+      "path": "GameSource/Interactable.cs",
+      "sha256": "1aacd291defffc8f8bcaa4fc6d6fcf8c66aa6f2a4d2465be86d4a20f87200cd6"
+    },
+    {
+      "path": "GameSource/InventorySlot.cs",
+      "sha256": "3abd74ce393df8aa9d77085f4b7c5e770663e3fa2a27ad91ec3bf77f3bda3a14"
+    },
+    {
+      "path": "GameSource/Island.cs",
+      "sha256": "e14919395d4ca6cc7bf0701744827e9961d3f0f77eb993a8ccc0ff7043090e2c"
+    },
+    {
+      "path": "GameSource/IslandInfo.cs",
+      "sha256": "6284f7960d91f05a9e7ad09acd4b93c1c0ce82743144ca327883e75a7aab2245"
+    },
+    {
+      "path": "GameSource/IslandManager.cs",
+      "sha256": "6a732ef1c70b444bbc754384e0209c617f7ec0501ad12b902ad01760a5fb90b3"
+    },
+    {
+      "path": "GameSource/IslandSpawner.cs",
+      "sha256": "ad043eca2219a2a383abae05d2c5b9e84b8b7ab93334cded9bbbba7e9f004440"
+    },
+    {
+      "path": "GameSource/IslandUI.cs",
+      "sha256": "ea59a677914e1b39aaceed27a9a585b1f2e97a4ee294b2702e37bd55b76161aa"
+    },
+    {
+      "path": "GameSource/IslandWarning.cs",
+      "sha256": "a9502e68beef66f7c0784878b72bc806ea199f8512013545c1071bc7eded6e97"
+    },
+    {
+      "path": "GameSource/Item.cs",
+      "sha256": "1a0bbe5138b9c97725c9db8a578788029d8c7ff30cb44c8814280881980f55e5"
+    },
+    {
+      "path": "GameSource/ItemExtraRigidbody.cs",
+      "sha256": "c7002112660078732e6a01e25c49678cc4b67b31deae8a0f21a90d822180fc85"
+    },
+    {
+      "path": "GameSource/ItemInfoWeight.cs",
+      "sha256": "ec0e91375c102ccf6e9d5e8c93c7a8d437f134870b389248a8eb040e997e9fbd"
+    },
+    {
+      "path": "GameSource/ItemManager.cs",
+      "sha256": "b08d76972606ce6e231922e83fd5b0d643935c25fdfc7e904be37c8e7d76da61"
+    },
+    {
+      "path": "GameSource/ItemPurchasable.cs",
+      "sha256": "f4a27e9cdd04471b834eb3e65ba4426951cf203324909f33a31ec5fc624cdbf4"
+    },
+    {
+      "path": "GameSource/ItemSkin.cs",
+      "sha256": "2c5cb3e82b9eb1c774ce9077026fc66f190c39d2e76684fba3c65d6959825a9b"
+    },
+    {
+      "path": "GameSource/ItemSpawner.cs",
+      "sha256": "754ffbf185b4c4da9ca26bda598d2138e25b606ed620146522da08a7ae0fae30"
+    },
+    {
+      "path": "GameSource/ItemType.cs",
+      "sha256": "7abfc41cdfc983a8e25feabfbd6d4dc70684e23b01ba99c664cc440f2d7a2264"
+    },
+    {
+      "path": "GameSource/ItemUI.cs",
+      "sha256": "107f13b24cb860e6ba536db0f13de528cdc2954995a70208d6ba006022f46456"
+    },
+    {
+      "path": "GameSource/JournalSlot.cs",
+      "sha256": "6a3a353c63b5f3f33067939ccc57ee52b0541b06c8a451fef7d8969ac293239a"
+    },
+    {
+      "path": "GameSource/KillScore.cs",
+      "sha256": "a7c12cb03075dce5fb18036df31144de35744af225291f7f0af48c0baf2c8a27"
+    },
+    {
+      "path": "GameSource/KillScoreCalculator.cs",
+      "sha256": "678d13cd66e6d844fda2faf88b5c8207965a41e994fb6bf51fe63dbb3ef0b8cf"
+    },
+    {
+      "path": "GameSource/KillType.cs",
+      "sha256": "109f164fffe13e8ff0eb7fb4b9b199a43583cea44c54512e6dbcce39e734b64e"
+    },
+    {
+      "path": "GameSource/LaserSight.cs",
+      "sha256": "148ef6eb7f90adcf1940029c589b816c7dfa232b05cc6e2740fd582c5b3e0132"
+    },
+    {
+      "path": "GameSource/LoadingManager.cs",
+      "sha256": "a1aa44a9fe1165822229468e72892b19a7d21f848f527510e0137827096426a8"
+    },
+    {
+      "path": "GameSource/LocalCasino.cs",
+      "sha256": "3054dd7ab9df84e11c9bd9578113be0bc3cdce1002c0ea3e6de6c2fe9b4e7560"
+    },
+    {
+      "path": "GameSource/LocalizationManager.cs",
+      "sha256": "319d62944b1962594f110b2a3bee5ee72c8ce351651d9d9a5be67928070df0ab"
+    },
+    {
+      "path": "GameSource/LocalSkin.cs",
+      "sha256": "d87c470d6ea0ca1e56926465087289214da7822231df8402cca7ff827c9004d5"
+    },
+    {
+      "path": "GameSource/LookAtPlayerManager.cs",
+      "sha256": "62080962287420a697dac8d6f1844154157874e42c2f87b1e5a65b943fd0736e"
+    },
+    {
+      "path": "GameSource/MachineSlot.cs",
+      "sha256": "7589650212d8b65806477f6d4484ceb153d690133710c8837e550d1ab4c886bd"
+    },
+    {
+      "path": "GameSource/MainLava.cs",
+      "sha256": "6965a89eae1e4d68d61b3b86856662c824c51d315101d644c397c4af9ffdfdf6"
+    },
+    {
+      "path": "GameSource/MainMenuManager.cs",
+      "sha256": "eee0fd98106dbb0899e1accebabf568666bbfe73b027e04d89f0df350ffa3437"
+    },
+    {
+      "path": "GameSource/Manta.cs",
+      "sha256": "2fb0ef3e249f9d99e0f5f9ac50bbeb62a6fae3b6885c9a92786e4eac1dfa5f2a"
+    },
+    {
+      "path": "GameSource/Map.cs",
+      "sha256": "c57f4deba709f0e6166dde57dacdf58d39d2946a167b32d9355e4e7153f47246"
+    },
+    {
+      "path": "GameSource/MapDot.cs",
+      "sha256": "5b4086dee9381adbb1572ec5395e2ee94c7ff87d35c457d1e5b0ed723316979e"
+    },
+    {
+      "path": "GameSource/Melee.cs",
+      "sha256": "8e776a789abd7f0060a8705d2fd95daef5cf90a482a893916ec1fc047dd8d39e"
+    },
+    {
+      "path": "GameSource/MiniIslandSpawner.cs",
+      "sha256": "0574872f01bfb3c93664c4154766cfad5ba2c040fb2c4309affd3cad876e61c1"
+    },
+    {
+      "path": "GameSource/MoneyManager.cs",
+      "sha256": "4563fbcdd39aae8916d9614b1f3d5ec44d4a26e09256b9852ce39e3e54fb9975"
+    },
+    {
+      "path": "GameSource/MoneyUI.cs",
+      "sha256": "6f54d333f2ba8888a595c749b0b6e72897d1fea3e227f343e368aa077ae79999"
+    },
+    {
+      "path": "GameSource/MotorPurchasable.cs",
+      "sha256": "229882bc88e128a17bed339099faf2ba6a51a3872b05020aeb65a32fd6b4fc6c"
+    },
+    {
+      "path": "GameSource/MusicManager.cs",
+      "sha256": "b7308157fee66145f18bb6d33360cbfd2e8a7ffa88251f3200e1e2d24be502a8"
+    },
+    {
+      "path": "GameSource/MusicTrigger.cs",
+      "sha256": "a8c7da7043bb3be8251a10f8c4d56e2807081c0d179d9482793eac5878c52cbe"
+    },
+    {
+      "path": "GameSource/NetworkPrompts.cs",
+      "sha256": "e839fedab7e44207a2d002da24697044f704ccb4b4b895e4337241c0215555fe"
+    },
+    {
+      "path": "GameSource/NPC.cs",
+      "sha256": "6659f5c2c2cc7475075a3ff2dae91f2d0348a8f008bf7c1f49fd0e0f37b80280"
+    },
+    {
+      "path": "GameSource/NPCInteractable.cs",
+      "sha256": "d1ce8e7fe97e7443a1951afef936aab07a3c0afef8659284528cc3039e6d1573"
+    },
+    {
+      "path": "GameSource/NPCManager.cs",
+      "sha256": "ec0af8b596052eff35455a3a5cc944124a9209afb1c8491479851ceb40139e5e"
+    },
+    {
+      "path": "GameSource/NPCQuest.cs",
+      "sha256": "505eb0ff673d9fa29eac04be87a1be8c6041eff3e3bee99164f27d2c23f307c3"
+    },
+    {
+      "path": "GameSource/NpcUI.cs",
+      "sha256": "e4a6d6d7def41c32e9380c97ffb48f0395c11179d1ed7a6959b978c415c2eea2"
+    },
+    {
+      "path": "GameSource/ObserverToLocalAdapter.cs",
+      "sha256": "27ad4dff5b54a216c2b24dbb772d4174371c33487157e15aa6ac5c31409af46a"
+    },
+    {
+      "path": "GameSource/OnHitUI.cs",
+      "sha256": "066e80db71335b386ef2a958c484fd969ec2a731efbaafae022a588c99a84445"
+    },
+    {
+      "path": "GameSource/OnlineChatManager.cs",
+      "sha256": "b7bb02484de9ab949726e2d73048b0c974897c4f4f44444f51f2b5bf62978199"
+    },
+    {
+      "path": "GameSource/OnlineIslandManager.cs",
+      "sha256": "4009bc04d605d1f73add9c1844f7e2f47d34aae85f7b49cc386233d02d7bcbf3"
+    },
+    {
+      "path": "GameSource/OtherPlayer.cs",
+      "sha256": "413b76cf35a7fcc669b6466b6caef4e03ea8ea9d08398426412d8873f2bba827"
+    },
+    {
+      "path": "GameSource/OutfitMeshInfo.cs",
+      "sha256": "b4bfafce9c3a35482e928275c6867f96540ff5e189e8279c5d37f956f5641a5e"
+    },
+    {
+      "path": "GameSource/ParticleAudio.cs",
+      "sha256": "fe88eff28d9f80245bda485cc8d2e7c6d041c8f7c3ff5a9166eec54132d9eacc"
+    },
+    {
+      "path": "GameSource/ParticleManager.cs",
+      "sha256": "f3e71a46314ac9b8805dd0cb92221b2c97766b2219916188b2f141db382fb86e"
+    },
+    {
+      "path": "GameSource/PauseManager.cs",
+      "sha256": "a80330868a7c5d9b4244a542cb0ee908ae3b8d31cf1e6a6b0eb7db0faebe1dca"
+    },
+    {
+      "path": "GameSource/Piranha.cs",
+      "sha256": "febc7722d4b37ea6750767d7d8578f3f2327edac0eea31e6e221a51afaf6894e"
+    },
+    {
+      "path": "GameSource/Player.cs",
+      "sha256": "2aef37b663d09238a4ac6b7dbf5f1d450c1916b03d54940c5cf172a7cfeb44f5"
+    },
+    {
+      "path": "GameSource/PlayerAimAssist.cs",
+      "sha256": "931d133959a71972a0fe71c61585893f5321ee9718993db26aba392f426b5b19"
+    },
+    {
+      "path": "GameSource/PlayerArms.cs",
+      "sha256": "f79fdbd5383e7364f0e39402b3f10d75f40858e3a1517d236637269b6264fe34"
+    },
+    {
+      "path": "GameSource/PlayerBody.cs",
+      "sha256": "b92f509c79589692218a269a9fd73a518ca2530a452b964ef8a33e8b40cbb2ab"
+    },
+    {
+      "path": "GameSource/PlayerCamera.cs",
+      "sha256": "22d080882e8f3dc60f7420232fc962b24f7818cf83b1ae15f183ffcadd37cef4"
+    },
+    {
+      "path": "GameSource/PlayerColDetector.cs",
+      "sha256": "bf5a33f8e2d6429896cc58ab5b3a21da70919e6b5fcd4befafb8b9ad98824325"
+    },
+    {
+      "path": "GameSource/PlayerDeathCam.cs",
+      "sha256": "660b4db90a0d029c5314a28883b0f82841a2366ac633e14313804e1f48cbda2f"
+    },
+    {
+      "path": "GameSource/PlayerDying.cs",
+      "sha256": "0b94b2db9db6841b70836ede3eb54dbaf617eaec734464ba834a2b1adf60cb76"
+    },
+    {
+      "path": "GameSource/PlayerEating.cs",
+      "sha256": "1850d68b693cf286e80670be7d00fe52751d8059236ef42785a3d7af5dc16981"
+    },
+    {
+      "path": "GameSource/PlayerEffects.cs",
+      "sha256": "5998200807c19cfd63ce729336cefb240939295cb8b934e99faa31ab63d90b92"
+    },
+    {
+      "path": "GameSource/PlayerHands.cs",
+      "sha256": "644d2f24c0bda016a9cde5d3a868f030057ebc81d178fc2dc6a92625266b789e"
+    },
+    {
+      "path": "GameSource/PlayerHolding.cs",
+      "sha256": "eec81d58dd487780168b31a2f0028b4b4598000c5a3e363cf4d6cbd3d277f43f"
+    },
+    {
+      "path": "GameSource/PlayerInventory.cs",
+      "sha256": "6a941bd1450e5053bb62de20264212c846e4e057cb15e6433f7a488245bce75f"
+    },
+    {
+      "path": "GameSource/PlayerKillScore.cs",
+      "sha256": "26036d5dc6d3343baea4a1206f843e8f02a6048ad0846781e7ba7ab1eb65cac6"
+    },
+    {
+      "path": "GameSource/PlayerLegs.cs",
+      "sha256": "d6f35472e9473594841b791cdce797752ef4875cd0a884979c06dccdb5d9c800"
+    },
+    {
+      "path": "GameSource/PlayerManager.cs",
+      "sha256": "ca21e470ce23d681bcb88e619a6b0b0e3155fab103dfd1235175f1b479c00e06"
+    },
+    {
+      "path": "GameSource/PlayerMouth.cs",
+      "sha256": "a04546bee2c95d3214ad0f31c9a77d36ebcba3063682168ffe635720ef5ed1e3"
+    },
+    {
+      "path": "GameSource/PlayerMovement.cs",
+      "sha256": "5f617dd7d4cde62cd5a14be84775a3a466fb1faf19af2339c899d7db44c3664b"
+    },
+    {
+      "path": "GameSource/PlayerPunching.cs",
+      "sha256": "b2df1b020361d3996f12ec20fc5950bb84fe11a2cc804cd62c05cb45cf421456"
+    },
+    {
+      "path": "GameSource/PlayerScreenShake.cs",
+      "sha256": "fde0008185dcc45fe33ac3a488a634dbd7b76510cf86b641985a991aa26fba8e"
+    },
+    {
+      "path": "GameSource/PlayerSettings.cs",
+      "sha256": "53a0adfe51cc4e04760dab389a84b1873a8306e11d1155616c6a54ccb9fad64c"
+    },
+    {
+      "path": "GameSource/PlayerSkills.cs",
+      "sha256": "a66e2768c18602f9f0403ab3393b4a9a86a722e91c123f38aab33a1b89078b1a"
+    },
+    {
+      "path": "GameSource/PlayerSkin.cs",
+      "sha256": "fa57ccfcc8edb8d73d6f3b82897c46e7a0669dff3ec3bde072b88315f3261869"
+    },
+    {
+      "path": "GameSource/PlayerSkinType.cs",
+      "sha256": "9ab865286510b0d6d34651a1d82cce4e9bc934c321d5f3f0b82c6c2068a2d583"
+    },
+    {
+      "path": "GameSource/PlayerThinking.cs",
+      "sha256": "4c33fe0b9c26fdd022547cbd2962ce0484e1c5092e30e1e39d98aee7df46f189"
+    },
+    {
+      "path": "GameSource/PlayerToolMovement.cs",
+      "sha256": "32d8771c791a5821c2a1d7ddef3b18f1e34bdde6ff32bea3dd4e7d3fe999aca1"
+    },
+    {
+      "path": "GameSource/PlayerTutorial.cs",
+      "sha256": "930a10f7d755a86c07cda0a18c4850ea71337318d3c47050131d9b8e1d865566"
+    },
+    {
+      "path": "GameSource/PlayerUI.cs",
+      "sha256": "77d3148e463b7de806ce05e4d77e92c27a55f3007db68efee24b81571e603b1c"
+    },
+    {
+      "path": "GameSource/PlayerUnderwater.cs",
+      "sha256": "2f3557db6db51bc6a067fcd4bbcd1e1925c4568397e29b3a06b12b4fb207eec2"
+    },
+    {
+      "path": "GameSource/PlayerVitals.cs",
+      "sha256": "fecbbca99b35754d0d33c9d530349c30d2705763669cd25cbc2b001e7010a6ed"
+    },
+    {
+      "path": "GameSource/PoisonPoint.cs",
+      "sha256": "aa2baf92d6b38a4c3b74bb625ee8cf1134afcca433dc02491facee14610d7a74"
+    },
+    {
+      "path": "GameSource/Projectile.cs",
+      "sha256": "401644d9c29dd3c4971c57f47166f513b809631a16498e3483df9f4b3f1dd412"
+    },
+    {
+      "path": "GameSource/ProjectileManager.cs",
+      "sha256": "b5f9cfd8af7f7546a1e6f2ec44d2d91346ec2bbca293868d00ca6278041909ee"
+    },
+    {
+      "path": "GameSource/ProjectileType.cs",
+      "sha256": "76dad5527e5c1f5f2025d2f03fd0a81852375e8ce23b0a0b33f36035eafde244"
+    },
+    {
+      "path": "GameSource/Pufferfish.cs",
+      "sha256": "18ef5fa576b7d27098b671476e351b33e785a8a56c64d7f926872310147323f9"
+    },
+    {
+      "path": "GameSource/Purchasable.cs",
+      "sha256": "77408683632ee9565176cff2d92ae361ed1de4a97feedbd5844457bf8ef41e3f"
+    },
+    {
+      "path": "GameSource/QuestInteractable.cs",
+      "sha256": "dcdc200ec6963f953c23cb2721250788dcd1f77b1308f9dfe14ad18c7d921c1d"
+    },
+    {
+      "path": "GameSource/QuestLineType.cs",
+      "sha256": "13119b227e67a42da87be7a6d1d0eed9a3fd765e6c16d6de32025cf5e0138e6c"
+    },
+    {
+      "path": "GameSource/QuestType.cs",
+      "sha256": "33510fcc14731c7ae68f81f8a680d4e3dfc9d7a89fda73925b4636805308793a"
+    },
+    {
+      "path": "GameSource/QuiverPurchasable.cs",
+      "sha256": "fc875aef8cbaa28e2b2f42f9b85df0389df3327b0c02449899fbaf3721425aa5"
+    },
+    {
+      "path": "GameSource/QuiverUpgrade.cs",
+      "sha256": "528067a5228c613f2f75ecc5dec444be2846bb026cca1d673b869690981b2b85"
+    },
+    {
+      "path": "GameSource/RadarUI.cs",
+      "sha256": "5731d677c00cb30427aa506c3ecdced019b7cca6158a5b901eaceb44ed0c97f0"
+    },
+    {
+      "path": "GameSource/Radio.cs",
+      "sha256": "a17621791df08a8eda3122822fa1450ae2c98ebef0fa71ac22ee96dbdce6ac4c"
+    },
+    {
+      "path": "GameSource/RadioChannel.cs",
+      "sha256": "d98f164073d0b45a00414b31ab8cb241d97a5dc4114961fa1418fff1d6b58d85"
+    },
+    {
+      "path": "GameSource/Rarity.cs",
+      "sha256": "ee214761f68b3ae5fafb2302eefa577b659ec11a0030d6e8701ef3ed5c8a4ed4"
+    },
+    {
+      "path": "GameSource/RedDotSight.cs",
+      "sha256": "69725f951be25f260c7398bce1c11023c6911bd664a8c8836d2e8d23347a975c"
+    },
+    {
+      "path": "GameSource/RigidbodyManager.cs",
+      "sha256": "894defabb3723d0024134af38a65449f12f11c5884ea36153b2c651e820ad873"
+    },
+    {
+      "path": "GameSource/RigidbodySync.cs",
+      "sha256": "deb36d9be27679aeb8eaa2003144176b9f6235fdb7453ec30f34551e5a84ddab"
+    },
+    {
+      "path": "GameSource/RunningFish.cs",
+      "sha256": "24a172005ccf361ecd5c6a7b86389136d71f23d3575cfa88253d09d806215734"
+    },
+    {
+      "path": "GameSource/SavedCreature.cs",
+      "sha256": "0d1407241f15ecbd0d7e818991c56b9fb4edd6734e95578f2ea65420ac223913"
+    },
+    {
+      "path": "GameSource/SavedItem.cs",
+      "sha256": "47502c700301fc8cc74d3735657e5d5c9d30c063228d9ac488c800b02c8928cb"
+    },
+    {
+      "path": "GameSource/SavedItemSkin.cs",
+      "sha256": "db70e65b75345a9f5dd66831a3fd21f503d1b5c9b2c2e88bab395b0df3fa7776"
+    },
+    {
+      "path": "GameSource/SavedPlayer.cs",
+      "sha256": "a00c1f7ae9589fa5a29ef0c8e830fc0fa5a2ad5c6c013f6ed117e46a2c3481b9"
+    },
+    {
+      "path": "GameSource/SavedWorldItem.cs",
+      "sha256": "c2d7665d4b7abff24c29b0b223a6ce3814428919e1cee4c18f660575b04814d8"
+    },
+    {
+      "path": "GameSource/SaveManager.cs",
+      "sha256": "54d41b7932fe5726593ec28b235315a5ff8f4c3d1edc26db32277161dbac4cf8"
+    },
+    {
+      "path": "GameSource/SaveSystem.cs",
+      "sha256": "d0ca87c5c2d836744c59de75dc8f44a6525313d0f5fd91761683e2a55253810b"
+    },
+    {
+      "path": "GameSource/ScreenshotNPC.cs",
+      "sha256": "eaf16e2f2273a2a8cd2f13539fdb40ed32f5a5ba8c60f0c07b6e8e11d855d2b2"
+    },
+    {
+      "path": "GameSource/SelfDrivingBoat.cs",
+      "sha256": "be5e093dd30ad47feffce37568df5183a4fd63059f3e17beab11a387d7110c14"
+    },
+    {
+      "path": "GameSource/SellBox.cs",
+      "sha256": "baa036efe2ed830f2d0a29f32f5ad81f251874f2019589ffa181871f3d9f1c72"
+    },
+    {
+      "path": "GameSource/Server.cs",
+      "sha256": "a242727d96b68c55f3fa374cbff1b66d154c791aad3109130b7832c6de620682"
+    },
+    {
+      "path": "GameSource/ServerSettings.cs",
+      "sha256": "119583509e89072e0d0a97d106bc8ebc6c017ae5a6b42300e19958763f3f6424"
+    },
+    {
+      "path": "GameSource/Setter.cs",
+      "sha256": "c4a8f62e6d26753af2151ab271bea2929b1ada7062e72dc00e990fa30ce23670"
+    },
+    {
+      "path": "GameSource/SettingsInstance.cs",
+      "sha256": "65f5927de653a2948d2e243a70e8894c74a36f6fc110d00ad8fd4b26c3df21d0"
+    },
+    {
+      "path": "GameSource/SettingsPreset.cs",
+      "sha256": "21a3f8635abdb85fdb3d24cde50471d4c079614a8c725447c5d865bb057ae3e0"
+    },
+    {
+      "path": "GameSource/ShaderManager.cs",
+      "sha256": "7a5056f9929609cb00a0ef4f073c96f0297bdef5de1971ffcbbb78d97c62f25d"
+    },
+    {
+      "path": "GameSource/SharpnessPurchasable.cs",
+      "sha256": "0d7b4536f02cf224903bfefbcd57394444d5d933c2779b209f014467074625b7"
+    },
+    {
+      "path": "GameSource/SharpnessUpgrade.cs",
+      "sha256": "3902f9ffdb2cfe670e4a22478d71c9786725f4669fe356840128f31841dff191"
+    },
+    {
+      "path": "GameSource/Sight.cs",
+      "sha256": "2c29b85d86365c3ed53fbca33ad61485834720a9c621555cf6cc364027ca6604"
+    },
+    {
+      "path": "GameSource/SkinAffects.cs",
+      "sha256": "5cea5040251b12cf83b1e74bdb6eb817df50599d71192443704af042b68076ca"
+    },
+    {
+      "path": "GameSource/SkinManager.cs",
+      "sha256": "a01d861bc247ec3ebf2bad664d5c7b1f61028f46ef297c029250b912fde5e9ed"
+    },
+    {
+      "path": "GameSource/SkinNoise.cs",
+      "sha256": "daaaa7912ac63bef5f6e572169e8cfabfa86cbd0d31037b007d854431178ebee"
+    },
+    {
+      "path": "GameSource/SkinPreset.cs",
+      "sha256": "1bdc0f8ab6b7adc953747eb2f8789c075f03f7e2f0551bbe0886f8d77e39f313"
+    },
+    {
+      "path": "GameSource/SkipManager.cs",
+      "sha256": "6d964a853cede235ebdb21b5ed0ccbb0b517d5ab1aff3587fae95bec722c4087"
+    },
+    {
+      "path": "GameSource/SlotInfo.cs",
+      "sha256": "96437603ab99c7a795daa1891e08a777f253aed98f1cd8770a6c8ade9e5634c2"
+    },
+    {
+      "path": "GameSource/SlotMachine.cs",
+      "sha256": "57eca6dc837497c49d43b526c2bcf23ebf2b53c69f84bcc43d91f826c24a160c"
+    },
+    {
+      "path": "GameSource/SlotMachineManager.cs",
+      "sha256": "85b8820e5cb65f4738da8867f99c8c8da8616c6024489efcaaecbbb0b8e27b00"
+    },
+    {
+      "path": "GameSource/SlotPurchasable.cs",
+      "sha256": "e9036584a0c4b764efa8a780c159aae63649bf931064f349b666368e13bf6161"
+    },
+    {
+      "path": "GameSource/SpawnManager.cs",
+      "sha256": "ba6533de8a797dea3456f687717be9abf42915eb8d6452a7947af83427427a16"
+    },
+    {
+      "path": "GameSource/SpawnUtils.cs",
+      "sha256": "6c3f2e81f1c282e58eb45d4ba7729b88a9cb9abeb6f9c9478c38ef4622ea75ca"
+    },
+    {
+      "path": "GameSource/Spidercrab.cs",
+      "sha256": "2588961bb0cf2451be96a81e9d54a423eb39cd3e592410a6469ffdd25195f844"
+    },
+    {
+      "path": "GameSource/SpriteManager.cs",
+      "sha256": "57735e7eb226cf38872697e7b362c330cb4ee9d6e8a6446ff399afcba761a3cb"
+    },
+    {
+      "path": "GameSource/SteamLobbyAuthenticator.cs",
+      "sha256": "030e4308ac78a2f49273487f50d5c449c1b008651e96df88c95afa265ea4c77c"
+    },
+    {
+      "path": "GameSource/SteamManager.cs",
+      "sha256": "a96e376afe295417ad85e3445dd5311694b6d8a24922b6276f7f7ce6fafa9017"
+    },
+    {
+      "path": "GameSource/SurfaceManager.cs",
+      "sha256": "9a67ef07f972d6e2d38d751949ca3c4f0f0ece483102374222d85d2d6e8daeed"
+    },
+    {
+      "path": "GameSource/SwapOutfitButtons.cs",
+      "sha256": "352f874f86ed6287b79abba04a599d4175e5e9d7376670f928ce034e3131634c"
+    },
+    {
+      "path": "GameSource/SwimmingFish_old.cs",
+      "sha256": "4a3f60494ea874a5d22d6b97c0e66164816a0d0f55f24e7665ac46ab02b56ab8"
+    },
+    {
+      "path": "GameSource/SwimSettings_old.cs",
+      "sha256": "9449f6b44408a943830ef4a85c3568f42902556c5fe9e95303f26ca59dd7c2a1"
+    },
+    {
+      "path": "GameSource/ThinkingUI.cs",
+      "sha256": "33a86145ca4ec1de0f0ba703e126c24fae68d459bc3e3e017e4a1426e4b7eaf6"
+    },
+    {
+      "path": "GameSource/ThirdPersonCamera.cs",
+      "sha256": "91ca421519e5e78ce1f99c7ee7c1412bd8e76b5a7527add5e5453abb505c288e"
+    },
+    {
+      "path": "GameSource/Tool.cs",
+      "sha256": "edceeaa56075655295cd073d66209ac752cc8b029069f2b3ba54fc22061f9e8f"
+    },
+    {
+      "path": "GameSource/Tutorial.cs",
+      "sha256": "7bc02e09103295f20e908198b72479a835090d030f0796b686a64d209395f13a"
+    },
+    {
+      "path": "GameSource/TutorialBox.cs",
+      "sha256": "9bd130408254bf7a814c860567b1c544e784cb4523b86e05f3ac0d3d5b9cee8e"
+    },
+    {
+      "path": "GameSource/TutorialManager.cs",
+      "sha256": "6d449ba06886903affc11d230e253d304a48308e9f70f1d5890354ff19333f7c"
+    },
+    {
+      "path": "GameSource/TutorialType.cs",
+      "sha256": "ea0d91092dc166ebe9e0aa2fccb257ed530dbedca5c5a1ca378110c5294673da"
+    },
+    {
+      "path": "GameSource/UIButton.cs",
+      "sha256": "9843452846fd03e848438e57dc67ef58f0bd92811b950c7982da182067b1c930"
+    },
+    {
+      "path": "GameSource/UIInputField.cs",
+      "sha256": "3ae515e7704a33a8cbdd1b70933f7fd4c3d73a301fb56380e04599a6ceda7da6"
+    },
+    {
+      "path": "GameSource/UnitySourceGeneratedAssemblyMonoScriptTypes_v1.cs",
+      "sha256": "9bffa7de37d20785f46541f2f8707ac5e1276e08b4f9a110154c5229ef1fa0f9"
+    },
+    {
+      "path": "GameSource/VFXManager.cs",
+      "sha256": "4dc60e6100b17df94f679ebf0b1b46ad1feade5f19e83b1ecf5d5a07f0d67e1b"
+    },
+    {
+      "path": "GameSource/VitalsUI.cs",
+      "sha256": "2f1b2ad433ad844a28bd4b72d25dd9101bf47e74a1f5d29bd8952bdcb26956ee"
+    },
+    {
+      "path": "GameSource/VoiceInputType.cs",
+      "sha256": "414e46fa7cdaca4ea937ddf295f7095f29006818774b3e587ba875815f59b75d"
+    },
+    {
+      "path": "GameSource/VoiceUI.cs",
+      "sha256": "58c07a117361958c3472722252754d9bb84a4c325f51b904f120605a15086fae"
+    },
+    {
+      "path": "GameSource/VolumeType.cs",
+      "sha256": "3411aa16702221241da09f0c732c2538cd59481fa63c5a9c509e87e209d20e1e"
+    },
+    {
+      "path": "GameSource/WaterCollisionAudio.cs",
+      "sha256": "cd55840254a71c69d9435653836a8c4f4ddae29340eca484b1848ac0f0f1d61e"
+    },
+    {
+      "path": "GameSource/WaterManager.cs",
+      "sha256": "7ae7ed0f5e3709dca02fa5ad1d2d55c73f5cb200031bcd2c82b44a5319969bb5"
+    },
+    {
+      "path": "GameSource/Weapon.cs",
+      "sha256": "bd09aedae2fca7d46ad326284c0aabcca08385d8c472917d296367703b0c5012"
+    },
+    {
+      "path": "GameSource/WeaponInfo.cs",
+      "sha256": "bde1df2366ab4bce39d07d496813c959b9959999c1d62d16b954c57eaeaec195"
+    },
+    {
+      "path": "GameSource/WeaponUI.cs",
+      "sha256": "e588eea82202e898f7adfcf6af18fd5f5d927f6f64d5a8537ff0b2d2c77848a2"
+    },
+    {
+      "path": "GameSource/WishbonePurchasable.cs",
+      "sha256": "e2777cc74980e4a1280900561b49c4d7c31f58ea47d2589c78fdfaa24185ffed"
+    },
+    {
+      "path": "GameSource/WishboneUpgrade.cs",
+      "sha256": "a40e0e6784507abc66bf057d12c826dee608273f4a760467d6ab8d605ce8ff08"
+    },
+    {
+      "path": "GameSource/WorldText.cs",
+      "sha256": "8d38d6755e9f5a37b5375c7316149ca90d24a9a728594605e2645b987a01d180"
+    },
+    {
+      "path": "GameSource/FishNet.Serializing.Generated/GeneratedComparers___Internal.cs",
+      "sha256": "221df9b44d1167b8ea07f82c345ed971534e3120159cff1a98424ff3b487c954"
+    },
+    {
+      "path": "GameSource/FishNet.Serializing.Generated/GeneratedReaders___Internal.cs",
+      "sha256": "3cd9a64b304091c8e9bcfc1fd48d9afa249b41a281869a42d5f7d2b83d7df3a8"
+    },
+    {
+      "path": "GameSource/FishNet.Serializing.Generated/GeneratedWriters___Internal.cs",
+      "sha256": "b54d569a1ef07f663d0c1e52556b47ca51cc751b59ea1dd929aecc3f23587d66"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat/MetaVc.cs",
+      "sha256": "85cec74eb6dbaeef0eacfade6268dac2ef09fddf0abfbefdfe0a138c58ed0572"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat/VcConfig.cs",
+      "sha256": "d5640126b987232ec85e3c91a448664b9f43d1ae444ee8dcf0791899d613ee99"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Input/VcAudioInput.cs",
+      "sha256": "1df4b4c694a47e6d8b5cf8f02f940fc8046d56dc4812fc5b59a4dc69825b605b"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Input/VcInputFilter.cs",
+      "sha256": "51a53c42951b5022cf508de4909245a41fb6ce2b5e26e3e34b4be829bda165bf"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Input.Mic/VcMic.cs",
+      "sha256": "49d57cebf7ad2cd7ca2f567cc021c3c8257f246ced1c4aa25895b3687b091e9f"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Input.Mic/VcMicAudioInput.cs",
+      "sha256": "9b397c2ba310662a92b2cb4735f41b21e3458285a313fba9a99e2fcc8b2be8c8"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.NetEq/NetEqInterop.cs",
+      "sha256": "6393f645ded2b03b2972c93299d6d0131f45cbdee91252792fd6658bab1efad1"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.NetProviders/INetProvider.cs",
+      "sha256": "77b5cf525f782ba0c9de94270bbff462cbf5bd58f996083a0b35ff8662cd15e0"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.NetProviders.FishNet/FishNetFrame.cs",
+      "sha256": "49507acbe175fef599769c38cb8242a3ff65712f9ea23e9e191ce964f7aac9d3"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.NetProviders.FishNet/FishNetFrameReaderWriter.cs",
+      "sha256": "fb97386b15a9e15b045412a421e42066ede97e57045559d942f190c424d19c27"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.NetProviders.FishNet/FishNetNetProvider.cs",
+      "sha256": "9817e7c960fb04676854a3eeae2c3f8ba038ec0b6f794f3feb74cd3e1df2a9bf"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Opus/VcDecoder.cs",
+      "sha256": "2fc354d8ca4d8a3b2563859a44cad2689cd0207bd7afb348cf6124363afa69c4"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Opus/VcEncoder.cs",
+      "sha256": "3c09ae9b359c1949b10b9746da0b56757da91eb9818323a4b219f58fb306265c"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Output/VcAudioOutput.cs",
+      "sha256": "879026e1e04377e98bb611e34c7be9d87153dae5d5f4805e9dac2de095dbc040"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Output/VcJitter.cs",
+      "sha256": "9f2dfd79b63d5f7b05aba713d8993655bee80383279730de60e78c705cd74404"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Output/VcOutputFilter.cs",
+      "sha256": "3e0656ed82a8a3b0a5636df9cc7476bab7dc2ddee68961f997bbd52b93adc8a2"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Output.AudioSource/VcAudioClip.cs",
+      "sha256": "240e0e9209fd2afd555ce79e1cd5e990654a1d8ac10a04a6e5ccb7e85a9c2040"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Output.AudioSource/VcAudioSourceOutput.cs",
+      "sha256": "8b766ad23a7c520e05638a4dc1809fecc69f2939e2b268a6049770a18601440b"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Output.Multicast/MulticastVcAudioOutput.cs",
+      "sha256": "75b6746e75c3ab4dc522e2bd48b43a890de7b3306cabaf6febe0df4db4fa6824"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Output.OnAudioFilterReadVcOutput/OnAudioFilterReadFrame.cs",
+      "sha256": "16973d8a59db41bdd020f857b82303aac4161e88a9d81a32fdba80eabbc4726d"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Output.OnAudioFilterReadVcOutput/OnAudioFilterReadVcConfig.cs",
+      "sha256": "a09de5a7f7021725fbcae05f3509d8fdd617051fcf74edab870d5a0a12404236"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Output.OnAudioFilterReadVcOutput/OnAudioFilterReadVcOutput.cs",
+      "sha256": "72ff7c0c8614cc1c905695f115e0c5ebb8d6fe290ca0209a7da25738e8d3d474"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Rnnoise/RnnoiseVcInputFilter.cs",
+      "sha256": "866c629be1a37d2cb1b1c00ec01376d215f1844d9be25a383d6bf583848f9b6b"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Utils/FixedLengthArrayPool.cs",
+      "sha256": "4326a1ff60126ff5f85fea2736b1507b9b9d238cca057e63481c660f3555acd6"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Utils/FrameStopwatch.cs",
+      "sha256": "8d558bfe13168beb6235ab0237a30c06dfa57be4159c19c15dc0e36153d7469c"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Utils/MetaSerializableReactiveProperty.cs",
+      "sha256": "6614e755bfca0d6a515afe948575fef91e3a5fbd40b891acdbba2a745cd7ccce"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Utils/MicrophoneDevicesListener.cs",
+      "sha256": "4f353a3f41e02f41fe488cb5bb129ffd361955c48956f0c40fa567aa72662e79"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Utils/OneWayResampler.cs",
+      "sha256": "1d4dd0d742225da10edc052d4c2a80bda3600d7778e634635e01c7e0dc31d124"
+    },
+    {
+      "path": "GameSource/MetaVoiceChat.Utils/UnmanagedFloatArray.cs",
+      "sha256": "f0e7ab226ee611db1b0f6e9da37f0ba58b1a41550132dba8b38d8593cca88c20"
+    },
+    {
+      "path": "GameSource/Properties/AssemblyInfo.cs",
+      "sha256": "3f2d9aef361f6bd45cf542030116d1b94381b4b5be99101d240db38543a523e9"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/ActionLabel.cs",
+      "sha256": "4305f197c55c06572d47b62775f7c076fb81adb2f862f444014701392d8f7c79"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/Bullet.cs",
+      "sha256": "6971bee1605046949232bd772ed0b7c39d00ffaba8965536432b1a284a02e905"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/CanvasGroupModifier.cs",
+      "sha256": "cbf3a500b0586443aa04fe338536bb55befeb3ecc60631579f3bb4efeeba39ac"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/Enemy.cs",
+      "sha256": "8efff1b45a3c2f1fbf00fd4d56bc0c08ab5542978fe4928f7dd04c852b0a6650"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/FeedbackController.cs",
+      "sha256": "9c883316a20182c31a1d54948fdd2c92a149d43743faf00f5acf21b8b9f9c219"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/GamepadIconsExample.cs",
+      "sha256": "b6439e69ed5a8219102974fd9bbb07aad54647237c32b9221d76ef33617ebecf"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/GameplayManager.cs",
+      "sha256": "3b73c03cc590b170a88a151df5a14c72880670c27ba1eaa566dc5b92dafea1f2"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/InputActionExtensions.cs",
+      "sha256": "ceb5e0f82d727f6bc572e9e4e4b7db776f98e224779a0c113fa94c8362672992"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/InputActionIndicator.cs",
+      "sha256": "2b0f7f0b803d8eb83873f100ddb2cd9dac0f8632b1e60475280e26b9af0f0803"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/InvokeUnityEvent.cs",
+      "sha256": "53cd19f2660ccb12dcb0504da223ebf89734a1eeeb090c5104796f04ae6cac3f"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/Message.cs",
+      "sha256": "8b5c19de288c972b162416080c69a7066ae4a082bea6de8e331540be473d565c"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/Player.cs",
+      "sha256": "793b94837c7bf9e511471773329b0d19f60618208bda120e2b89778294d1349f"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/PlayerController.cs",
+      "sha256": "709273e7357af60b5e8fcc1c88a75d3faa7d9f4d1cb5fafd72833ac3fd932f67"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/RebindActionParameterUI.cs",
+      "sha256": "ec55ddfc17e4f248cd97028651cad68dcdacc67048fd1766b1b06bce3dffddcf"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/RebindActionUI.cs",
+      "sha256": "0eed207a421b19a3ffdecf5b8efa924d38a2377e41b11c5ffcedd62b51a9cbd4"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/RebindSaveLoad.cs",
+      "sha256": "8c34d99ef341318a49c5af47169da618a733ee76c52b97f894541017ef7257c4"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/RebindUIGameManager.cs",
+      "sha256": "99e4ab1cc8171145b71453266a3bd9017751fd864407a38733263c0ef0d14cca"
+    },
+    {
+      "path": "GameSource/UnityEngine.InputSystem.Samples.RebindUI/UpdateBindingUIEvent.cs",
+      "sha256": "c57069a4b07d5f7aab55b80444017be94978c59175c65d44304e2a6f88c1ac58"
+    },
+    {
+      "path": "Tools/audit-recovery.py",
+      "sha256": "66e83981d553d70757bdd7e0504be6362a8a94b1a902eeff644625d528903cb8"
+    },
+    {
+      "path": "Tools/isolate-native-settings.py",
+      "sha256": "59c56d535928d0c4ed1e34047e0c6b9340c59f55b3dbf892e491ce1aa63980f2"
+    },
+    {
+      "path": "Tools/isolate-source.py",
+      "sha256": "c464261cc156156262f53b3be001ce12d31e39e08856e38c2068e27b158bbe47"
+    },
+    {
+      "path": "Tools/OriginalRecoveryPatcher.cs",
+      "sha256": "4d49f859c62eef1b53639f7a75b267ace9c3689f1be04b1b12e24ace3bf3a4ec"
+    },
+    {
+      "path": "Tools/pe-imports.py",
+      "sha256": "33b4622760b87ae9c1ae68d778b404b85f5f4513e1ce2880f3e353806ba60a6b"
+    },
+    {
+      "path": "Tools/polish-panel.py",
+      "sha256": "9ea1fbd961637bf6568a45e6155f5ca28a391ead670b28e36b1a1ec6071274bf"
+    },
+    {
+      "path": "Tools/revise-verification-2.py",
+      "sha256": "b2aacc5adfed5178e372882997e69d1159bd2c09fd4cd8e7d8ff1dacb86ea5c4"
+    },
+    {
+      "path": "Tools/revise-verification.py",
+      "sha256": "8bca5d20b47cfe8c29cb22ec2cf30a07d1620c0df09db2397da9f6c76639c012"
+    },
+    {
+      "path": "Recompiled/Assembly-CSharp.Patched.dll",
+      "sha256": "c46f0c36da9024b641c7504b2d4be4cad0eabba457afc062ff0356fa17700bf6"
+    },
+    {
+      "path": "Recompiled/RecoveryExtension.dll",
+      "sha256": "523e0c634c058705435690a0350fc311971664635d106b44dffe4a5662da1903"
+    }
+  ]
+}

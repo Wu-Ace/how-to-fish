@@ -1,0 +1,10 @@
+{
+  "usedPath": "OriginalRecovery\\RecoveredProject\\ExportedProject\\Assets\\Font\\PerfectDOSVGA437.ttf",
+  "matchedOriginal": true,
+  "originalSha256": "AB5F7798CE9D05AA09380FCE2142B11690BA3216A73208954F87C6C63A035102",
+  "license": "custom bundled dos437.txt; distribution and videogame use permitted; font sale prohibited",
+  "sourcePage": "https://www.dafont.com/perfect-dos-vga-437.font",
+  "upstreamSha256": "AB5F7798CE9D05AA09380FCE2142B11690BA3216A73208954F87C6C63A035102",
+  "author": "Zeh Fernando",
+  "noticePath": "Assets/ThirdPartyNotices/Fonts/PerfectDOS/dos437.txt"
+}
