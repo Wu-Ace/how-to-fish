@@ -1,0 +1,302 @@
+{
+  "collectedUtc": "2026-11-18T07:39:39.9459868Z",
+  "engine": "6000.3.26f1",
+  "git": "not a git repository",
+  "files": [
+    {
+      "path": "启动礼物控制台.cmd",
+      "sha256": "187818D8603525C31F51ED602DC615F524184E539D6B2022005EFB4D53A5954C",
+      "bytes": 473
+    },
+    {
+      "path": "启动礼物控制台.ps1",
+      "sha256": "0932534323DBF5BE41E872DAC5B6C5082F802225DE9D0DFDD2551C9272E1D4AB",
+      "bytes": 570
+    },
+    {
+      "path": "启动游戏.cmd",
+      "sha256": "B2B9478384E9058DEE8DEF8E73BBC37BB11C4D20A6C74489C55405CA7A602E55",
+      "bytes": 57
+    },
+    {
+      "path": "ai-handoff.md",
+      "sha256": "785969E1EB65A0857BAB417C68ED3F689E95B07D6CA21EBFBF384FA0AF089DD7",
+      "bytes": 1248
+    },
+    {
+      "path": "Assets/Editor/ProjectBuilder.cs",
+      "sha256": "73723C80E64034DA93C8E2E94DD3F0084B345B84C242396076F87B02C4427AFB",
+      "bytes": 2087
+    },
+    {
+      "path": "Assets/Scenes/Harbor.unity",
+      "sha256": "2DAB5017419A2EE28505C5594DA8F22A492895F3AE30DD8AFC70A6A0C52DDC1A",
+      "bytes": 3539
+    },
+    {
+      "path": "Assets/Scripts/FishingGame.cs",
+      "sha256": "8393CBD2BC1DC36F97B3BA3B5E06BE0942366C0ABFF9EA4FF8B93310F6749FA4",
+      "bytes": 23641
+    },
+    {
+      "path": "Assets/Scripts/GiftCatalog.cs",
+      "sha256": "D72890583C396FEA7662F368C4EAC800210949A11F1D3F41877A4D184EBB1B02",
+      "bytes": 5891
+    },
+    {
+      "path": "Assets/Scripts/GiftEngine.cs",
+      "sha256": "DBE5DDF2B586780018ED8BACD12F5E94C354E5DE10C455A627DC3359F03FBE47",
+      "bytes": 2806
+    },
+    {
+      "path": "Assets/Scripts/GiftPanel.cs",
+      "sha256": "73C47CA7E7876AB6C4E02E4A8850E662E338CDA70634244850A6018EA7AF147C",
+      "bytes": 11009
+    },
+    {
+      "path": "Assets/Scripts/HarborWorld.cs",
+      "sha256": "127773BB223AC81D7B3CB0DC8325B163ED9A5772B88983A28A660555C98264D4",
+      "bytes": 8927
+    },
+    {
+      "path": "Assets/Scripts/LocalGiftBridge.cs",
+      "sha256": "EFE332E619590B3AE458D6EBB9BD5A791C98DA401756293684A2A2515D09BA42",
+      "bytes": 4044
+    },
+    {
+      "path": "Assets/Scripts/SandboxVerification.cs",
+      "sha256": "31D6E9E441D4DF56AE316A07D3C45DA5AAA2E527CD177A20D63DA764D8F4AC12",
+      "bytes": 13506
+    },
+    {
+      "path": "Assets/Scripts/WorldEntity.cs",
+      "sha256": "57B85A2E510297AB2F6AF021B940148A1D522B90DFE254B7D4F48A712B7AB9D8",
+      "bytes": 2995
+    },
+    {
+      "path": "Assets/Shaders/Ocean.shader",
+      "sha256": "BB7A9AEEC855F6A8DA4CF05502AC483069F6E83B1E8B4566DF7DE1729A873415",
+      "bytes": 900
+    },
+    {
+      "path": "Assets/Shaders/Sky.shader",
+      "sha256": "B19C296EDBEA6156FCE2E8360BF779BF0560A200E0C981A2DB642EFCC160BBF5",
+      "bytes": 1174
+    },
+    {
+      "path": "Assets/Shaders/VertexColor.shader",
+      "sha256": "4246A87B3DF4F1D76CE61A46BC1D2CE7FF4C8899B8C281F143C753075A13328A",
+      "bytes": 259
+    },
+    {
+      "path": "Builds/HowToFish/HowToFish_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "8A38E08C0C28F6D0A9B51C322F47E89D4EB863DB3D0232980377693C9495F3EC",
+      "bytes": 88064
+    },
+    {
+      "path": "Builds/HowToFish/HowToFish.exe",
+      "sha256": "B7CCA8B82003185F22644D0EE1C23B3640DE1B996802D4F5D0501E287011AFA6",
+      "bytes": 667136
+    },
+    {
+      "path": "Evidence/acceptance.md",
+      "sha256": "E15E2DE9CDC0DC5E33F3C5C3571661D62C85A98C73E6B20C1A51C4D1DAEFAD17",
+      "bytes": 3155
+    },
+    {
+      "path": "Evidence/build-07.log",
+      "sha256": "599FEA4537211E2D6A2C9C1F85C822854327B368E4A39BE420917C7B3CE7A54A",
+      "bytes": 43105
+    },
+    {
+      "path": "Evidence/original-live-effects.json",
+      "sha256": "EB2F2A2CCCAFD186AEBE0DAAE2984BCB7754B43301537FABEAE7FD58175EE71C",
+      "bytes": 1450
+    },
+    {
+      "path": "Evidence/panel-original-confirmation.json",
+      "sha256": "E08CABECBA491600B04E17390B66A1DFAA72CBB82007907D400216E77BE925E4",
+      "bytes": 498
+    },
+    {
+      "path": "Evidence/panel-sandbox-confirmation.json",
+      "sha256": "1BD7F658C1C68C7A2EF3F4CDD4BD5CB181705C6D4246CBC0BF89DE6E46429317",
+      "bytes": 183
+    },
+    {
+      "path": "Evidence/panel-verification.json",
+      "sha256": "2C6DD724FC86C56BDEA44A77770582287DDD804B0D5F9A48ADAD8F238DD0DFC1",
+      "bytes": 578
+    },
+    {
+      "path": "Evidence/runtime-03.log",
+      "sha256": "04E5CF36C4E404B9F7F7969DFB2F6E6D06EB8536D07256008D278350DD75CFC2",
+      "bytes": 5079
+    },
+    {
+      "path": "Evidence/runtime-tally.json",
+      "sha256": "CEB62F7EFDF4315AFBEEEB9BF48FC856A64D6D602BA0B7BB3A11E994274D8D4E",
+      "bytes": 213
+    },
+    {
+      "path": "Evidence/runtime-verification.txt",
+      "sha256": "66D7CCFB73975D942DD722C110C064F06B6D6AD430A8EC6835FB812B7907F51B",
+      "bytes": 7436
+    },
+    {
+      "path": "Evidence/verification-harbor.png",
+      "sha256": "F579DD3CEC1016656B22400687842842690C1024438828131408327A734A04C6",
+      "bytes": 300410
+    },
+    {
+      "path": "Evidence/verification-panel.png",
+      "sha256": "B7CA4F2A0116F954A3084BABE8C8A4863C4E2F20B6E43015502557231609B9B8",
+      "bytes": 389448
+    },
+    {
+      "path": "Packages/manifest.json",
+      "sha256": "5E05F651F7E5CAC1B525414AF0097D003BD7363EFAD5E7B9EA12D4B97756E8BD",
+      "bytes": 305
+    },
+    {
+      "path": "Packages/packages-lock.json",
+      "sha256": "A5417030653FECA94FD2BC0C6FAAB6CF31D5DCE1DCF59F042CBCCEE2B87032EC",
+      "bytes": 931
+    },
+    {
+      "path": "ProjectSettings/AudioManager.asset",
+      "sha256": "9543C41DBFC7D3951217C4DD9481ED026EB8E529B85ECF4463969A0FEA747729",
+      "bytes": 523
+    },
+    {
+      "path": "ProjectSettings/ClusterInputManager.asset",
+      "sha256": "40E65DD214BF254955D2C8829CA8CE2130FD3510485560CE012E9A1DDD93E623",
+      "bytes": 114
+    },
+    {
+      "path": "ProjectSettings/DynamicsManager.asset",
+      "sha256": "D102DD312EF330F5E5CA255C070FB34F68F59EC633D1E9FD67E2F2F6F88F66C8",
+      "bytes": 1574
+    },
+    {
+      "path": "ProjectSettings/EditorBuildSettings.asset",
+      "sha256": "35F2D6B0EE6747B7600E3506A949D754E379E007664FEC5F2B740899734A7F37",
+      "bytes": 282
+    },
+    {
+      "path": "ProjectSettings/EditorSettings.asset",
+      "sha256": "4A87C54B3541C7BD242AAD68C3FC28661083DB1117EC56149694EE592156415E",
+      "bytes": 1603
+    },
+    {
+      "path": "ProjectSettings/GraphicsSettings.asset",
+      "sha256": "C73ADB4D90E8F3DCF7C3741899678AE43032517097AA76E599FBE9D8B35A6597",
+      "bytes": 2712
+    },
+    {
+      "path": "ProjectSettings/InputManager.asset",
+      "sha256": "D0F454DDB880912ABCAE92E3E12957A7446786BA89E24937E019FF3BBC0D4300",
+      "bytes": 5816
+    },
+    {
+      "path": "ProjectSettings/MemorySettings.asset",
+      "sha256": "2C9E2339B4FA50F4782840D37DDE021508D411B99278614CBA335D206EDB1738",
+      "bytes": 1226
+    },
+    {
+      "path": "ProjectSettings/MultiplayerManager.asset",
+      "sha256": "CE4075D7A7DD8AC7FFE55DE2427692C63F90DAE398208BD80CEC0F27CBE09F4B",
+      "bytes": 232
+    },
+    {
+      "path": "ProjectSettings/NavMeshAreas.asset",
+      "sha256": "7EBBF8F53B8033104E1878B95CA07A28D0954092D81C220F14196A42F651E658",
+      "bytes": 1361
+    },
+    {
+      "path": "ProjectSettings/Physics2DSettings.asset",
+      "sha256": "1CFC0C8FBCEEC604FD7CD2A06C04FF05DDDEE6335B75C92B0F5715AD80BA9490",
+      "bytes": 1862
+    },
+    {
+      "path": "ProjectSettings/PresetManager.asset",
+      "sha256": "29C125923FE6E29F90190D4FCE1C82D660E7051546E2C9D02908D18C9CF2436C",
+      "bytes": 146
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "2283DED03058A5C2795E459B078EFDD20CF2F34B7D341CAC86EE08210F9D6DD5",
+      "bytes": 20575
+    },
+    {
+      "path": "ProjectSettings/ProjectVersion.txt",
+      "sha256": "1BA9EF2A17D110F732474CE61BA26E26395986DFCD828200CB53F29CAB2C944C",
+      "bytes": 85
+    },
+    {
+      "path": "ProjectSettings/QualitySettings.asset",
+      "sha256": "F1F893B1BE47AD2442F58338DD7C860DC1986BB317E2F5BB31084454FFABBF4C",
+      "bytes": 9802
+    },
+    {
+      "path": "ProjectSettings/SceneTemplateSettings.json",
+      "sha256": "BB9098B3BFCDE78D93E264B96F7B77B5430E64E8C57A7AAD7F5A5D9C3945E16A",
+      "bytes": 3535
+    },
+    {
+      "path": "ProjectSettings/TagManager.asset",
+      "sha256": "DA4B5EEFC927F8B91BCF9E56A186D2B852F49D9CBE91D466638D26C79D6A83CE",
+      "bytes": 411
+    },
+    {
+      "path": "ProjectSettings/TimeManager.asset",
+      "sha256": "3396F52FDC16D445024E01D7A2D99DB6F0A37569D1D73C0302E9FFB857D90287",
+      "bytes": 305
+    },
+    {
+      "path": "ProjectSettings/UnityConnectSettings.asset",
+      "sha256": "11251DAE0356B6F43DD2C67BB511F6B7ECDA4E5DE425186BBA3297E6F3DC1C6F",
+      "bytes": 1063
+    },
+    {
+      "path": "ProjectSettings/VersionControlSettings.asset",
+      "sha256": "E199CDFA6A8F2BF33CFD47E549198F13E3EB2A5099E908FDB4E0F14D939CCC6B",
+      "bytes": 172
+    },
+    {
+      "path": "ProjectSettings/VFXManager.asset",
+      "sha256": "2973A6AF930E142F62CDE00076BEDA8A3CC3A66D9BFCDE7A58BA7D4BE2251C26",
+      "bytes": 525
+    },
+    {
+      "path": "README.md",
+      "sha256": "D773BC1CB33FC5359491575D8908DD984779647DC4EBAB519351A4718F45407F",
+      "bytes": 3445
+    },
+    {
+      "path": "Tools/CollectEvidence.ps1",
+      "sha256": "16BD57CFBD7F664162A32D9DEC69B0405C2E5A90861AC5C8899326BB8887DE4B",
+      "bytes": 2131
+    },
+    {
+      "path": "Tools/gift-catalog.json",
+      "sha256": "4A7C02D789A544BF57EA97DB0FF5FCCD54CEE20E4EB85EA3D2C77F03047703E0",
+      "bytes": 10720
+    },
+    {
+      "path": "Tools/gift-panel-server.cjs",
+      "sha256": "215D937554A76216EA1BB79C53E501A62968C6EDCD1EEEEC687639F105EB2C87",
+      "bytes": 2025
+    },
+    {
+      "path": "Tools/gift-panel.html",
+      "sha256": "04D9990A8C8744C34ACE938A60BF6FF164E6DD3DDA9283AB6021FB46E4A27E6B",
+      "bytes": 7161
+    },
+    {
+      "path": "Tools/VerifyPanel.cjs",
+      "sha256": "254B714B1E9F5C895D8281494829176D49B47B2EC0DB9E04FE3A5EE088D29084",
+      "bytes": 1566
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "inWorld": true,
+  "ready": true,
+  "moduleVersion": "0.2.3",
+  "eventCount": 6,
+  "lastEvent": "movement/slow",
+  "lastError": "",
+  "health": 75,
+  "fullness": 50,
+  "money": 500,
+  "timeScale": 1,
+  "activeEffects": [
+    "movement_speed_boost"
+  ],
+  "counts": {
+    "money_add": 1,
+    "player_heal": 1,
+    "player_feed": 1,
+    "chaos_spawn_fish": 1,
+    "movement_speed_boost": 1,
+    "movement_slow": 1
+  }
+}

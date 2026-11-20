@@ -1,0 +1,7 @@
+{
+  "collectedUtc": "2026-11-18T07:39:39.7398720Z",
+  "passed": 184,
+  "failed": 0,
+  "assertions": 184,
+  "note": "Raw runtime header includes one metadata entry; authoritative count is PASS/FAIL rows."
+}

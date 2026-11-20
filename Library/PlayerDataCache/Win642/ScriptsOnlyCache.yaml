@@ -1,0 +1,55 @@
+ScriptsOnlyBuild:
+  usedScripts: {}
+  serializedClasses: {}
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/Scenes/Harbor.unity:
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: b41365f47653e0c228ecb4c8e74ff882
+    assemblyName: Assembly-CSharp
+    namespaceName: FishSandbox
+    className: GiftPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 3aed3d5a2d746b3f30f2476d86da16f4
+    assemblyName: Assembly-CSharp
+    namespaceName: FishSandbox
+    className: WorldEntity
+  - hash:
+      serializedVersion: 2
+      Hash: 999871e3877f12cf43da9d382461e6da
+    assemblyName: Assembly-CSharp
+    namespaceName: FishSandbox
+    className: HarborWorld
+  - hash:
+      serializedVersion: 2
+      Hash: 0f371581ba4464f85acf936e27657aaa
+    assemblyName: Assembly-CSharp
+    namespaceName: FishSandbox
+    className: SandboxVerification
+  - hash:
+      serializedVersion: 2
+      Hash: bec098cb0d1547978c0095d48597b35c
+    assemblyName: Assembly-CSharp
+    namespaceName: FishSandbox
+    className: FishingGame
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/Harbor.unity
+  playerPath: E:/TT Gaming/How to fish/Builds/HowToFish/HowToFish.exe

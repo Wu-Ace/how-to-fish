@@ -1,0 +1,33 @@
+{
+  "time": "2026-11-18T07:39:39.571Z",
+  "results": [
+    {
+      "pass": true,
+      "name": "56 gift definitions served"
+    },
+    {
+      "pass": true,
+      "name": "Unique event IDs"
+    },
+    {
+      "pass": true,
+      "name": "Control page served"
+    },
+    {
+      "pass": true,
+      "name": "Live sandbox state proxy"
+    },
+    {
+      "pass": true,
+      "name": "Unknown gift rejected before proxy"
+    },
+    {
+      "pass": true,
+      "name": "Unknown backend rejected"
+    },
+    {
+      "pass": true,
+      "name": "Disallowed method rejected"
+    }
+  ]
+}

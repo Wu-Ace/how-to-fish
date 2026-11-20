@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Concurrent;
+using System.Globalization;
+using System.Net;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading;
+using UnityEngine;
+namespace FishSandbox {
+ public class LocalGiftBridge:MonoBehaviour {
+  HttpListener listener;Thread worker;volatile bool running;volatile string state="{}";readonly ConcurrentQueue<Tuple<string,string>> incoming=new();FishingGame game;string catalog;
+  void Start(){game=GetComponent<FishingGame>();catalog="{\"count\":"+GiftCatalog.All.Count+",\"events\":["+string.Join(",",GiftCatalog.All.ConvertAll(x=>"\""+x.id+"\""))+ "]}";try{listener=new HttpListener();listener.Prefixes.Add("http://127.0.0.1:6091/");listener.Start();running=true;worker=new Thread(Listen){IsBackground=true,Name="Gift sandbox loopback"};worker.Start();Debug.Log("Gift sandbox bridge: http://127.0.0.1:6091/");}catch(Exception e){Debug.LogWarning("Optional gift bridge unavailable: "+e.Message);}}
+  void Listen(){while(running){try{var ctx=listener.GetContext();var path=ctx.Request.Url.AbsolutePath;string result;int status=200;if(ctx.Request.HttpMethod=="GET"&&path=="/api/state")result=state;else if(ctx.Request.HttpMethod=="GET"&&path=="/api/effects")result=catalog;else if(ctx.Request.HttpMethod=="GET"&&path=="/api/health")result="{\"ok\":true}";else if(ctx.Request.HttpMethod=="POST"&&path.StartsWith("/api/")&&GiftCatalog.Find(path.Substring(5))!=null){if(ctx.Request.ContentLength64>8192){status=413;result="{\"ok\":false}";}else{using(var reader=new System.IO.StreamReader(ctx.Request.InputStream))incoming.Enqueue(Tuple.Create(path.Substring(5),reader.ReadToEnd()));result="{\"ok\":true,\"accepted\":true}";}}else{status=404;result="{\"ok\":false}";}var bytes=Encoding.UTF8.GetBytes(result);ctx.Response.StatusCode=status;ctx.Response.ContentType="application/json; charset=utf-8";ctx.Response.ContentLength64=bytes.Length;ctx.Response.OutputStream.Write(bytes,0,bytes.Length);ctx.Response.Close();}catch(Exception){if(!running)return;}}}
+  static string Read(string json,string key){var m=Regex.Match(json,"\""+Regex.Escape(key)+"\"\\s*:\\s*(?:\"([^\"]*)\"|(-?[0-9.]+))");return m.Success?(m.Groups[1].Success?m.Groups[1].Value:m.Groups[2].Value):null;}
+  static float Number(string json,string key,float fallback){return float.TryParse(Read(json,key),NumberStyles.Float,CultureInfo.InvariantCulture,out var n)&&!float.IsNaN(n)&&!float.IsInfinity(n)?n:fallback;}
+  public static string Parameter(string id){if(id.StartsWith("money/")||id=="player/heal"||id=="player/damage"||id=="player/feed"||id=="player/hunger"||id=="bait/refill")return "amount";return id switch{"loot/next_heavy_fish"=>"weightMultiplier","economy/next_sale_boost"=>"payoutMultiplier","fishing/slow_bite"=>"delayMultiplier","boss/heal"=>"healPercent","chaos/spawn_giant_fish"=>"scale","chaos/spawn_tiny_fish"=>"scale","chaos/dynamite"=>"fuseSeconds","visual/slow_motion"=>"timeScale","visual/speed_up"=>"timeScale",_=>"multiplier"};}
+  void Update(){if(game==null||game.gifts==null)return;int budget=8;while(budget-->0&&incoming.TryDequeue(out var request)){var id=request.Item1;var d=GiftCatalog.Find(id);string body=request.Item2;game.gifts.Trigger(id,Number(body,"durationSeconds",d.duration),Number(body,"value",Number(body,Parameter(id),d.value)),Mathf.RoundToInt(Number(body,"count",Number(body,"birdCount",1))),Read(body,"fish")??Read(body,"item")??"random");}state="{\"ready\":true,\"inWorld\":true,\"eventCount\":"+game.gifts.EventCount+",\"health\":"+game.health.ToString("0.##",CultureInfo.InvariantCulture)+",\"fullness\":"+game.fullness.ToString("0.##",CultureInfo.InvariantCulture)+",\"money\":"+game.coins+",\"timeScale\":"+Time.timeScale.ToString(CultureInfo.InvariantCulture)+",\"lastError\":\""+game.gifts.LastError.Replace("\"","")+"\",\"activeEffects\":["+string.Join(",",game.gifts.active.ConvertAll(x=>"\""+x.gift.id+"\""))+"]}";}
+  void OnDestroy(){running=false;try{listener?.Stop();listener?.Close();}catch{}if(worker!=null&&worker.IsAlive)worker.Join(300);}
+ }
+}

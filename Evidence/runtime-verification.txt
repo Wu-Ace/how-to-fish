@@ -1,0 +1,186 @@
+Engine 6000.3.26f1 | 2026-11-18T07:29:43.6873595Z
+Assertions 185; failures 0
+PASS All 56 original event IDs have definitions
+PASS Event IDs are unique
+PASS Exact event ID parity with original plugin static evidence
+PASS chaos/spawn_fish accepted
+PASS chaos/spawn_fish expected state mutation
+PASS chaos/launch accepted
+PASS chaos/launch expected state mutation
+PASS inventory/drop_all accepted
+PASS inventory/drop_all expected state mutation
+PASS status/ignite accepted
+PASS status/ignite activates timed channel
+PASS status/ignite expires
+PASS money/add accepted
+PASS money/add expected state mutation
+PASS player/heal accepted
+PASS player/heal expected state mutation
+PASS player/damage accepted
+PASS player/damage expected state mutation
+PASS money/remove accepted
+PASS money/remove expected state mutation
+PASS player/feed accepted
+PASS player/feed expected state mutation
+PASS status/poison accepted
+PASS status/poison activates timed channel
+PASS status/poison expires
+PASS chaos/spawn_drip_fish accepted
+PASS chaos/spawn_drip_fish expected state mutation
+PASS player/return_to_spawn accepted
+PASS player/return_to_spawn expected state mutation
+PASS status/cleanse accepted
+PASS status/cleanse expected state mutation
+PASS movement/speed_boost accepted
+PASS movement/speed_boost activates timed channel
+PASS movement/speed_boost expires
+PASS movement/super_jump accepted
+PASS movement/super_jump activates timed channel
+PASS movement/super_jump expires
+PASS fishing/quick_bite accepted
+PASS fishing/quick_bite expected state mutation
+PASS fishing/fast_reel accepted
+PASS fishing/fast_reel activates timed channel
+PASS fishing/fast_reel expires
+PASS fishing/line_guard accepted
+PASS fishing/line_guard expected state mutation
+PASS bait/refill accepted
+PASS bait/refill expected state mutation
+PASS birds/protect_catch accepted
+PASS birds/protect_catch expected state mutation
+PASS weapon/refill_ammo accepted
+PASS weapon/refill_ammo expected state mutation
+PASS weapon/steady_aim accepted
+PASS weapon/steady_aim activates timed channel
+PASS weapon/steady_aim expires
+PASS loot/next_drip accepted
+PASS loot/next_drip expected state mutation
+PASS loot/next_heavy_fish accepted
+PASS loot/next_heavy_fish expected state mutation
+PASS economy/next_sale_boost accepted
+PASS economy/next_sale_boost expected state mutation
+PASS combat/damage_boost accepted
+PASS combat/damage_boost activates timed channel
+PASS combat/damage_boost expires
+PASS boat/speed_boost accepted
+PASS boat/speed_boost activates timed channel
+PASS boat/speed_boost expires
+PASS player/hunger accepted
+PASS player/hunger expected state mutation
+PASS movement/slow accepted
+PASS movement/slow activates timed channel
+PASS movement/slow expires
+PASS movement/weak_jump accepted
+PASS movement/weak_jump activates timed channel
+PASS movement/weak_jump expires
+PASS controls/reverse accepted
+PASS controls/reverse activates timed channel
+PASS controls/reverse expires
+PASS controls/force_crouch accepted
+PASS controls/force_crouch activates timed channel
+PASS controls/force_crouch expires
+PASS weapon/empty_mag accepted
+PASS weapon/empty_mag expected state mutation
+PASS weapon/max_recoil accepted
+PASS weapon/max_recoil activates timed channel
+PASS weapon/max_recoil expires
+PASS weapon/max_spread accepted
+PASS weapon/max_spread activates timed channel
+PASS weapon/max_spread expires
+PASS fishing/slow_reel accepted
+PASS fishing/slow_reel activates timed channel
+PASS fishing/slow_reel expires
+PASS fishing/slow_bite accepted
+PASS fishing/slow_bite expected state mutation
+PASS birds/raid accepted
+PASS birds/raid expected state mutation
+PASS boss/heal accepted
+PASS boss/heal expected state mutation
+PASS visual/hide_hud accepted
+PASS visual/hide_hud activates timed channel
+PASS visual/hide_hud expires
+PASS visual/deep_fog accepted
+PASS visual/deep_fog activates timed channel
+PASS visual/deep_fog expires
+PASS player/freeze accepted
+PASS player/freeze activates timed channel
+PASS player/freeze expires
+PASS chaos/yeet_held_item accepted
+PASS chaos/yeet_held_item expected state mutation
+PASS chaos/spawn_item accepted
+PASS chaos/spawn_item expected state mutation
+PASS chaos/spawn_giant_fish accepted
+PASS chaos/spawn_giant_fish expected state mutation
+PASS chaos/spawn_tiny_fish accepted
+PASS chaos/spawn_tiny_fish expected state mutation
+PASS chaos/spawn_boss accepted
+PASS chaos/spawn_boss expected state mutation
+PASS chaos/dynamite accepted
+PASS chaos/dynamite expected state mutation
+PASS chaos/boat_boost accepted
+PASS chaos/boat_boost expected state mutation
+PASS chaos/boat_spin accepted
+PASS chaos/boat_spin expected state mutation
+PASS chaos/random_skin accepted
+PASS chaos/random_skin expected state mutation
+PASS chaos/cook_held_fish accepted
+PASS chaos/cook_held_fish expected state mutation
+PASS visual/sunset accepted
+PASS visual/sunset activates timed channel
+PASS visual/sunset expires
+PASS visual/vignette_flash accepted
+PASS visual/vignette_flash activates timed channel
+PASS visual/vignette_flash expires
+PASS visual/slow_motion accepted
+PASS visual/slow_motion activates timed channel
+PASS visual/slow_motion expires
+PASS visual/speed_up accepted
+PASS visual/speed_up activates timed channel
+PASS visual/speed_up expires
+PASS Conflicting movement effects queue without multiplying
+PASS Queued movement effect promotes
+PASS Movement channel restores baseline
+PASS Time effects share conflict channel
+PASS Queued time acceleration promotes
+PASS Clear restores time and physics delta
+PASS Cleanse removes both ailments
+PASS Unknown event rejected
+PASS Boss heal has prerequisite error
+PASS Bite effects consume in FIFO order
+PASS Queued quick bite applies to subsequent cast
+PASS Restore-all clears pending one-shot effects
+PASS Next-sale multiplier consumed exactly once
+PASS Empty sale cannot duplicate reward
+PASS Catch consumes next-drip and next-heavy once
+PASS Cooked fish eaten and removed from inventory
+PASS Shooting consumes one bullet
+PASS Empty weapon cannot fire
+PASS Bird protection removes actual raider
+PASS Boss death rewards coins and despawns boss
+PASS Death clears active effects
+PASS Dead players reject gifts
+PASS Respawn restores playable state
+PASS Player rests on pier without falling through
+PASS Jump produces physical upward displacement
+PASS Jump lands on pier
+PASS Cast consumes bait and creates bobber
+PASS Cast visual and bait state
+PASS Quick bite progresses through live Update
+PASS Hook transitions to reeling
+PASS Fishing completes through reel progress and tension
+PASS Missed bite clears line and resets fishing
+PASS Slow motion applied live
+PASS Slow motion expires in real time and restores time scale
+PASS Boat impulse physically moves boat
+PASS Walk input moves controller at baseline speed
+PASS Speed gift increases physical travel distance
+PASS Reverse gift reverses physical travel direction
+PASS Freeze blocks movement and external impulse
+PASS Forced crouch changes actual camera and capsule
+PASS Crouch expiration restores view and capsule
+PASS Dropped fish rests on actual pier collider
+PASS Ignite deals damage through live tick
+PASS Cleanse stops further ailment damage
+PASS Rifle raycast damages live boss collider
+PASS Maximum recoil changes actual camera pitch
+PASS Isolated save serialization roundtrip

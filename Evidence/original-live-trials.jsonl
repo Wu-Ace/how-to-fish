@@ -1,0 +1,48 @@
+{
+  "id": "money/add",
+  "response": {
+    "ok": true,
+    "accepted": true,
+    "event": "money/add"
+  }
+}
+{
+  "id": "player/heal",
+  "response": {
+    "ok": true,
+    "accepted": true,
+    "event": "player/heal"
+  }
+}
+{
+  "id": "player/feed",
+  "response": {
+    "ok": true,
+    "accepted": true,
+    "event": "player/feed"
+  }
+}
+{
+  "id": "chaos/spawn_fish",
+  "response": {
+    "ok": true,
+    "accepted": true,
+    "event": "chaos/spawn_fish"
+  }
+}
+{
+  "id": "movement/speed_boost",
+  "response": {
+    "ok": true,
+    "accepted": true,
+    "event": "movement/speed_boost"
+  }
+}
+{
+  "id": "movement/slow",
+  "response": {
+    "ok": true,
+    "accepted": true,
+    "event": "movement/slow"
+  }
+}

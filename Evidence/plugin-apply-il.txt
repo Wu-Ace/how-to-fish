@@ -1,0 +1,996 @@
+IL_0000: call System.Object A.C::Player()
+IL_0005: stloc.0
+IL_0006: ldloc.0
+IL_0007: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::l()
+IL_000c: call System.Object A.D::Get(System.Object,System.String)
+IL_0011: stloc.1
+IL_0012: ldarg.1
+IL_0013: brfalse IL_0cd0
+IL_0018: ldarg.1
+IL_0019: call System.Int32 System.String::get_Length()
+IL_001e: stloc.2
+IL_001f: ldloc.2
+IL_0020: ldc.i4.s 9
+IL_0022: sub
+IL_0023: switch IL_0069,IL_067c,IL_00a3,IL_0086,IL_00c9,IL_0107,IL_0691,IL_01fe,IL_01bf,IL_0149,IL_024b,IL_0188,IL_0270,IL_012c,IL_0667
+IL_0064: br IL_0cd0
+IL_0069: ldarg.1
+IL_006a: ldc.i4.0
+IL_006b: call System.Char System.String::get_Chars(System.Int32)
+IL_0070: stloc.3
+IL_0071: ldloc.3
+IL_0072: ldc.i4.s 98
+IL_0074: beq IL_02ab
+IL_0079: ldloc.3
+IL_007a: ldc.i4.s 109
+IL_007c: beq IL_0296
+IL_0081: br IL_0cd0
+IL_0086: ldarg.1
+IL_0087: ldc.i4.0
+IL_0088: call System.Char System.String::get_Chars(System.Int32)
+IL_008d: stloc.3
+IL_008e: ldloc.3
+IL_008f: ldc.i4.s 99
+IL_0091: beq IL_02d5
+IL_0096: ldloc.3
+IL_0097: ldc.i4.s 109
+IL_0099: beq IL_02c0
+IL_009e: br IL_0cd0
+IL_00a3: ldarg.1
+IL_00a4: ldc.i4.s 9
+IL_00a6: call System.Char System.String::get_Chars(System.Int32)
+IL_00ab: stloc.3
+IL_00ac: ldloc.3
+IL_00ad: ldc.i4.s 97
+IL_00af: beq IL_02ea
+IL_00b4: ldloc.3
+IL_00b5: ldc.i4.s 101
+IL_00b7: beq IL_02ff
+IL_00bc: ldloc.3
+IL_00bd: ldc.i4.s 108
+IL_00bf: beq IL_0314
+IL_00c4: br IL_0cd0
+IL_00c9: ldarg.1
+IL_00ca: ldc.i4.7
+IL_00cb: call System.Char System.String::get_Chars(System.Int32)
+IL_00d0: stloc.3
+IL_00d1: ldloc.3
+IL_00d2: ldc.i4.s 100
+IL_00d4: sub
+IL_00d5: switch IL_0329,IL_0cd0,IL_0392,IL_0cd0,IL_033e,IL_0353
+IL_00f2: ldloc.3
+IL_00f3: ldc.i4.s 112
+IL_00f5: beq IL_0368
+IL_00fa: ldloc.3
+IL_00fb: ldc.i4.s 116
+IL_00fd: beq IL_037d
+IL_0102: br IL_0cd0
+IL_0107: ldarg.1
+IL_0108: ldc.i4.0
+IL_0109: call System.Char System.String::get_Chars(System.Int32)
+IL_010e: stloc.3
+IL_010f: ldloc.3
+IL_0110: ldc.i4.s 99
+IL_0112: beq IL_03d1
+IL_0117: ldloc.3
+IL_0118: ldc.i4.s 108
+IL_011a: beq IL_03bc
+IL_011f: ldloc.3
+IL_0120: ldc.i4.s 115
+IL_0122: beq IL_03a7
+IL_0127: br IL_0cd0
+IL_012c: ldarg.1
+IL_012d: ldc.i4.0
+IL_012e: call System.Char System.String::get_Chars(System.Int32)
+IL_0133: stloc.3
+IL_0134: ldloc.3
+IL_0135: ldc.i4.s 99
+IL_0137: beq IL_03fb
+IL_013c: ldloc.3
+IL_013d: ldc.i4.s 112
+IL_013f: beq IL_03e6
+IL_0144: br IL_0cd0
+IL_0149: ldarg.1
+IL_014a: ldc.i4.8
+IL_014b: call System.Char System.String::get_Chars(System.Int32)
+IL_0150: stloc.3
+IL_0151: ldloc.3
+IL_0152: ldc.i4.s 101
+IL_0154: bgt.un.s IL_016b
+IL_0156: ldloc.3
+IL_0157: ldc.i4.s 47
+IL_0159: beq IL_043a
+IL_015e: ldloc.3
+IL_015f: ldc.i4.s 101
+IL_0161: beq IL_0425
+IL_0166: br IL_0cd0
+IL_016b: ldloc.3
+IL_016c: ldc.i4.s 108
+IL_016e: beq IL_044f
+IL_0173: ldloc.3
+IL_0174: ldc.i4.s 113
+IL_0176: beq IL_0464
+IL_017b: ldloc.3
+IL_017c: ldc.i4.s 121
+IL_017e: beq IL_0410
+IL_0183: br IL_0cd0
+IL_0188: ldarg.1
+IL_0189: ldc.i4.6
+IL_018a: call System.Char System.String::get_Chars(System.Int32)
+IL_018f: stloc.3
+IL_0190: ldloc.3
+IL_0191: ldc.i4.s 101
+IL_0193: bgt.un.s IL_01aa
+IL_0195: ldloc.3
+IL_0196: ldc.i4.s 99
+IL_0198: beq IL_048e
+IL_019d: ldloc.3
+IL_019e: ldc.i4.s 101
+IL_01a0: beq IL_04b8
+IL_01a5: br IL_0cd0
+IL_01aa: ldloc.3
+IL_01ab: ldc.i4.s 110
+IL_01ad: beq IL_04a3
+IL_01b2: ldloc.3
+IL_01b3: ldc.i4.s 121
+IL_01b5: beq IL_0479
+IL_01ba: br IL_0cd0
+IL_01bf: ldarg.1
+IL_01c0: ldc.i4.s 11
+IL_01c2: call System.Char System.String::get_Chars(System.Int32)
+IL_01c7: stloc.3
+IL_01c8: ldloc.3
+IL_01c9: ldc.i4.s 100
+IL_01cb: beq IL_04e2
+IL_01d0: ldloc.3
+IL_01d1: ldc.i4.s 109
+IL_01d3: beq IL_04cd
+IL_01d8: ldloc.3
+IL_01d9: ldc.i4.s 114
+IL_01db: sub
+IL_01dc: switch IL_04f7,IL_050c,IL_0546,IL_0cd0,IL_0cd0,IL_0521
+IL_01f9: br IL_0cd0
+IL_01fe: ldarg.1
+IL_01ff: ldc.i4.s 12
+IL_0201: call System.Char System.String::get_Chars(System.Int32)
+IL_0206: stloc.3
+IL_0207: ldloc.3
+IL_0208: ldc.i4.s 102
+IL_020a: bgt.un.s IL_0236
+IL_020c: ldloc.3
+IL_020d: ldc.i4.s 95
+IL_020f: beq IL_055b
+IL_0214: ldloc.3
+IL_0215: ldc.i4.s 98
+IL_0217: sub
+IL_0218: switch IL_059a,IL_0cd0,IL_0cd0,IL_0570,IL_0585
+IL_0231: br IL_0cd0
+IL_0236: ldloc.3
+IL_0237: ldc.i4.s 105
+IL_0239: beq IL_05af
+IL_023e: ldloc.3
+IL_023f: ldc.i4.s 111
+IL_0241: beq IL_05c4
+IL_0246: br IL_0cd0
+IL_024b: ldarg.1
+IL_024c: ldc.i4.0
+IL_024d: call System.Char System.String::get_Chars(System.Int32)
+IL_0252: stloc.3
+IL_0253: ldloc.3
+IL_0254: ldc.i4.s 98
+IL_0256: beq IL_0613
+IL_025b: ldloc.3
+IL_025c: ldc.i4.s 99
+IL_025e: beq IL_05fe
+IL_0263: ldloc.3
+IL_0264: ldc.i4.s 109
+IL_0266: beq IL_05e9
+IL_026b: br IL_0cd0
+IL_0270: ldarg.1
+IL_0271: ldc.i4.s 12
+IL_0273: call System.Char System.String::get_Chars(System.Int32)
+IL_0278: stloc.3
+IL_0279: ldloc.3
+IL_027a: ldc.i4.s 99
+IL_027c: beq IL_0628
+IL_0281: ldloc.3
+IL_0282: ldc.i4.s 100
+IL_0284: beq IL_063d
+IL_0289: ldloc.3
+IL_028a: ldc.i4.s 116
+IL_028c: beq IL_0652
+IL_0291: br IL_0cd0
+IL_0296: ldarg.1
+IL_0297: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bk()
+IL_029c: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_02a1: brtrue IL_06a6
+IL_02a6: br IL_0cd0
+IL_02ab: ldarg.1
+IL_02ac: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::bA()
+IL_02b1: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_02b6: brtrue IL_0b7d
+IL_02bb: br IL_0cd0
+IL_02c0: ldarg.1
+IL_02c1: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BM()
+IL_02c6: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_02cb: brtrue IL_06c4
+IL_02d0: br IL_0cd0
+IL_02d5: ldarg.1
+IL_02d6: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bj()
+IL_02db: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_02e0: brtrue IL_07d2
+IL_02e5: br IL_0cd0
+IL_02ea: ldarg.1
+IL_02eb: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BL()
+IL_02f0: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_02f5: brtrue IL_06e2
+IL_02fa: br IL_0cd0
+IL_02ff: ldarg.1
+IL_0300: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bm()
+IL_0305: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_030a: brtrue IL_072f
+IL_030f: br IL_0cd0
+IL_0314: ldarg.1
+IL_0315: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BR()
+IL_031a: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_031f: brtrue IL_0b4c
+IL_0324: br IL_0cd0
+IL_0329: ldarg.1
+IL_032a: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bl()
+IL_032f: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0334: brtrue IL_0718
+IL_0339: br IL_0cd0
+IL_033e: ldarg.1
+IL_033f: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bv()
+IL_0344: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0349: brtrue IL_0765
+IL_034e: br IL_0cd0
+IL_0353: ldarg.1
+IL_0354: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::M()
+IL_0359: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_035e: brtrue IL_077c
+IL_0363: br IL_0cd0
+IL_0368: ldarg.1
+IL_0369: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::n()
+IL_036e: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0373: brtrue IL_0797
+IL_0378: br IL_0cd0
+IL_037d: ldarg.1
+IL_037e: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BW()
+IL_0383: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0388: brtrue IL_093b
+IL_038d: br IL_0cd0
+IL_0392: ldarg.1
+IL_0393: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::i()
+IL_0398: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_039d: brtrue IL_09ef
+IL_03a2: br IL_0cd0
+IL_03a7: ldarg.1
+IL_03a8: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BO()
+IL_03ad: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_03b2: brtrue IL_07b3
+IL_03b7: br IL_0cd0
+IL_03bc: ldarg.1
+IL_03bd: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BT()
+IL_03c2: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_03c7: brtrue IL_0a4a
+IL_03cc: br IL_0cd0
+IL_03d1: ldarg.1
+IL_03d2: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::bD()
+IL_03d7: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_03dc: brtrue IL_0c4b
+IL_03e1: br IL_0cd0
+IL_03e6: ldarg.1
+IL_03e7: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bn()
+IL_03ec: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_03f1: brtrue IL_07cb
+IL_03f6: br IL_0cd0
+IL_03fb: ldarg.1
+IL_03fc: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::bb()
+IL_0401: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0406: brtrue IL_0bb9
+IL_040b: br IL_0cd0
+IL_0410: ldarg.1
+IL_0411: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BK()
+IL_0416: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_041b: brtrue IL_07f9
+IL_0420: br IL_0cd0
+IL_0425: ldarg.1
+IL_0426: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BS()
+IL_042b: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0430: brtrue IL_0855
+IL_0435: br IL_0cd0
+IL_043a: ldarg.1
+IL_043b: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bw()
+IL_0440: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0445: brtrue IL_099d
+IL_044a: br IL_0cd0
+IL_044f: ldarg.1
+IL_0450: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bq()
+IL_0455: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_045a: brtrue IL_0a35
+IL_045f: br IL_0cd0
+IL_0464: ldarg.1
+IL_0465: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bp()
+IL_046a: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_046f: brtrue IL_0ac9
+IL_0474: br IL_0cd0
+IL_0479: ldarg.1
+IL_047a: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::ba()
+IL_047f: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0484: brtrue IL_0800
+IL_0489: br IL_0cd0
+IL_048e: ldarg.1
+IL_048f: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::bF()
+IL_0494: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0499: brtrue IL_0837
+IL_049e: br IL_0cd0
+IL_04a3: ldarg.1
+IL_04a4: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bo()
+IL_04a9: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_04ae: brtrue IL_090a
+IL_04b3: br IL_0cd0
+IL_04b8: ldarg.1
+IL_04b9: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bt()
+IL_04be: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_04c3: brtrue IL_0a5f
+IL_04c8: br IL_0cd0
+IL_04cd: ldarg.1
+IL_04ce: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::be()
+IL_04d3: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_04d8: brtrue IL_084e
+IL_04dd: br IL_0cd0
+IL_04e2: ldarg.1
+IL_04e3: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bs()
+IL_04e8: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_04ed: brtrue IL_0865
+IL_04f2: br IL_0cd0
+IL_04f7: ldarg.1
+IL_04f8: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bx()
+IL_04fd: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0502: brtrue IL_08aa
+IL_0507: br IL_0cd0
+IL_050c: ldarg.1
+IL_050d: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BY()
+IL_0512: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0517: brtrue IL_08da
+IL_051c: br IL_0cd0
+IL_0521: ldarg.1
+IL_0522: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BZ()
+IL_0527: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_052c: brtrue IL_0ad6
+IL_0531: ldarg.1
+IL_0532: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::By()
+IL_0537: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_053c: brtrue IL_0b22
+IL_0541: br IL_0cd0
+IL_0546: ldarg.1
+IL_0547: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BQ()
+IL_054c: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0551: brtrue IL_0af8
+IL_0556: br IL_0cd0
+IL_055b: ldarg.1
+IL_055c: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BX()
+IL_0561: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0566: brtrue IL_085d
+IL_056b: br IL_0cd0
+IL_0570: ldarg.1
+IL_0571: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::K()
+IL_0576: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_057b: brtrue IL_09ce
+IL_0580: br IL_0cd0
+IL_0585: ldarg.1
+IL_0586: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BJ()
+IL_058b: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0590: brtrue IL_0b9d
+IL_0595: br IL_0cd0
+IL_059a: ldarg.1
+IL_059b: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::bc()
+IL_05a0: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_05a5: brtrue IL_0bff
+IL_05aa: br IL_0cd0
+IL_05af: ldarg.1
+IL_05b0: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::bB()
+IL_05b5: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_05ba: brtrue IL_0c0d
+IL_05bf: br IL_0cd0
+IL_05c4: ldarg.1
+IL_05c5: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BV()
+IL_05ca: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_05cf: brtrue IL_0c6b
+IL_05d4: ldarg.1
+IL_05d5: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::bd()
+IL_05da: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_05df: brtrue IL_0c92
+IL_05e4: br IL_0cd0
+IL_05e9: ldarg.1
+IL_05ea: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BP()
+IL_05ef: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_05f4: brtrue IL_096c
+IL_05f9: br IL_0cd0
+IL_05fe: ldarg.1
+IL_05ff: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bu()
+IL_0604: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0609: brtrue IL_09ff
+IL_060e: br IL_0cd0
+IL_0613: ldarg.1
+IL_0614: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Br()
+IL_0619: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_061e: brtrue IL_0b62
+IL_0623: br IL_0cd0
+IL_0628: ldarg.1
+IL_0629: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::k()
+IL_062e: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0633: brtrue IL_09df
+IL_0638: br IL_0cd0
+IL_063d: ldarg.1
+IL_063e: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BN()
+IL_0643: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0648: brtrue IL_0bab
+IL_064d: br IL_0cd0
+IL_0652: ldarg.1
+IL_0653: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::bC()
+IL_0658: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_065d: brtrue IL_0bdc
+IL_0662: br IL_0cd0
+IL_0667: ldarg.1
+IL_0668: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BU()
+IL_066d: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0672: brtrue IL_0a94
+IL_0677: br IL_0cd0
+IL_067c: ldarg.1
+IL_067d: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bz()
+IL_0682: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_0687: brtrue IL_0b68
+IL_068c: br IL_0cd0
+IL_0691: ldarg.1
+IL_0692: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::bE()
+IL_0697: call System.Boolean System.String::op_Equality(System.String,System.String)
+IL_069c: brtrue IL_0cb4
+IL_06a1: br IL_0cd0
+IL_06a6: ldc.i4.1
+IL_06a7: ldarg.2
+IL_06a8: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aq()
+IL_06ad: ldc.i4 500
+IL_06b2: ldc.i4.s 10
+IL_06b4: ldc.i4 10000
+IL_06b9: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_06be: call System.Void A.C::Money(System.Boolean,System.Int32)
+IL_06c3: ret
+IL_06c4: ldc.i4.0
+IL_06c5: ldarg.2
+IL_06c6: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aq()
+IL_06cb: ldc.i4 250
+IL_06d0: ldc.i4.s 10
+IL_06d2: ldc.i4 5000
+IL_06d7: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_06dc: call System.Void A.C::Money(System.Boolean,System.Int32)
+IL_06e1: ret
+IL_06e2: ldloc.1
+IL_06e3: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Co()
+IL_06e8: call System.Void A.C::Need(System.Object,System.String)
+IL_06ed: ldloc.1
+IL_06ee: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::CP()
+IL_06f3: ldc.i4.1
+IL_06f4: newarr System.Object
+IL_06f9: dup
+IL_06fa: ldc.i4.0
+IL_06fb: ldarg.2
+IL_06fc: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aq()
+IL_0701: ldc.i4.s 25
+IL_0703: ldc.i4.1
+IL_0704: ldc.i4.s 100
+IL_0706: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_070b: box System.Int32
+IL_0710: stelem.ref
+IL_0711: call System.Object A.D::Call(System.Object,System.String,System.Object[])
+IL_0716: pop
+IL_0717: ret
+IL_0718: ldloc.1
+IL_0719: ldarg.2
+IL_071a: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aq()
+IL_071f: ldc.i4.s 20
+IL_0721: ldc.i4.1
+IL_0722: ldc.i4.s 75
+IL_0724: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_0729: call System.Void A.C::Damage(System.Object,System.Int32)
+IL_072e: ret
+IL_072f: ldloc.1
+IL_0730: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Co()
+IL_0735: call System.Void A.C::Need(System.Object,System.String)
+IL_073a: ldloc.1
+IL_073b: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Cp()
+IL_0740: ldc.i4.1
+IL_0741: newarr System.Object
+IL_0746: dup
+IL_0747: ldc.i4.0
+IL_0748: ldarg.2
+IL_0749: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aq()
+IL_074e: ldc.i4.s 25
+IL_0750: ldc.i4.1
+IL_0751: ldc.i4.s 100
+IL_0753: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_0758: box System.Int32
+IL_075d: stelem.ref
+IL_075e: call System.Object A.D::Call(System.Object,System.String,System.Object[])
+IL_0763: pop
+IL_0764: ret
+IL_0765: ldloc.1
+IL_0766: ldarg.2
+IL_0767: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aq()
+IL_076c: ldc.i4.s 25
+IL_076e: ldc.i4.1
+IL_076f: ldc.i4.s 75
+IL_0771: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_0776: call System.Void A.C::LowerFullness(System.Object,System.Int32)
+IL_077b: ret
+IL_077c: ldloc.1
+IL_077d: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Co()
+IL_0782: call System.Void A.C::Need(System.Object,System.String)
+IL_0787: ldarg.0
+IL_0788: ldarg.1
+IL_0789: ldarg.2
+IL_078a: ldc.i4.8
+IL_078b: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_0790: ldarg.2
+IL_0791: call System.Void A.C::Driver(System.String,System.Int32,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+IL_0796: ret
+IL_0797: ldloc.1
+IL_0798: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Co()
+IL_079d: call System.Void A.C::Need(System.Object,System.String)
+IL_07a2: ldarg.0
+IL_07a3: ldarg.1
+IL_07a4: ldarg.2
+IL_07a5: ldc.i4.s 10
+IL_07a7: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_07ac: ldarg.2
+IL_07ad: call System.Void A.C::Driver(System.String,System.Int32,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+IL_07b2: ret
+IL_07b3: ldarg.0
+IL_07b4: ldloc.1
+IL_07b5: ldarg.2
+IL_07b6: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aQ()
+IL_07bb: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::CQ()
+IL_07c0: call System.String A.C::Text(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
+IL_07c5: call System.Void A.C::Cleanse(System.Object,System.String)
+IL_07ca: ret
+IL_07cb: ldloc.0
+IL_07cc: call System.Void A.C::ReturnToSpawn(System.Object)
+IL_07d1: ret
+IL_07d2: ldloc.0
+IL_07d3: ldarg.2
+IL_07d4: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aR()
+IL_07d9: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Cq()
+IL_07de: call System.String A.C::Text(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
+IL_07e3: ldarg.2
+IL_07e4: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::ar()
+IL_07e9: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::CR()
+IL_07ee: call System.String A.C::Text(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
+IL_07f3: call System.Void A.C::Launch(System.Object,System.String,System.String)
+IL_07f8: ret
+IL_07f9: ldloc.0
+IL_07fa: call System.Void A.C::DropAll(System.Object)
+IL_07ff: ret
+IL_0800: ldloc.0
+IL_0801: ldarg.2
+IL_0802: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aR()
+IL_0807: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Cq()
+IL_080c: call System.String A.C::Text(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
+IL_0811: ldarg.2
+IL_0812: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::ar()
+IL_0817: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Cr()
+IL_081c: call System.String A.C::Text(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
+IL_0821: ldarg.2
+IL_0822: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aS()
+IL_0827: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::CS()
+IL_082c: call System.String A.C::Text(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
+IL_0831: call System.Void A.C::YeetHeld(System.Object,System.String,System.String,System.String)
+IL_0836: ret
+IL_0837: ldloc.0
+IL_0838: ldarg.2
+IL_0839: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::as()
+IL_083e: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Cs()
+IL_0843: call System.String A.C::Text(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
+IL_0848: call System.Void A.C::CookHeld(System.Object,System.String)
+IL_084d: ret
+IL_084e: ldloc.0
+IL_084f: call System.Void A.C::RandomSkin(System.Object)
+IL_0854: ret
+IL_0855: ldloc.0
+IL_0856: ldc.i4.1
+IL_0857: call System.Void A.C::SetAmmo(System.Object,System.Boolean)
+IL_085c: ret
+IL_085d: ldloc.0
+IL_085e: ldc.i4.0
+IL_085f: call System.Void A.C::SetAmmo(System.Object,System.Boolean)
+IL_0864: ret
+IL_0865: ldarg.0
+IL_0866: ldarg.1
+IL_0867: ldloc.0
+IL_0868: ldarg.2
+IL_0869: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aT()
+IL_086e: ldc.r4 0.25
+IL_0873: ldc.r4 0
+IL_0878: ldc.r4 1
+IL_087d: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0882: ldarg.2
+IL_0883: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::at()
+IL_0888: ldc.r4 0.25
+IL_088d: ldc.r4 0
+IL_0892: ldc.r4 1
+IL_0897: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_089c: ldarg.2
+IL_089d: ldc.i4.s 15
+IL_089f: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_08a4: call System.Void A.C::WeaponTuning(System.String,System.Object,System.Single,System.Single,System.Int32)
+IL_08a9: ret
+IL_08aa: ldarg.0
+IL_08ab: ldarg.1
+IL_08ac: ldloc.0
+IL_08ad: ldc.r4 1
+IL_08b2: ldarg.2
+IL_08b3: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aU()
+IL_08b8: ldc.r4 4
+IL_08bd: ldc.r4 1
+IL_08c2: ldc.r4 8
+IL_08c7: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_08cc: ldarg.2
+IL_08cd: ldc.i4.s 10
+IL_08cf: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_08d4: call System.Void A.C::WeaponTuning(System.String,System.Object,System.Single,System.Single,System.Int32)
+IL_08d9: ret
+IL_08da: ldarg.0
+IL_08db: ldarg.1
+IL_08dc: ldloc.0
+IL_08dd: ldarg.2
+IL_08de: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aU()
+IL_08e3: ldc.r4 4
+IL_08e8: ldc.r4 1
+IL_08ed: ldc.r4 8
+IL_08f2: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_08f7: ldc.r4 1
+IL_08fc: ldarg.2
+IL_08fd: ldc.i4.s 10
+IL_08ff: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_0904: call System.Void A.C::WeaponTuning(System.String,System.Object,System.Single,System.Single,System.Int32)
+IL_0909: ret
+IL_090a: ldarg.0
+IL_090b: ldarg.0
+IL_090c: ldfld A.C/C A.C::A
+IL_0911: ldarg.1
+IL_0912: ldloc.0
+IL_0913: ldarg.2
+IL_0914: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aU()
+IL_0919: ldc.r4 2
+IL_091e: ldc.r4 1
+IL_0923: ldc.r4 3
+IL_0928: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_092d: ldarg.2
+IL_092e: ldc.i4.s 15
+IL_0930: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_0935: call System.Void A.C::TriggerMovement(A.C/C,System.String,System.Object,System.Single,System.Int32)
+IL_093a: ret
+IL_093b: ldarg.0
+IL_093c: ldarg.0
+IL_093d: ldfld A.C/C A.C::A
+IL_0942: ldarg.1
+IL_0943: ldloc.0
+IL_0944: ldarg.2
+IL_0945: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aU()
+IL_094a: ldc.r4 0.5
+IL_094f: ldc.r4 0.25
+IL_0954: ldc.r4 1
+IL_0959: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_095e: ldarg.2
+IL_095f: ldc.i4.s 12
+IL_0961: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_0966: call System.Void A.C::TriggerMovement(A.C/C,System.String,System.Object,System.Single,System.Int32)
+IL_096b: ret
+IL_096c: ldarg.0
+IL_096d: ldarg.0
+IL_096e: ldfld A.C/C A.C::a
+IL_0973: ldarg.1
+IL_0974: ldloc.0
+IL_0975: ldarg.2
+IL_0976: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aU()
+IL_097b: ldc.r4 2
+IL_0980: ldc.r4 1
+IL_0985: ldc.r4 3
+IL_098a: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_098f: ldarg.2
+IL_0990: ldc.i4.s 15
+IL_0992: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_0997: call System.Void A.C::TriggerMovement(A.C/C,System.String,System.Object,System.Single,System.Int32)
+IL_099c: ret
+IL_099d: ldarg.0
+IL_099e: ldarg.0
+IL_099f: ldfld A.C/C A.C::a
+IL_09a4: ldarg.1
+IL_09a5: ldloc.0
+IL_09a6: ldarg.2
+IL_09a7: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aU()
+IL_09ac: ldc.r4 0.5
+IL_09b1: ldc.r4 0.25
+IL_09b6: ldc.r4 1
+IL_09bb: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_09c0: ldarg.2
+IL_09c1: ldc.i4.s 12
+IL_09c3: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_09c8: call System.Void A.C::TriggerMovement(A.C/C,System.String,System.Object,System.Single,System.Int32)
+IL_09cd: ret
+IL_09ce: ldarg.0
+IL_09cf: ldarg.1
+IL_09d0: ldarg.2
+IL_09d1: ldc.i4.s 10
+IL_09d3: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_09d8: ldarg.2
+IL_09d9: call System.Void A.C::Driver(System.String,System.Int32,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+IL_09de: ret
+IL_09df: ldarg.0
+IL_09e0: ldarg.1
+IL_09e1: ldarg.2
+IL_09e2: ldc.i4.5
+IL_09e3: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_09e8: ldarg.2
+IL_09e9: call System.Void A.C::Driver(System.String,System.Int32,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+IL_09ee: ret
+IL_09ef: ldarg.0
+IL_09f0: ldarg.1
+IL_09f1: ldarg.2
+IL_09f2: ldc.i4.5
+IL_09f3: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_09f8: ldarg.2
+IL_09f9: call System.Void A.C::Driver(System.String,System.Int32,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+IL_09fe: ret
+IL_09ff: ldarg.0
+IL_0a00: ldarg.2
+IL_0a01: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aU()
+IL_0a06: ldc.r4 2
+IL_0a0b: ldc.r4 1
+IL_0a10: ldc.r4 3
+IL_0a15: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0a1a: stfld System.Single A.C::a
+IL_0a1f: ldarg.0
+IL_0a20: call System.Single UnityEngine.Time::get_unscaledTime()
+IL_0a25: ldarg.2
+IL_0a26: ldc.i4.s 15
+IL_0a28: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_0a2d: conv.r4
+IL_0a2e: add
+IL_0a2f: stfld System.Single A.C::A
+IL_0a34: ret
+IL_0a35: ldarg.0
+IL_0a36: ldarg.2
+IL_0a37: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aV()
+IL_0a3c: ldc.i4.1
+IL_0a3d: ldc.i4.1
+IL_0a3e: ldc.i4.3
+IL_0a3f: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_0a44: stfld System.Int32 A.C::A
+IL_0a49: ret
+IL_0a4a: ldarg.0
+IL_0a4b: ldarg.2
+IL_0a4c: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aV()
+IL_0a51: ldc.i4.1
+IL_0a52: ldc.i4.1
+IL_0a53: ldc.i4.3
+IL_0a54: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_0a59: stfld System.Int32 A.C::a
+IL_0a5e: ret
+IL_0a5f: ldarg.0
+IL_0a60: ldarg.2
+IL_0a61: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aV()
+IL_0a66: ldc.i4.1
+IL_0a67: ldc.i4.1
+IL_0a68: ldc.i4.2
+IL_0a69: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_0a6e: stfld System.Int32 A.C::B
+IL_0a73: ldarg.0
+IL_0a74: ldarg.2
+IL_0a75: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::av()
+IL_0a7a: ldc.r4 3
+IL_0a7f: ldc.r4 2
+IL_0a84: ldc.r4 5
+IL_0a89: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0a8e: stfld System.Single A.C::B
+IL_0a93: ret
+IL_0a94: ldarg.0
+IL_0a95: ldarg.2
+IL_0a96: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aV()
+IL_0a9b: ldc.i4.1
+IL_0a9c: ldc.i4.1
+IL_0a9d: ldc.i4.3
+IL_0a9e: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_0aa3: stfld System.Int32 A.C::b
+IL_0aa8: ldarg.0
+IL_0aa9: ldarg.2
+IL_0aaa: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aW()
+IL_0aaf: ldc.r4 2
+IL_0ab4: ldc.r4 1
+IL_0ab9: ldc.r4 3
+IL_0abe: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0ac3: stfld System.Single A.C::b
+IL_0ac8: ret
+IL_0ac9: ldarg.0
+IL_0aca: ldarg.1
+IL_0acb: ldc.r4 0
+IL_0ad0: call System.Void A.C::ArmBite(System.String,System.Single)
+IL_0ad5: ret
+IL_0ad6: ldarg.0
+IL_0ad7: ldarg.1
+IL_0ad8: ldarg.2
+IL_0ad9: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aw()
+IL_0ade: ldc.r4 2
+IL_0ae3: ldc.r4 1
+IL_0ae8: ldc.r4 3
+IL_0aed: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0af2: call System.Void A.C::ArmBite(System.String,System.Single)
+IL_0af7: ret
+IL_0af8: ldarg.0
+IL_0af9: ldarg.1
+IL_0afa: ldarg.2
+IL_0afb: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aU()
+IL_0b00: ldc.r4 3
+IL_0b05: ldc.r4 1
+IL_0b0a: ldc.r4 5
+IL_0b0f: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0b14: ldarg.2
+IL_0b15: ldc.i4.s 15
+IL_0b17: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_0b1c: call System.Void A.C::TriggerReel(System.String,System.Single,System.Int32)
+IL_0b21: ret
+IL_0b22: ldarg.0
+IL_0b23: ldarg.1
+IL_0b24: ldarg.2
+IL_0b25: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aU()
+IL_0b2a: ldc.r4 0.5
+IL_0b2f: ldc.r4 0.25
+IL_0b34: ldc.r4 1
+IL_0b39: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0b3e: ldarg.2
+IL_0b3f: ldc.i4.s 10
+IL_0b41: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_0b46: call System.Void A.C::TriggerReel(System.String,System.Single,System.Int32)
+IL_0b4b: ret
+IL_0b4c: ldloc.0
+IL_0b4d: ldarg.2
+IL_0b4e: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aq()
+IL_0b53: ldc.i4.5
+IL_0b54: ldc.i4.1
+IL_0b55: ldc.i4.s 20
+IL_0b57: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_0b5c: call System.Void A.C::RefillBait(System.Object,System.Int32)
+IL_0b61: ret
+IL_0b62: call System.Void A.C::ProtectFromBirds()
+IL_0b67: ret
+IL_0b68: ldloc.0
+IL_0b69: ldarg.2
+IL_0b6a: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::ax()
+IL_0b6f: ldc.i4.1
+IL_0b70: ldc.i4.1
+IL_0b71: ldc.i4.3
+IL_0b72: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_0b77: call System.Void A.C::BirdRaid(System.Object,System.Int32)
+IL_0b7c: ret
+IL_0b7d: ldarg.2
+IL_0b7e: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aY()
+IL_0b83: ldc.r4 10
+IL_0b88: ldc.r4 5
+IL_0b8d: ldc.r4 20
+IL_0b92: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0b97: call System.Void A.C::HealBoss(System.Single)
+IL_0b9c: ret
+IL_0b9d: ldarg.2
+IL_0b9e: ldc.i4.0
+IL_0b9f: ldc.r4 1
+IL_0ba4: ldc.i4.0
+IL_0ba5: call System.Void A.C::SpawnCreature(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Boolean,System.Single,System.Boolean)
+IL_0baa: ret
+IL_0bab: ldarg.2
+IL_0bac: ldc.i4.1
+IL_0bad: ldc.r4 1
+IL_0bb2: ldc.i4.0
+IL_0bb3: call System.Void A.C::SpawnCreature(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Boolean,System.Single,System.Boolean)
+IL_0bb8: ret
+IL_0bb9: ldarg.2
+IL_0bba: ldc.i4.0
+IL_0bbb: ldarg.2
+IL_0bbc: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BB()
+IL_0bc1: ldc.r4 3
+IL_0bc6: ldc.r4 2
+IL_0bcb: ldc.r4 5
+IL_0bd0: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0bd5: ldc.i4.0
+IL_0bd6: call System.Void A.C::SpawnCreature(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Boolean,System.Single,System.Boolean)
+IL_0bdb: ret
+IL_0bdc: ldarg.2
+IL_0bdd: ldc.i4.0
+IL_0bde: ldarg.2
+IL_0bdf: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BB()
+IL_0be4: ldc.r4 0.35
+IL_0be9: ldc.r4 0.2
+IL_0bee: ldc.r4 0.5
+IL_0bf3: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0bf8: ldc.i4.0
+IL_0bf9: call System.Void A.C::SpawnCreature(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Boolean,System.Single,System.Boolean)
+IL_0bfe: ret
+IL_0bff: ldarg.2
+IL_0c00: ldc.i4.0
+IL_0c01: ldc.r4 1
+IL_0c06: ldc.i4.1
+IL_0c07: call System.Void A.C::SpawnCreature(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Boolean,System.Single,System.Boolean)
+IL_0c0c: ret
+IL_0c0d: ldarg.2
+IL_0c0e: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::az()
+IL_0c13: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::CT()
+IL_0c18: call System.String A.C::Text(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
+IL_0c1d: ldarg.2
+IL_0c1e: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::BA()
+IL_0c23: ldc.i4.1
+IL_0c24: ldc.i4.1
+IL_0c25: ldc.i4.3
+IL_0c26: call System.Int32 A.C::Int(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Int32,System.Int32,System.Int32)
+IL_0c2b: ldarg.2
+IL_0c2c: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Ba()
+IL_0c31: ldc.r4 2
+IL_0c36: ldc.r4 2
+IL_0c3b: ldc.r4 6
+IL_0c40: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0c45: call System.Void A.C::SpawnItem(System.String,System.Int32,System.Single)
+IL_0c4a: ret
+IL_0c4b: ldarg.2
+IL_0c4c: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Ba()
+IL_0c51: ldc.r4 8
+IL_0c56: ldc.r4 5
+IL_0c5b: ldc.r4 12
+IL_0c60: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0c65: call System.Void A.C::SpawnExplosive(System.Single)
+IL_0c6a: ret
+IL_0c6b: ldarg.2
+IL_0c6c: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aU()
+IL_0c71: ldc.r4 2
+IL_0c76: ldc.r4 1
+IL_0c7b: ldc.r4 3
+IL_0c80: call System.Single A.C::Float(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.Single,System.Single,System.Single)
+IL_0c85: ldc.r4 8
+IL_0c8a: mul
+IL_0c8b: ldc.i4.0
+IL_0c8c: call System.Void A.C::BoatImpulse(System.Single,System.Boolean)
+IL_0c91: ret
+IL_0c92: ldarg.2
+IL_0c93: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::aR()
+IL_0c98: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Cq()
+IL_0c9d: call System.String A.C::Text(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
+IL_0ca2: call System.Single A.C::Force(System.String)
+IL_0ca7: ldc.r4 1.5
+IL_0cac: mul
+IL_0cad: ldc.i4.0
+IL_0cae: call System.Void A.C::BoatImpulse(System.Single,System.Boolean)
+IL_0cb3: ret
+IL_0cb4: ldarg.2
+IL_0cb5: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Bc()
+IL_0cba: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Cq()
+IL_0cbf: call System.String A.C::Text(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
+IL_0cc4: call System.Single A.C::Force(System.String)
+IL_0cc9: ldc.i4.1
+IL_0cca: call System.Void A.C::BoatImpulse(System.Single,System.Boolean)
+IL_0ccf: ret
+IL_0cd0: ldarg.1
+IL_0cd1: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::Ct()
+IL_0cd6: ldc.i4.4
+IL_0cd7: callvirt System.Boolean System.String::StartsWith(System.String,System.StringComparison)
+IL_0cdc: brfalse.s IL_0cf3
+IL_0cde: ldarg.0
+IL_0cdf: ldarg.1
+IL_0ce0: ldarg.2
+IL_0ce1: ldarg.1
+IL_0ce2: call System.Int32 A.C::DefaultDuration(System.String)
+IL_0ce7: call System.Int32 A.C::Seconds(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Int32)
+IL_0cec: ldarg.2
+IL_0ced: call System.Void A.C::Driver(System.String,System.Int32,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+IL_0cf2: ret
+IL_0cf3: call System.String <PrivateImplementationDetails>{B7C74F7F-FD3B-4054-8F3F-CF0D8063EAA5}.8E585B05-BEC3-4B4E-8050-D5683F631F82::CU()
+IL_0cf8: ldarg.1
+IL_0cf9: call System.String System.String::Concat(System.String,System.String)
+IL_0cfe: newobj System.Void System.InvalidOperationException::.ctor(System.String)
+IL_0d03: throw
