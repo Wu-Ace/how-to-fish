@@ -1,0 +1,450 @@
+[
+  {
+    "id": "chaos/spawn_fish",
+    "name": "召唤鱼群",
+    "group": "召唤",
+    "description": "在玩家前方生成指定鱼类。",
+    "duration": 0.0,
+    "value": 1.0
+  },
+  {
+    "id": "chaos/launch",
+    "name": "起飞！",
+    "group": "整蛊",
+    "description": "给玩家向上的冲量。",
+    "duration": 0.0,
+    "value": 24.0
+  },
+  {
+    "id": "inventory/drop_all",
+    "name": "背包散落",
+    "group": "整蛊",
+    "description": "将背包鱼获全部掉落到地面。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "status/ignite",
+    "name": "烈火灼烧",
+    "group": "状态",
+    "description": "持续受到火焰伤害。",
+    "duration": 8.0,
+    "value": 1
+  },
+  {
+    "id": "money/add",
+    "name": "金币红包",
+    "group": "增益",
+    "description": "获得金币。",
+    "duration": 0.0,
+    "value": 500.0
+  },
+  {
+    "id": "player/heal",
+    "name": "恢复生命",
+    "group": "增益",
+    "description": "恢复生命值。",
+    "duration": 0.0,
+    "value": 25.0
+  },
+  {
+    "id": "player/damage",
+    "name": "恶作剧伤害",
+    "group": "整蛊",
+    "description": "扣除生命值，可导致倒地。",
+    "duration": 0.0,
+    "value": 20.0
+  },
+  {
+    "id": "money/remove",
+    "name": "金币小偷",
+    "group": "整蛊",
+    "description": "扣除金币，最低为零。",
+    "duration": 0.0,
+    "value": 250.0
+  },
+  {
+    "id": "player/feed",
+    "name": "加餐",
+    "group": "增益",
+    "description": "恢复饱食度。",
+    "duration": 0.0,
+    "value": 25.0
+  },
+  {
+    "id": "status/poison",
+    "name": "毒雾缠身",
+    "group": "状态",
+    "description": "持续中毒并受到伤害。",
+    "duration": 10.0,
+    "value": 1
+  },
+  {
+    "id": "chaos/spawn_drip_fish",
+    "name": "潮流鱼",
+    "group": "召唤",
+    "description": "生成带金色装饰的高价值鱼。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "player/return_to_spawn",
+    "name": "回到码头",
+    "group": "增益",
+    "description": "立即返回出发码头。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "status/cleanse",
+    "name": "净化",
+    "group": "增益",
+    "description": "清除中毒和燃烧。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "movement/speed_boost",
+    "name": "疾速奔跑",
+    "group": "移动",
+    "description": "提高步行与冲刺速度。",
+    "duration": 15.0,
+    "value": 2.0
+  },
+  {
+    "id": "movement/super_jump",
+    "name": "超级跳跃",
+    "group": "移动",
+    "description": "提高跳跃冲量。",
+    "duration": 15.0,
+    "value": 2.0
+  },
+  {
+    "id": "fishing/quick_bite",
+    "name": "瞬间咬钩",
+    "group": "钓鱼",
+    "description": "下一次抛竿瞬间咬钩；已有浮漂时立即生效。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "fishing/fast_reel",
+    "name": "快速收线",
+    "group": "钓鱼",
+    "description": "提高收线速度。",
+    "duration": 15.0,
+    "value": 3.0
+  },
+  {
+    "id": "fishing/line_guard",
+    "name": "鱼线保护",
+    "group": "钓鱼",
+    "description": "降低拉力增长，保护下一次鱼获。",
+    "duration": 0.0,
+    "value": 0.7
+  },
+  {
+    "id": "bait/refill",
+    "name": "补充鱼饵",
+    "group": "钓鱼",
+    "description": "补充鱼饵。",
+    "duration": 0.0,
+    "value": 5.0
+  },
+  {
+    "id": "birds/protect_catch",
+    "name": "驱散海鸥",
+    "group": "钓鱼",
+    "description": "赶走附近偷鱼的海鸥，保护鱼获。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "weapon/refill_ammo",
+    "name": "弹药补给",
+    "group": "战斗",
+    "description": "为步枪装满弹匣。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "weapon/steady_aim",
+    "name": "稳定瞄准",
+    "group": "战斗",
+    "description": "减小散布与后坐力。",
+    "duration": 15.0,
+    "value": 0.25
+  },
+  {
+    "id": "loot/next_drip",
+    "name": "下一条潮流鱼",
+    "group": "钓鱼",
+    "description": "下一条钓到的鱼获得潮流外观和额外价值。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "loot/next_heavy_fish",
+    "name": "下一条巨重鱼",
+    "group": "钓鱼",
+    "description": "下一条钓到的鱼重量提升。",
+    "duration": 0.0,
+    "value": 3.0
+  },
+  {
+    "id": "economy/next_sale_boost",
+    "name": "双倍售鱼",
+    "group": "增益",
+    "description": "下一次售鱼获得额外收益。",
+    "duration": 0.0,
+    "value": 2.0
+  },
+  {
+    "id": "combat/damage_boost",
+    "name": "伤害提升",
+    "group": "战斗",
+    "description": "提高步枪与近战伤害。",
+    "duration": 15.0,
+    "value": 2.0
+  },
+  {
+    "id": "boat/speed_boost",
+    "name": "快艇模式",
+    "group": "船只",
+    "description": "提高驾驶速度。",
+    "duration": 15.0,
+    "value": 2.0
+  },
+  {
+    "id": "player/hunger",
+    "name": "饥饿袭来",
+    "group": "整蛊",
+    "description": "降低饱食度。",
+    "duration": 0.0,
+    "value": 25.0
+  },
+  {
+    "id": "movement/slow",
+    "name": "步履蹒跚",
+    "group": "移动",
+    "description": "降低移动速度。",
+    "duration": 12.0,
+    "value": 0.5
+  },
+  {
+    "id": "movement/weak_jump",
+    "name": "沉重双腿",
+    "group": "移动",
+    "description": "降低跳跃冲量。",
+    "duration": 12.0,
+    "value": 0.5
+  },
+  {
+    "id": "controls/reverse",
+    "name": "反向操控",
+    "group": "移动",
+    "description": "反转前后左右移动输入。",
+    "duration": 10.0,
+    "value": 1
+  },
+  {
+    "id": "controls/force_crouch",
+    "name": "强制蹲伏",
+    "group": "移动",
+    "description": "强制保持蹲伏并降低视角。",
+    "duration": 5.0,
+    "value": 1
+  },
+  {
+    "id": "weapon/empty_mag",
+    "name": "弹匣清空",
+    "group": "战斗",
+    "description": "清空当前弹匣。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "weapon/max_recoil",
+    "name": "强力后坐",
+    "group": "战斗",
+    "description": "大幅增加开枪后坐力。",
+    "duration": 10.0,
+    "value": 4.0
+  },
+  {
+    "id": "weapon/max_spread",
+    "name": "子弹乱飞",
+    "group": "战斗",
+    "description": "扩大射击散布。",
+    "duration": 10.0,
+    "value": 4.0
+  },
+  {
+    "id": "fishing/slow_reel",
+    "name": "缓慢收线",
+    "group": "钓鱼",
+    "description": "降低收线速度。",
+    "duration": 10.0,
+    "value": 0.5
+  },
+  {
+    "id": "fishing/slow_bite",
+    "name": "慢悠悠咬钩",
+    "group": "钓鱼",
+    "description": "下一次抛竿的等待时间延长。",
+    "duration": 0.0,
+    "value": 2.0
+  },
+  {
+    "id": "birds/raid",
+    "name": "海鸥突袭",
+    "group": "召唤",
+    "description": "海鸥飞来争抢背包中的鱼获。",
+    "duration": 0.0,
+    "value": 1.0
+  },
+  {
+    "id": "boss/heal",
+    "name": "首领回血",
+    "group": "战斗",
+    "description": "为存活首领恢复最大生命的百分比。",
+    "duration": 0.0,
+    "value": 10.0
+  },
+  {
+    "id": "visual/hide_hud",
+    "name": "隐藏 HUD",
+    "group": "视觉",
+    "description": "隐藏游戏 HUD；礼物控制面板保持可用。",
+    "duration": 8.0,
+    "value": 1
+  },
+  {
+    "id": "visual/deep_fog",
+    "name": "海上浓雾",
+    "group": "视觉",
+    "description": "用浓雾遮蔽远处景物。",
+    "duration": 8.0,
+    "value": 0.06
+  },
+  {
+    "id": "player/freeze",
+    "name": "原地冰封",
+    "group": "移动",
+    "description": "冻结移动和跳跃。",
+    "duration": 5.0,
+    "value": 1
+  },
+  {
+    "id": "chaos/yeet_held_item",
+    "name": "扔飞手持物",
+    "group": "整蛊",
+    "description": "将手中鱼或工具向前抛出，可拾回。",
+    "duration": 0.0,
+    "value": 24.0
+  },
+  {
+    "id": "chaos/spawn_item",
+    "name": "物资空投",
+    "group": "召唤",
+    "description": "生成物资箱，可拾取获得补给。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "chaos/spawn_giant_fish",
+    "name": "巨型鱼",
+    "group": "召唤",
+    "description": "在前方生成巨大鱼类。",
+    "duration": 0.0,
+    "value": 3.0
+  },
+  {
+    "id": "chaos/spawn_tiny_fish",
+    "name": "迷你鱼",
+    "group": "召唤",
+    "description": "在前方生成微型鱼类。",
+    "duration": 0.0,
+    "value": 0.35
+  },
+  {
+    "id": "chaos/spawn_boss",
+    "name": "召唤首领",
+    "group": "召唤",
+    "description": "召唤带血条、会攻击玩家的巨型鱼首领。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "chaos/dynamite",
+    "name": "炸药惊喜",
+    "group": "召唤",
+    "description": "生成倒计时炸药，范围内受到伤害与冲量。",
+    "duration": 0.0,
+    "value": 3.0
+  },
+  {
+    "id": "chaos/boat_boost",
+    "name": "船只冲刺",
+    "group": "船只",
+    "description": "给船只向前的冲量。",
+    "duration": 0.0,
+    "value": 18.0
+  },
+  {
+    "id": "chaos/boat_spin",
+    "name": "旋转小船",
+    "group": "船只",
+    "description": "给船只旋转冲量。",
+    "duration": 0.0,
+    "value": 2.0
+  },
+  {
+    "id": "chaos/random_skin",
+    "name": "随机换装",
+    "group": "整蛊",
+    "description": "改变当前手持物的配色。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "chaos/cook_held_fish",
+    "name": "即刻烤鱼",
+    "group": "钓鱼",
+    "description": "将手持鱼烤熟，可食用或出售。",
+    "duration": 0,
+    "value": 1
+  },
+  {
+    "id": "visual/sunset",
+    "name": "落日时分",
+    "group": "视觉",
+    "description": "切换为温暖的日落光照。",
+    "duration": 30.0,
+    "value": 1
+  },
+  {
+    "id": "visual/vignette_flash",
+    "name": "彩色冲击",
+    "group": "视觉",
+    "description": "短时间显示彩色屏幕边缘。",
+    "duration": 5.0,
+    "value": 1
+  },
+  {
+    "id": "visual/slow_motion",
+    "name": "慢动作",
+    "group": "视觉",
+    "description": "减慢世界时间，持续时间按真实时间计算。",
+    "duration": 8.0,
+    "value": 0.5
+  },
+  {
+    "id": "visual/speed_up",
+    "name": "时间加速",
+    "group": "视觉",
+    "description": "加快世界时间，与慢动作依次执行。",
+    "duration": 8.0,
+    "value": 1.5
+  }
+]

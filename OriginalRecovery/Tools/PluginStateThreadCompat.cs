@@ -1,0 +1,9 @@
+using System;
+using System.Linq;
+using Mono.Cecil;
+using Mono.Cecil.Cil;
+public static class PluginStateThreadCompat {
+ public static void Patch(string source,string gameManaged,string output){var resolver=new DefaultAssemblyResolver();resolver.AddSearchDirectory(System.IO.Path.GetDirectoryName(source));resolver.AddSearchDirectory(System.IO.Path.GetDirectoryName(System.IO.Path.GetDirectoryName(source)));resolver.AddSearchDirectory(gameManaged);var a=AssemblyDefinition.ReadAssembly(source,new ReaderParameters{AssemblyResolver=resolver});var module=a.MainModule;var m=module.Types.SelectMany(t=>t.Methods).Single(x=>x.Name=="HandleState"&&x.Parameters.Count==1);
+ var scope=module.AssemblyReferences.FirstOrDefault(x=>x.Name=="Assembly-CSharp");if(scope==null){scope=new AssemblyNameReference("Assembly-CSharp",new Version(0,0,0,0));module.AssemblyReferences.Add(scope);}var type=new TypeReference("","RecoveryMainThread",module,scope);var check=new MethodReference("get_ShouldDispatch",module.TypeSystem.Boolean,type){HasThis=false};var invoke=new MethodReference("Invoke",module.TypeSystem.Object,type){HasThis=false};invoke.Parameters.Add(new ParameterDefinition(module.TypeSystem.Object));invoke.Parameters.Add(new ParameterDefinition(module.TypeSystem.String));
+ var il=m.Body.GetILProcessor();var first=m.Body.Instructions[0];il.InsertBefore(first,il.Create(OpCodes.Call,check));il.InsertBefore(first,il.Create(OpCodes.Brfalse,first));il.InsertBefore(first,il.Create(OpCodes.Ldarg_0));il.InsertBefore(first,il.Create(OpCodes.Ldstr,m.Name));il.InsertBefore(first,il.Create(OpCodes.Call,invoke));il.InsertBefore(first,il.Create(OpCodes.Castclass,m.ReturnType));il.InsertBefore(first,il.Create(OpCodes.Ret));a.Write(output+".patched");System.IO.File.Copy(output+".patched",output,true);System.IO.File.Delete(output+".patched");Console.WriteLine("Original plugin Snapshot dispatched to Unity main thread");}
+}

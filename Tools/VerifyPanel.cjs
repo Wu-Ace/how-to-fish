@@ -1,0 +1,7 @@
+const http = require('node:http');
+const fs = require('node:fs');
+const path = require('node:path');
+const results=[];
+async function request(route,method='GET') {return new Promise((resolve,reject)=>{const req=http.request({hostname:'127.0.0.1',port:6092,path:route,method,timeout:3000},res=>{let body='';res.on('data',x=>body+=x);res.on('end',()=>resolve({status:res.statusCode,body}));});req.on('timeout',()=>req.destroy());req.on('error',reject);req.end();});}
+function check(value,name){results.push({pass:!!value,name});if(!value)process.exitCode=1;}
+(async()=>{const catalog=await request('/catalog.json');const gifts=JSON.parse(catalog.body);check(catalog.status===200&&gifts.length===56,'56 gift definitions served');check(new Set(gifts.map(x=>x.id)).size===56,'Unique event IDs');const page=await request('/');check(page.status===200&&page.body.includes('礼物控制台'),'Control page served');const state=await request('/sandbox/api/state');check(state.status===200&&JSON.parse(state.body).ready,'Live sandbox state proxy');check((await request('/sandbox/api/invalid/gift','POST')).status===404,'Unknown gift rejected before proxy');check((await request('/invalid/api/state')).status===404,'Unknown backend rejected');check((await request('/original/api/state','POST')).status===404,'Disallowed method rejected');fs.writeFileSync(path.join(__dirname,'../Evidence/panel-verification.json'),JSON.stringify({time:new Date().toISOString(),results},null,2));console.log(JSON.stringify(results));})().catch(error=>{console.error(error);process.exitCode=1;});

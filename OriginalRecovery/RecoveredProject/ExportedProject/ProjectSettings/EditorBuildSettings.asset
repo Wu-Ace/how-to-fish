@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 703fe5ef8f8b6c7429c96aa7ba2ee4bb
+  - enabled: 1
+    path: Assets/Scenes/Islands/Island1.unity
+    guid: 583b82e599172e746bfffd9eb61d6013
+  - enabled: 1
+    path: Assets/Scenes/Islands/Island2.unity
+    guid: 077e4bb35645f374caa4927fbccbb6c7
+  - enabled: 1
+    path: Assets/Scenes/Islands/Island3.unity
+    guid: 8648d03333e88974bb2be3fd7afa7403
+  - enabled: 1
+    path: Assets/Scenes/Islands/Island4.unity
+    guid: f1e8835baaa9b6441ba81bfaf2aff236
+  - enabled: 1
+    path: Assets/Scenes/Islands/Island5.unity
+    guid: 7ed3b713a2eaa114f8ecbbe6ab5aff77
+  - enabled: 1
+    path: Assets/Scenes/Islands/DevIsland.unity
+    guid: 15f611e61097e4d47ae1bcc51e38217c
+  - enabled: 1
+    path: Assets/Scenes/Islands/Mini1.unity
+    guid: f7600b90e6ce2df48a5fa9600aa84b66
+  - enabled: 1
+    path: Assets/Scenes/Islands/Mini2.unity
+    guid: 90d7471e9c2bdd940b0a153936572efb
+  - enabled: 1
+    path: Assets/Scenes/Islands/Mini3.unity
+    guid: cf1eddcf70e2b5c45b53482d6edffe17
+  - enabled: 1
+    path: Assets/Scenes/Islands/Mini4.unity
+    guid: 50c15229e7060d94590c1d13a205c053
+  - enabled: 1
+    path: Assets/Scenes/Islands/Mini5.unity
+    guid: e4cea5fd7a7c53646ac9b5832b2ab09d
+  m_configObjects:
+    com.unity.localization.settings: {fileID: 11400000, guid: 02fce4e37364b724eb9f4419520885c0, type: 2}
+  m_UseUCBPForAssetBundles: 0
