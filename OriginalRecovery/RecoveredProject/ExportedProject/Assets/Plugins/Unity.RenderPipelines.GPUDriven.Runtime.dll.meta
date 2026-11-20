@@ -7,15 +7,11 @@ PluginImporter:
   isExplicitlyReferenced: 0
   validateReferences: 0
   platformData:
-  - first:
-      '': Any
-    second:
+    Any:
       enabled: 1
       settings:
         Exclude Editor: 1
-  - first:
-      Editor: Editor
-    second:
+    Editor:
       enabled: 0
       settings:
         DefaultValueInitialized: true

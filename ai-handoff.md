@@ -22,6 +22,8 @@
 
 ## 代码、构建与验证
 
+- 新检出测试发现，19 对 DLL 的导入元数据混用了旧版平台列表和 Unity 6000.3 的序列化版本。已统一为该版本的映射格式，保留 GUID 和 Editor/Player 配置。独立副本编译并导入成功。见 [检出验证记录](OriginalRecovery/Evidence/github-clean-import-20261120.md)。
+
 - `OriginalRecovery/GameSource` 保存反编译玩法源码，`RecoverySource` 保存礼物面板、输入兼容、存档隔离和验证相关代码。运行包的 BepInEx 中保留原礼物插件，鱼、武器、首领等礼物仍有游戏状态前置条件。
 - 根目录原型曾通过 184 项运行断言，网页对独立版和 Steam 原版各触发过金币并核对状态。这些结果对应当时的原型和网页接口。见 [原型验收](Evidence/acceptance.md)。
 - 保真参照包有 81 项检查的记录，并验证过抛竿、上鱼和收线。源码构建包另有检查记录，包含原插件事件和计时恢复。需要按对应运行包查看 [参照包证据](OriginalRecovery/Evidence/Runtime) 和 [源码构建包证据](OriginalRecovery/Evidence/EditorRuntime)。

@@ -2,10 +2,23 @@
 
 目标：独立 Unity 6000.3.26f1 工程，恢复原资源、12 个场景、玩法，再接原插件的 56 个礼物。旧根目录简化原型不作为验收成果。
 
+## 克隆与编辑
+
+在 Windows 安装 Git LFS，执行以下命令：
+
+```powershell
+git lfs install
+git -c core.longpaths=true clone https://github.com/Wu-Ace/how-to-fish.git
+```
+
+用 Unity Hub 添加 [恢复工程目录](OriginalRecovery/RecoveredProject/ExportedProject)，使用 Unity **6000.3.26f1**。进入编辑器后可修改 `Assets/Scenes/Game.unity`、脚本和预制体。首次打开会重建 Unity 的 `Library` 缓存。
+
+[项目交接与现有验证范围](ai-handoff.md)
+
 ## 两条运行路径
 
-- `RecoveredProject/ExportedProject`：可编辑的 Unity 6000.3.26f1 工程。源码构建包在 `Builds/EditorRebuilt/HowToFishRecovered.exe`，礼物端口 6097。当前正在修复并验收，不能用编译成功替代实机通过。
-- `Builds/OriginalRuntime`：保留原作编译资源和原玩法程序集、做离线/存档隔离适配的保真参照包，端口 6096。此包通过过 81 项检查，但它的通过不能算作源码独立包通过。
+- `OriginalRecovery/RecoveredProject/ExportedProject`：可编辑的 Unity 6000.3.26f1 工程。源码构建包在 `OriginalRecovery/Builds/EditorRebuilt/HowToFishRecovered.exe`，礼物端口 6097。当前正在修复并验收，不能用编译成功替代实机通过。
+- `OriginalRecovery/Builds/OriginalRuntime`：保留原作编译资源和原玩法程序集、做离线/存档隔离适配的保真参照包，端口 6096。此包通过过 81 项检查，但它的通过不能算作源码独立包通过。
 
 `RecoverySource` 是礼物面板、存档隔离、输入兼容和运行验证脚本；`GameSource` 是反编译后的原玩法源码。原插件 DLL 保留在两个运行包的 BepInEx 中。F8 打开/关闭面板。武器、鱼、首领类礼物仍遵守原插件的对象前置条件。
 
