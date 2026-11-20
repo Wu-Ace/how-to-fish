@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451916751ce4b24628c8dee1ba51a92b, type: 3}
+  m_Name: U5 Tourist
+  m_EditorClassIdentifier:
+  _defaultUnlocked: 0
+  _hatMesh: {fileID: 4300000, guid: 581dcca08bc14aa47bf302a0394b06f2, type: 2}
+  _accessoryMesh: {fileID: 4300000, guid: a07d10548b429ed4cb656a89fa72d8a2, type: 2}
+  outfitMesh: {fileID: 4300000, guid: 30784a30e78894749bb82af494116f5d, type: 2}

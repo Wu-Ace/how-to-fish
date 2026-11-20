@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43d45fceec317a42238cbaccadf3ff2c, type: 3}
+  m_Name: Crab Carcass
+  m_EditorClassIdentifier:
+  _nameLocalized:
+    m_TableReference:
+      m_TableCollectionName: GUID:a2fb6c2a7ccc9b145aa3cd1df802bdbb
+    m_TableEntryReference:
+      m_KeyId: 22537456148107264
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _descriptionLocalized:
+    m_TableReference:
+      m_TableCollectionName: GUID:a2fb6c2a7ccc9b145aa3cd1df802bdbb
+    m_TableEntryReference:
+      m_KeyId: 3294053837393920
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _name: Crab Carcass
+  _description: Catches creatures worth euros
+  _mesh: {fileID: 4300000, guid: 999f0312e0ede414a8d7802add613340, type: 2}
+  _meshForNpc: {fileID: 0}
+  _cost: 10000
+  _lostOnBaitChance: 20
+  _catchTimeMinMax: {x: 0.75, y: 1.5}
+  _requireReelingToCatch: 1
+  _hookPoint: {x: 0, y: -0.15, z: 0}
+  inventoryMeshPos: {x: 0, y: -0.015, z: 0}
+  _inventoryRot: {x: 288.271, y: 258.1142, z: 283.5466}
+  inventoryMeshScale: 1.75
+  _itemWeights:
+  - fishable: {fileID: 11400000, guid: 72c007262e5d7034eb30a7e10b86fafa, type: 2}
+    _weight: 10
+  - fishable: {fileID: 11400000, guid: a2a60c09370283440848f44ec2f10107, type: 2}
+    _weight: 10
+  - fishable: {fileID: 11400000, guid: 0506f53790fa51640a12e1fe390ee38c, type: 2}
+    _weight: 10
+  - fishable: {fileID: 11400000, guid: 9c49f7543238e6d44894c161d6d246df, type: 2}
+    _weight: 10
+  - fishable: {fileID: 11400000, guid: 9b9540db11dd45448a8d4a9fd074577c, type: 2}
+    _weight: 8
+  - fishable: {fileID: 11400000, guid: d86f0bda653e4d243bc1c13dd4bf29b3, type: 2}
+    _weight: 8
+  - fishable: {fileID: 11400000, guid: f73ea6be3c57cfb43b0262519ab9dc34, type: 2}
+    _weight: 6
+  - fishable: {fileID: 11400000, guid: 814a14a9ae50cbf49bb3acbe9c06ba53, type: 2}
+    _weight: 6
+  references:
+    version: 2
+    RefIds: []

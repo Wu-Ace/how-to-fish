@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43d45fceec317a42238cbaccadf3ff2c, type: 3}
+  m_Name: Beginner Lure
+  m_EditorClassIdentifier:
+  _nameLocalized:
+    m_TableReference:
+      m_TableCollectionName: GUID:a2fb6c2a7ccc9b145aa3cd1df802bdbb
+    m_TableEntryReference:
+      m_KeyId: 11915486646272
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _descriptionLocalized:
+    m_TableReference:
+      m_TableCollectionName: GUID:a2fb6c2a7ccc9b145aa3cd1df802bdbb
+    m_TableEntryReference:
+      m_KeyId: 3292204136747008
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _name: Beginner Lure
+  _description: Catches beginner fish
+  _mesh: {fileID: 4300000, guid: d76c858ad4d98c4489a76114e6def6d9, type: 2}
+  _meshForNpc: {fileID: 0}
+  _cost: 3
+  _lostOnBaitChance: 35
+  _catchTimeMinMax: {x: 1, y: 3}
+  _requireReelingToCatch: 1
+  _hookPoint: {x: 0, y: -0.15, z: 0}
+  inventoryMeshPos: {x: 0, y: 0, z: 0}
+  _inventoryRot: {x: -36, y: 40, z: -140}
+  inventoryMeshScale: 3
+  _itemWeights:
+  - fishable: {fileID: 11400000, guid: 3ac3c1b051dee1748be098d888c20ea1, type: 2}
+    _weight: 10
+  - fishable: {fileID: 11400000, guid: e76b6cfc99a87d448a44539497802e3a, type: 2}
+    _weight: 10
+  - fishable: {fileID: 11400000, guid: ad491de6973c66040befe4f11e768f8f, type: 2}
+    _weight: 10
+  - fishable: {fileID: 11400000, guid: 63b5382509e5e184ba205e2c5f3886a5, type: 2}
+    _weight: 8
+  - fishable: {fileID: 11400000, guid: c668a4c9ad3469d4a937c22d70aa8863, type: 2}
+    _weight: 5
+  - fishable: {fileID: 11400000, guid: 6e935b336db28f34b8a905e1de201ecd, type: 2}
+    _weight: 5
+  - fishable: {fileID: 11400000, guid: 97898addea22bef458c51f9653de609a, type: 2}
+    _weight: 7
+  - fishable: {fileID: 11400000, guid: 897031cb9ad76f5438f0ac11dea47493, type: 2}
+    _weight: 4
+  - fishable: {fileID: 11400000, guid: 21dcf6aead25f064eaee63f377801b92, type: 2}
+    _weight: 5
+  - fishable: {fileID: 11400000, guid: 050b7b5c31053b144a124bbcc418ace7, type: 2}
+    _weight: 1
+  references:
+    version: 2
+    RefIds: []

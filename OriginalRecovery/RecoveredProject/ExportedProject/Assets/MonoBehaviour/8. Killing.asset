@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150161c4cf3b151d963e45c9682bfff0, type: 3}
+  m_Name: 8. Killing
+  m_EditorClassIdentifier:
+  _tutorialTitleLocalized:
+    m_TableReference:
+      m_TableCollectionName: GUID:12b8b93292de64249b7eb258ee6f215d
+    m_TableEntryReference:
+      m_KeyId: 16702143811584
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _tutorialDescriptionLocalized:
+    m_TableReference:
+      m_TableCollectionName: GUID:12b8b93292de64249b7eb258ee6f215d
+    m_TableEntryReference:
+      m_KeyId: 16764735410176
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _onFinishedTitleLocalized:
+    m_TableReference:
+      m_TableCollectionName:
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _onFinishedDescriptionLocalized:
+    m_TableReference:
+      m_TableCollectionName:
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key:
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _inputActions:
+  - {fileID: 11400000, guid: 71f71006a47f1ff4cb936f17e72b11b5, type: 2}
+  - {fileID: 11400000, guid: 560c207c393160a469faf713a3b43c4c, type: 2}
+  - {fileID: 11400000, guid: f55d8927442ed4e48baa1065c0d64b7b, type: 2}
+  nextTutorial: {fileID: 11400000, guid: 1ad74411d81297044bbd9196ec8a3681, type: 2}
+  tutorialType: 3
+  references:
+    version: 2
+    RefIds: []
