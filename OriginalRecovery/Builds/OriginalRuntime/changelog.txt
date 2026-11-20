@@ -1,0 +1,5 @@
+How to Fish v0.2.0
+
+- Adds 56 configurable HypeMyStream viewer events.
+- Adds the nautical active-effects overlay and conflict-aware effect queues.
+- Includes the timing, fishing, item spawning, movement, ailment, and camera fixes validated during local testing.
